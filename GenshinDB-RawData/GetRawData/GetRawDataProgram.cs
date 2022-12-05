@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace GenshinDB
 {
@@ -24,10 +25,10 @@ namespace GenshinDB
         internal Dictionary<string, Task<String>> weaponDict = new Dictionary<string, Task<String>>() { };
         internal Dictionary<string, Task<String>> artifactDict = new Dictionary<string, Task<String>>() { };
 
+
         HttpClient webClient = new HttpClient();
         
-        
-        internal Task GetDataForItemInList(List<String> list, dataType type) //iterates through all names in given list, and gets results from website using those names. Puts results in respective dictionary depending on given enum type.
+        internal void GetDataForItemInList(List<String> list, dataType type) //iterates through all names in given list, and gets results from website using those names. Puts results in respective dictionary depending on given enum type.
         {
             string url = "api.genshin.dev/";
             Dictionary<string, Task<string>> dictionary = characterDict; //characterDict is a placeholder, as compiler throws unassigned error otherwise.
@@ -47,9 +48,8 @@ namespace GenshinDB
                     break;
                 default:
                     Console.WriteLine("Wrong enum type for GetDataForItemInList");
-                    return Task.CompletedTask;
+                    return;
             }
-
             foreach (string name in list)
             {
                 try
@@ -59,7 +59,6 @@ namespace GenshinDB
                 }
                 catch (Exception e) { Console.WriteLine("error in GetDataForItemInList or GetDataFromURL" + e.Message + "name"); }
             }
-            return Task.CompletedTask; //function completed, but Task<string> in dictionary may not be.
         }
 
         async Task<string> GetDataFromURL(string url)//access url, gets string and returns it as Task<string>.
@@ -68,20 +67,78 @@ namespace GenshinDB
         }
     }
     #endregion
-    class RawDataToStructReader //reads data from raw data files, and converts to structs.
+
+    class WriteRawData //writes raw data into raw data files.
     {
-        
+        Start start = new Start();
+        string filePath;
+
+        internal List<Task> WriteRawDataFromDictionary(Dictionary<string, Task<String>> dictionary, dataType type) //writes data into several files from a dictionary, where name of file is the key, its contents being the value of that key.
+        {
+            List<Task> taskList = new List<Task>();
+
+            filePath = Directory.GetParent(start.thisFilePath).FullName;
+            filePath = filePath + "/RawData(txt)"; //finds file path of raw data folder.
+            switch(type) //sorts raw data into different folders.
+            {
+                case dataType.characters:
+                    filePath = filePath + "/Characters";
+                    break;
+                case dataType.weapons:
+                    filePath = filePath + "/Weapons";
+                    break;
+                case dataType.artifacts:
+                    filePath = filePath + "/Artifacts";
+                    break;
+                default:
+                    Console.WriteLine("Wrong enum type at WriteRawDataFromDictionary");
+                    return new List<Task>() { };
+            }
+            foreach(string name in dictionary.Keys) //foreach name in the dictionary, create a raw data file containing the value for that name.
+            {
+                taskList.Add(Task.Run(() => File.WriteAllText(filePath + "/" + name + ".txt", dictionary[name].Result)));
+            }
+            return taskList;
+        }
     }
 
+    class RawDataToStructReader //reads data from raw data files, and converts to structs.
+    {
+
+    }
+
+    class WriteCSVFiles //Takes structs, and writes into csv files. Each csv file corresponds to a table in GenshinDB.
+    {
+
+    }
     class Start //starts the process. GetData -> reads data and store as structs in lists --> convert to csv to port to database.
     {
+        internal string thisFilePath; //directory of .cs file.
         static void Main()
         {
-            //Gets Data from url.
-            GetData getData = new GetData(); 
-            Task.WaitAll(getData.GetDataForItemInList(getData.characterNames, dataType.characters));
+            Start start = new Start();
+            start.thisFilePath = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).FullName).FullName).FullName;
+            
+            GetData getData = new GetData();
+            //Gets Data from url. Runs get data on all 3 dataTypes at the same time.
+            getData.GetDataForItemInList(getData.characterNames, dataType.characters);
             getData.GetDataForItemInList(getData.weaponNames, dataType.weapons);
             getData.GetDataForItemInList(getData.artifactNames, dataType.artifacts);
+
+            //puts all tasks from every dictionary into a single array, and wait for all of them to finish.
+            var taskList = getData.characterDict.Values.ToList<Task<string>>().Concat(getData.weaponDict.Values.ToList<Task<string>>());
+            taskList.Concat(getData.artifactDict.Values.ToList<Task<string>>());
+            Task.WaitAll(taskList.ToArray());
+
+
+            WriteRawData writeData = new WriteRawData(); //stores data from GetData into several files.
+            var taskList2 = writeData.WriteRawDataFromDictionary(getData.characterDict, dataType.characters);
+            taskList2.Concat(writeData.WriteRawDataFromDictionary(getData.weaponDict, dataType.weapons));
+            taskList2.Concat(writeData.WriteRawDataFromDictionary(getData.artifactDict, dataType.artifacts));
+
+            //waits for all tasks(threads) to finish.
+            Task.WaitAll(taskList2.ToArray());
+
         }
     }
 }
