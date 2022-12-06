@@ -2,7 +2,7 @@
 A database meant to store character, weapon, artifact and material info from Genshin Impact.  
 May include a wpf for UI in the future to access this info.  
 
-Info from https://api.genshin.dev/ and Shiori.  
+Info from https://api.genshin.dev/ (free resource by a redditor) and Shiori.  
 
 (done)Step 1: Get data in text form from api.genshin.dev for all characters, weapons, artifacts.   
 (done)Step 2: Store data in respective files; one file per character etc. Sort all files into respective folders(Character, Weapon, Artifact).  
