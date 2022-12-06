@@ -5,7 +5,7 @@ May include a wpf for UI in the future to access this info.
 Info from https://api.genshin.dev/ and Shiori.  
 
 (done)Step 1: Get data in text form from api.genshin.dev for all characters, weapons, artifacts.   
-(error)Step 2: Store data in respective files; one file per character etc. Sort all files into respective folders(Character, Weapon, Artifact).  
+(done)Step 2: Store data in respective files; one file per character etc. Sort all files into respective folders(Character, Weapon, Artifact).  
 Step 3: Read data from raw data files. Sort out necessary information and store in structs(CharacterStruct to store character information like names).  
                  Store structs in respective arrays.  
 Step 4: From each list of structs, write line-by-line a csv file for each table.  
