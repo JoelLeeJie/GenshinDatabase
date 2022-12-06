@@ -14,7 +14,7 @@ Step 5: Copy csv files to tables.
 Step 6: Create wpf to get data from tables.  
 Step 7: wpf should be able to insert characterBuild data(data from user on which character + which weapon + which artifacts etc) into characterbuild table.  
 
-
+Step 8: Store database in free remote server, and allow wpf to access it there.
 
 GenshinDB - GenshinDB-RawData - GetRawData: GetRawDataProgram.cs takes data from https://api.genshin.dev/, and stores the data temporarily in RawData folder.   
 It then converts the information and stores it in multiple csv files, one for each table, for copy.  
