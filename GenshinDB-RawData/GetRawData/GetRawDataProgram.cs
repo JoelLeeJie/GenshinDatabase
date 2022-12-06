@@ -104,7 +104,7 @@ namespace GenshinDB
             {
                 taskList.Add(Task.Run(() => File.WriteAllText(filePath + "\\" + name + ".txt", dictionary[name].Result))); 
             }
-            Console.WriteLine(filePath + "\\" + "hi" + ".txt");
+            Console.WriteLine(filePath);
             return taskList;
         }
     }
