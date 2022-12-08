@@ -1,0 +1,15 @@
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\bin\Debug\net6.0\FileReader.exe
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\bin\Debug\net6.0\FileReader.deps.json
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\bin\Debug\net6.0\FileReader.runtimeconfig.json
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\bin\Debug\net6.0\FileReader.dll
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\bin\Debug\net6.0\FileReader.pdb
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\FileReader.csproj.AssemblyReference.cache
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\FileReader.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\FileReader.AssemblyInfoInputs.cache
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\FileReader.AssemblyInfo.cs
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\FileReader.csproj.CoreCompileInputs.cache
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\FileReader.dll
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\refint\FileReader.dll
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\FileReader.pdb
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\FileReader.genruntimeconfig.cache
+D:\Visual Studios\Projects\GenshinDB\GenshinDB-Miscellaneous\FileReader\obj\Debug\net6.0\ref\FileReader.dll
