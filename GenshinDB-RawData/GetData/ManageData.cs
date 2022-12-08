@@ -15,7 +15,7 @@ namespace GenshinDB
         string weaponRawDataPath;
         internal ConvertRawData(string filePath)
         {
-            rawDataFilePath = Directory.GetParent(filePath).FullName + "\\RawDataFile(txt)";
+            rawDataFilePath = Directory.GetParent(filePath).FullName + "\\RawDataFiles(txt)";
             characterRawDataPath = rawDataFilePath + "\\Characters";
             artifactRawDataPath = rawDataFilePath + "\\Artifacts";
             weaponRawDataPath = rawDataFilePath + "\\Weapons";
