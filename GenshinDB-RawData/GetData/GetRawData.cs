@@ -74,16 +74,17 @@ namespace GenshinDB
 
     class WriteRawData //writes raw data into raw data files.
     {
-        Start start = new Start();
         string filePath;
 
+        internal WriteRawData(string filePath)
+        {
+            this.filePath = Directory.GetParent(filePath).FullName;
+        }
         internal List<Task> WriteRawDataFromDictionary(Dictionary<string, Task<String>> dictionary, dataType type) //writes data into several files from a dictionary, where name of file is the key, its contents being the value of that key.
         {
             List<Task> taskList = new List<Task>();
 
-            filePath = start.thisFilePath;
-            filePath = Directory.GetParent(filePath).FullName;
-            filePath = filePath + "\\RawData(txt)"; //finds file path of raw data folder.
+            filePath = filePath + "\\RawDataFiles(txt)"; //finds file path of raw data folder.
 
             switch(type) //sorts raw data into different folders. Do note not to do all 3 types at once to avoid messing up this.
             {
@@ -109,42 +110,5 @@ namespace GenshinDB
         }
     }
 
-    class RawDataToStructReader //reads data from raw data files, and converts to structs.
-    {
-
-    }
-
-    class WriteCSVFiles //Takes structs, and writes into csv files. Each csv file corresponds to a table in GenshinDB.
-    {
-
-    }
-    class Start //starts the process. GetData -> reads data and store as structs in lists --> convert to csv to port to database.
-    {
-        internal string thisFilePath;
-        internal Start()
-        {
-            thisFilePath = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).FullName).FullName).FullName;
-        }
-        static void Main()
-        {
-            GetData getData = new GetData();
-            //Gets Data from url. Runs get data on all 3 dataTypes at the same time.
-            Task.WaitAll(getData.GetDataForItemInList(getData.characterNames, dataType.characters).ToArray());
-            Task.WaitAll(getData.GetDataForItemInList(getData.weaponNames, dataType.weapons).ToArray());
-            Task.WaitAll(getData.GetDataForItemInList(getData.artifactNames, dataType.artifacts).ToArray());
-            //WaitAll used to prevent all 3 methods running at same time, which will mess up value of "url"
-
-
-            //stores data from GetData into several files.
-            WriteRawData writeData = new WriteRawData();
-            Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.characterDict, dataType.characters).ToArray());
-            Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.weaponDict, dataType.weapons).ToArray());
-            Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.artifactDict, dataType.artifacts).ToArray());
-            //Do one by one, since doing all 3 at once will mess up value of "filePath".
-
-            //convert raw data to struct to csv.
-            Console.WriteLine("Finished!");
-            Console.ReadLine();
-        }
-    }
+    
 }
