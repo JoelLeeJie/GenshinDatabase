@@ -16,5 +16,8 @@ Step 7: wpf should be able to insert characterBuild data(data from user on which
 
 Step 8: Store database in free remote server, and allow wpf to access it there.
 
-GenshinDB - GenshinDB-RawData - GetRawData: GetRawDataProgram.cs takes data from https://api.genshin.dev/, and stores the data temporarily in RawData folder.   
-It then converts the information and stores it in multiple csv files, one for each table, for copy.  
+GenshinDB - GenshinDB-RawData - GetData:  
+StartProgram.cs- Starts program.  
+GetRawData.cs- Gets data in text from api.genshin.dev, writes to files  
+ManageData.cs- Converts data to structs  
+WriteCSV.cs- Writes data in structs to different csv files, one for each table.
