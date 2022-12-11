@@ -1,8 +1,57 @@
 id,name,weapontype,region,rarity,element
-1,Amber,bow,mondstadt,4,pyro
-2,Barbara,catalyst,mondstadt,4,hydro
-3,Kaeya,sword,mondstadt,4,cryo
-4,Lisa,catalyst,mondstadt,4,electro
-5,Chongyun,sword,liyue,4,cryo
-6,Fischl,bow,mondstadt,4,electro
-7,Xiangling,spear,liyue,4,pyro
+1,Albedo,Sword,Mondstadt,5,Geo
+2,Aloy,Bow,Unknown,5,Cryo
+3,Amber,Bow,Mondstadt,4,Pyro
+4,Arataki Itto,Claymore,Inazuma,5,Geo
+5,Kamisato Ayaka,Sword,Inazuma,5,Cryo
+6,Ayato,Sword,Inazuma,5,Hydro
+7,Barbara,Catalyst,Mondstadt,4,Hydro
+8,Beidou,Claymore,Liyue,4,Electro
+9,Bennett,Sword,Mondstadt,4,Pyro
+10,Chongyun,Claymore,Liyue,4,Cryo
+11,Collei,Bow,Sumeru,4,Dendro
+12,Diluc,Claymore,Mondstadt,5,Pyro
+13,Diona,Bow,Mondstadt,4,Cryo
+14,Eula,Claymore,Mondstadt,5,Cryo
+15,Fischl,Bow,Mondstadt,4,Electro
+16,Ganyu,Bow,Liyue,5,Cryo
+17,Gorou,Bow,Inazuma,4,Geo
+18,Hu Tao,Polearm,Liyue,5,Pyro
+19,Jean,Sword,Mondstadt,5,Anemo
+20,Kaeya,Sword,Mondstadt,4,Cryo
+21,Kaedehara Kazuha,Sword,Inazuma,5,Anemo
+22,Keqing,Sword,Liyue,5,Electro
+23,Klee,Catalyst,Mondstadt,5,Pyro
+24,Sangonomiya Kokomi,Catalyst,Inazuma,5,Hydro
+25,Kuki Shinobu,Sword,Inazuma,4,Electro
+26,Lisa,Catalyst,Mondstadt,4,Electro
+27,Mona,Catalyst,Mondstadt,5,Hydro
+28,Ningguang,Catalyst,Liyue,4,Geo
+29,Noelle,Claymore,Mondstadt,4,Geo
+30,Qiqi,Sword,Liyue,5,Cryo
+31,Raiden Shogun,Polearm,Inazuma,5,Electro
+32,Razor,Claymore,Mondstadt,4,Electro
+33,Rosaria,Polearm,Mondstadt,4,Cryo
+34,Kujou Sara,Bow,Inazuma,4,Electro
+35,Sayu,Claymore,Inazuma,4,Anemo
+36,Shenhe,Polearm,Liyue,5,Cryo
+37,Shikanoin Heizou,Catalyst,Inazuma,4,Anemo
+38,Sucrose,Catalyst,Mondstadt,4,Anemo
+39,Tartaglia,Bow,Snezhnaya,5,Hydro
+40,Thoma,Polearm,Mondstadt,4,Pyro
+41,Tighnari,Bow,Sumeru,5,Dendro
+42,Traveler,Sword,Outlander,5,Anemo
+43,Traveler,Sword,Outlander,4,Dendro
+44,Traveler,Sword,Outlander,5,Electro
+45,Traveler,Sword,Outlander,5,Geo
+46,Venti,Bow,Mondstadt,5,Anemo
+47,Xiangling,Polearm,Liyue,4,Pyro
+48,Xiao,Polearm,Liyue,5,Anemo
+49,Xingqiu,Sword,Liyue,4,Hydro
+50,Xinyan,Claymore,Liyue,4,Pyro
+51,Yae Miko,Catalyst,Inazuma,5,Electro
+52,Yanfei,Catalyst,Liyue,4,Pyro
+53,Yelan,Bow,Liyue,5,Hydro
+54,Yoimiya,Bow,Inazuma,5,Pyro
+55,Yun Jin,Polearm,Liyue,4,Geo
+56,Zhongli,Polearm,Liyue,5,Geo
