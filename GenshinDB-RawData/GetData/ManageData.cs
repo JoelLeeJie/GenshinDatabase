@@ -52,6 +52,7 @@ namespace GenshinDB
                     tempc.region = Regex.Match(text, "\"nation\":.*?,").Value.Split(':')[1].Trim(' ', ',', '\"');
                     tempc.weapontype = Regex.Match(text, "\"weapon\":.*?,").Value.Split(':')[1].Trim(' ', ',', '\"');
                     tempc.rarity = int.Parse(Regex.Match(text, "\"rarity\":.*?,").Value.Split(':')[1].Trim(' ', ',', '\"'));
+                    tempc.description = Regex.Match(text, "\"description\":.*?,\"").Value.Split(':')[1].Trim(' ', ',', '\"', '\\'); //stops at ," instead of , to prevent extra commas from interfering.
                 }
                 catch(Exception) { Console.WriteLine(tempc.name + ": convert to struct"); }
                 tempc.id = counter++;
@@ -79,6 +80,7 @@ namespace GenshinDB
         internal string region { get; set; }
         internal int rarity { get; set; }
         internal string element { get; set; }
+        internal string description { get; set; }
     }
 
     internal struct Artifact

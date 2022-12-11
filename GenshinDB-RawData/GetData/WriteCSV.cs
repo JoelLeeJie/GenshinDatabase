@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace GenshinDB
 {
@@ -31,19 +32,21 @@ namespace GenshinDB
         void WriteCharacterInfo()
         {
             string path = csvFolderPath + "\\characterinfo.csv";
-            string temp = "id,name,weapontype,region,rarity,element\n";
+            string temp = "id,name,description,element,weapon_type,region,rarity\n";
             foreach(Character c in characterData)
             {
                 try
                 {
-                    temp = temp + c.id + "," + c.name + "," + c.weapontype + "," + c.region + "," + c.rarity + "," + c.element + "\n";
-                }
+                    temp = temp + c.id + "," + c.name + "," +"\"" + c.description + "\"" + "," + c.element + "," + c.weapontype + "," + c.region + "," + c.rarity + "\n";
+                    temp = temp.Replace("\\\"", "'"); //replaces /" with '
+                } //"" around description to ignore extra commas when copying.
                 catch (Exception)
                 {
                     Console.WriteLine(c.name + ": write csv file");
                 }
             }
             File.WriteAllText(path, temp);
+
         }
     }
 }

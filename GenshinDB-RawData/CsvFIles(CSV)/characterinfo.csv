@@ -1,57 +1,57 @@
-id,name,weapontype,region,rarity,element
-1,Albedo,Sword,Mondstadt,5,Geo
-2,Aloy,Bow,Unknown,5,Cryo
-3,Amber,Bow,Mondstadt,4,Pyro
-4,Arataki Itto,Claymore,Inazuma,5,Geo
-5,Kamisato Ayaka,Sword,Inazuma,5,Cryo
-6,Ayato,Sword,Inazuma,5,Hydro
-7,Barbara,Catalyst,Mondstadt,4,Hydro
-8,Beidou,Claymore,Liyue,4,Electro
-9,Bennett,Sword,Mondstadt,4,Pyro
-10,Chongyun,Claymore,Liyue,4,Cryo
-11,Collei,Bow,Sumeru,4,Dendro
-12,Diluc,Claymore,Mondstadt,5,Pyro
-13,Diona,Bow,Mondstadt,4,Cryo
-14,Eula,Claymore,Mondstadt,5,Cryo
-15,Fischl,Bow,Mondstadt,4,Electro
-16,Ganyu,Bow,Liyue,5,Cryo
-17,Gorou,Bow,Inazuma,4,Geo
-18,Hu Tao,Polearm,Liyue,5,Pyro
-19,Jean,Sword,Mondstadt,5,Anemo
-20,Kaeya,Sword,Mondstadt,4,Cryo
-21,Kaedehara Kazuha,Sword,Inazuma,5,Anemo
-22,Keqing,Sword,Liyue,5,Electro
-23,Klee,Catalyst,Mondstadt,5,Pyro
-24,Sangonomiya Kokomi,Catalyst,Inazuma,5,Hydro
-25,Kuki Shinobu,Sword,Inazuma,4,Electro
-26,Lisa,Catalyst,Mondstadt,4,Electro
-27,Mona,Catalyst,Mondstadt,5,Hydro
-28,Ningguang,Catalyst,Liyue,4,Geo
-29,Noelle,Claymore,Mondstadt,4,Geo
-30,Qiqi,Sword,Liyue,5,Cryo
-31,Raiden Shogun,Polearm,Inazuma,5,Electro
-32,Razor,Claymore,Mondstadt,4,Electro
-33,Rosaria,Polearm,Mondstadt,4,Cryo
-34,Kujou Sara,Bow,Inazuma,4,Electro
-35,Sayu,Claymore,Inazuma,4,Anemo
-36,Shenhe,Polearm,Liyue,5,Cryo
-37,Shikanoin Heizou,Catalyst,Inazuma,4,Anemo
-38,Sucrose,Catalyst,Mondstadt,4,Anemo
-39,Tartaglia,Bow,Snezhnaya,5,Hydro
-40,Thoma,Polearm,Mondstadt,4,Pyro
-41,Tighnari,Bow,Sumeru,5,Dendro
-42,Traveler,Sword,Outlander,5,Anemo
-43,Traveler,Sword,Outlander,4,Dendro
-44,Traveler,Sword,Outlander,5,Electro
-45,Traveler,Sword,Outlander,5,Geo
-46,Venti,Bow,Mondstadt,5,Anemo
-47,Xiangling,Polearm,Liyue,4,Pyro
-48,Xiao,Polearm,Liyue,5,Anemo
-49,Xingqiu,Sword,Liyue,4,Hydro
-50,Xinyan,Claymore,Liyue,4,Pyro
-51,Yae Miko,Catalyst,Inazuma,5,Electro
-52,Yanfei,Catalyst,Liyue,4,Pyro
-53,Yelan,Bow,Liyue,5,Hydro
-54,Yoimiya,Bow,Inazuma,5,Pyro
-55,Yun Jin,Polearm,Liyue,4,Geo
-56,Zhongli,Polearm,Liyue,5,Geo
+id,name,description,element,weapon_type,region,rarity
+1,Albedo,"A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",Geo,Sword,Mondstadt,5
+2,Aloy,"",Cryo,Bow,Unknown,5
+3,Amber,"Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.",Pyro,Bow,Mondstadt,4
+4,Arataki Itto,"The first and greatest head of the Arataki Gang, famed throughout Inazuma City's Hanamizaka... Wait, what? You've never heard of them? Are you trying to be funny here?",Geo,Claymore,Inazuma,5
+5,Kamisato Ayaka,"Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",Cryo,Sword,Inazuma,5
+6,Ayato,"The young but highly accomplished head of the Yashiro Commisson's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",Hydro,Sword,Inazuma,5
+7,Barbara,"Every denizen of Mondstadt adores Barbara. However, she learned the word 'idol' from a magazine.",Hydro,Catalyst,Mondstadt,4
+8,Beidou,"Captain of her crew, The Crux. She's quite an unbound and forthright woman.",Electro,Claymore,Liyue,4
+9,Bennett,"A righteous and good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",Pyro,Sword,Mondstadt,4
+10,Chongyun,"A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",Cryo,Claymore,Liyue,4
+11,Collei,"Oh, you're going to Sumeru? Can you give my regards to Collei? Well... it's been so long, I wonder if her hair has grown out and if she's taller?\n— Amber",Dendro,Bow,Sumeru,4
+12,Diluc,"The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",Pyro,Claymore,Mondstadt,5
+13,Diona,"A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",Cryo,Bow,Mondstadt,4
+14,Eula,"The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",Cryo,Claymore,Mondstadt,5
+15,Fischl,"A mysterious girl who calls herself 'Prinzessin der Verurteilung' and travels with a night raven named Oz.",Electro,Bow,Mondstadt,4
+16,Ganyu,"The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",Cryo,Bow,Liyue,5
+17,Gorou,"The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",Geo,Bow,Inazuma,4
+18,Hu Tao,"The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",Pyro,Polearm,Liyue,5
+19,Jean,"The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadt's Knights of Favonius",Anemo,Sword,Mondstadt,5
+20,Kaeya,"An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",Cryo,Sword,Mondstadt,4
+21,Kaedehara Kazuha,"If one's heart is empty, all under heaven is empty. But if one's heart is pure, all under heaven is pure.",Anemo,Sword,Inazuma,5
+22,Keqing,"The Yuheng of the Liyue Qixing. Has much to say about Rex Lapis' unilateral approach to policymaking in Liyue - but in truth, gods admire skeptics such as her quite a lot.",Electro,Sword,Liyue,5
+23,Klee,"An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",Pyro,Catalyst,Mondstadt,5
+24,Sangonomiya Kokomi,"The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",Hydro,Catalyst,Inazuma,5
+25,Kuki Shinobu,"The capable and reliable deputy leader of the 'Arataki Gang.' Please note",Electro,Sword,Inazuma,4
+26,Lisa,"The languid but knowledgeable Librarian of the Knights of Favonius who was deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",Electro,Catalyst,Mondstadt,4
+27,Mona,"A mysterious young astrologer who proclaims herself to be 'Astrologist Mona Megistus,' and who possesses abilities to match the title. Erudite, but prideful.",Hydro,Catalyst,Mondstadt,5
+28,Ningguang,"The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",Geo,Catalyst,Liyue,4
+29,Noelle,"A maid who faithfully serves the Knights of Favonius that dreams of joining their ranks someday.",Geo,Claymore,Mondstadt,4
+30,Qiqi,"An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",Cryo,Sword,Liyue,5
+31,Raiden Shogun,"Her Excellency, the Almighty, Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",Electro,Polearm,Inazuma,5
+32,Razor,"A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",Electro,Claymore,Mondstadt,4
+33,Rosaria,"A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",Cryo,Polearm,Mondstadt,4
+34,Kujou Sara,"A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",Electro,Bow,Inazuma,4
+35,Sayu,"A pint-sized ninja attached to the Shuumatsuban, who always seems to be lacking sleep.",Anemo,Claymore,Inazuma,4
+36,Shenhe,"An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",Cryo,Polearm,Liyue,5
+37,Shikanoin Heizou,"A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",Anemo,Catalyst,Inazuma,4
+38,Sucrose,"An alchemist filled with curiosity about all things. She researches bio-alchemy.",Anemo,Catalyst,Mondstadt,4
+39,Tartaglia,"No. 11 of The Harbingers, also known as 'Childe'. His name is highly feared on the battlefield.",Hydro,Bow,Snezhnaya,5
+40,Thoma,"The housekeeper of the Yashiro Commission's Kamisato Clan, and a well-known 'fixer' in Inazuma.\nFriendly and approachable, Thoma fits in with the crowd easily wherever he is.\nAt first glance, he seems to be a very easygoing person, but he is in fact very responsible. He has an extraordinarily serious side, be it in his work or his interpersonal communications.",Pyro,Polearm,Mondstadt,4
+41,Tighnari,"A message for you. I brought back a specialty from the desert, two packs of honeyed dates, which helps to replenish your energy, whether in the morning or at night. Thank you for your patience in teaching and taking care of Collei. Good luck with your work and best wishes for Collei's studies.'\n—An anonymously written message left inside a candy box, placed on the watcher's table.",Dendro,Bow,Sumeru,5
+42,Traveler,"A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",Anemo,Sword,Outlander,5
+43,Traveler,"A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",Dendro,Sword,Outlander,4
+44,Traveler,"A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",Electro,Sword,Outlander,5
+45,Traveler,"A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",Geo,Sword,Outlander,5
+46,Venti,"One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",Anemo,Bow,Mondstadt,5
+47,Xiangling,"A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",Pyro,Polearm,Liyue,4
+48,Xiao,"A yaksha adeptus that defends Liyue. Also heralded as the 'Conqueror of Demons' and 'Vigilant Yaksha.",Anemo,Polearm,Liyue,5
+49,Xingqiu,"A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",Hydro,Sword,Liyue,4
+50,Xinyan,"Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",Pyro,Claymore,Liyue,4
+51,Yae Miko,"Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",Electro,Catalyst,Inazuma,5
+52,Yanfei,"A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",Pyro,Catalyst,Liyue,4
+53,Yelan,"A mysterious person who claims to work for the Ministry of Civil Affairs, but is a 'non-entity' on the Ministry of Civil Affairs' list.",Hydro,Bow,Liyue,5
+54,Yoimiya,"Owner of Naganohara Fireworks. Known as the 'Queen of the Summer Festival,' she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",Pyro,Bow,Inazuma,5
+55,Yun Jin,"A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",Geo,Polearm,Liyue,4
+56,Zhongli,"A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",Geo,Polearm,Liyue,5

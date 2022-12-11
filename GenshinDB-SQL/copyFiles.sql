@@ -1,0 +1,1 @@
+copy characterinfo from 'D:/GenshinDB/GenshinDB-RawData/CsvFIles(CSV)/characterinfo.csv' delimiter ',' csv header quote'"';
