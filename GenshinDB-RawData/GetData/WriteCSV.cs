@@ -27,26 +27,51 @@ namespace GenshinDB
         internal void WriteAllCSVFiles() //starts all functions
         {
             WriteCharacterInfo(); // table: characterinfo
+            WriteCharacterConstellations(); // table: characterconstellations
         }
 
         void WriteCharacterInfo()
         {
             string path = csvFolderPath + "\\characterinfo.csv";
-            string temp = "id,name,description,element,weapon_type,region,rarity\n";
+            string temp = "id,name,description,element,weapon_type,region,rarity,normalattack,elementalskill,elementalburst\n";
             foreach(Character c in characterData)
             {
                 try
                 {
-                    temp = temp + c.id + "," + c.name + "," +"\"" + c.description + "\"" + "," + c.element + "," + c.weapontype + "," + c.region + "," + c.rarity + "\n";
-                    temp = temp.Replace("\\\"", "'"); //replaces /" with '
+                    temp = temp + c.id + "," + c.name + "," + "\"" + c.description + "\"" + "," + c.element + "," + c.weapontype + "," + c.region + "," + c.rarity + ",\"" + c.talents[0] + "\",\"" + c.talents[1] + "\",\"" + c.talents[2] + "\"\n";
+                    temp = temp.Replace("\\\"", "'"); //replaces \" with '. Don't replace \n here as it'll intefere with the new \n.
                 } //"" around description to ignore extra commas when copying.
                 catch (Exception)
                 {
-                    Console.WriteLine(c.name + ": write csv file");
+                    Console.WriteLine(c.name + ": write csv cinfo file");
+                    continue;
                 }
             }
             File.WriteAllText(path, temp);
+        }
 
+        void WriteCharacterConstellations()
+        {
+            string path = csvFolderPath + "\\characterconstellations.csv";
+            string temp = "charid,c1,c2,c3,c4,c5,c6\n";
+            foreach(Character c in characterData)
+            {
+                try
+                {
+                    temp = temp + c.id;
+                    foreach (string constellation in c.constellation)
+                    {
+                        temp = temp + ",\"" + constellation + "\"";
+                    }
+                    temp = temp + "\n";
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine(c.name + ": error writing csv cconstellation file");
+                    continue;
+                }
+            }
+            File.WriteAllText(path, temp);
         }
     }
 }
