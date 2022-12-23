@@ -55,6 +55,7 @@ namespace GenshinDB
                 try
                 {
                     string text = File.ReadAllText(path);
+                    text = text.Replace("\\\"", "'"); //to deal with \".
                     tempc.name = Regex.Match(text, "\"name\":.*?,").Value.Split(':')[1].Trim(' ', ',', '\"');
                     tempc.element = Regex.Match(text, "\"vision\":.*?,").Value.Split(':')[1].Trim(' ', ',', '\"');
                     tempc.region = Regex.Match(text, "\"nation\":.*?,").Value.Split(':')[1].Trim(' ', ',', '\"');
