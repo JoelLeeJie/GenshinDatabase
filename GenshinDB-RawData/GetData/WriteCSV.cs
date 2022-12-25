@@ -29,6 +29,7 @@ namespace GenshinDB
             WriteCharacterInfo(); // table: characterinfo
             WriteCharacterConstellations(); // table: characterconstellations
             WriteWeaponInfo(); //table: weaponinfo
+            WriteWeaponRefinements(); //table: weaponrefinements
         }
 
         void WriteCharacterInfo()
@@ -93,6 +94,31 @@ namespace GenshinDB
                 }
                 File.WriteAllText(path, temp);
             }
+        }
+
+        void WriteWeaponRefinements()
+        {
+            string path = csvFolderPath + "\\weaponrefinements.csv";
+            string temp = "weaponid,r1,r2,r3,r4,r5\n";
+            foreach(Weapon w in weaponData)
+            {
+                try
+                {
+                    temp = temp + w.id;
+                    foreach(string r in w.refinements)
+                    {
+                        if (r == "-") temp = temp + ","; //set to null if no descriptions.
+                        else temp = temp + ",\"" + r + "\"";
+                    }
+                    temp = temp + "\n";
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine(w.name + ": Error writing csv wrefinements file");
+                    continue;
+                }
+            }
+            File.WriteAllText(path, temp);
         }
     }
 }
