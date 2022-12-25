@@ -25,9 +25,26 @@ namespace RawData
         void testing()
         {
             tempc = new Character();
-            text = File.ReadAllText("D:\\GenshinDB\\GenshinDB-RawData\\RawDataFiles(txt)\\Characters\\Albedo.txt");
-            tempMatch = Regex.Matches(text, "unlock\":.*?\"description\":\".*?\"");
-            Console.WriteLine(Regex.Matches(tempMatch[6].Value, ":\".*?\"")[1].Value.Trim(':')); ;
+            text = "Every 4s a character is on the field, their ATK increases by 4/5/6/7/8% and their CRIT DMG increases by 4/5/6/7/8%. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be cleared when the character takes DMG.";
+            tempMatch = Regex.Matches(text, @"[\d\%]*?/.+?/.+?/.+?/.*?[\s\.]");
+            int offset = 0;
+            foreach (Match m in tempMatch)
+            {
+                text = text.Remove(m.Index - offset, m.Length); //when replacing the first m, the string gets shorter, the second m index isn't accurate anymore.
+                offset += m.Length;
+            }
+            for(int i = 0; i<4; i++) //5 refinements.
+            {
+                string replacedtext = text;
+                offset = 0;
+                foreach (Match m in tempMatch)
+                {
+                    replacedtext = replacedtext.Insert(m.Index-offset, m.Value.Trim(' ', '.').Split('/')[i]+" ");
+                    offset += m.Length - (m.Value.Trim(' ', '.').Split('/')[i]+ " ").Length;
+                }
+                Console.WriteLine(replacedtext.Replace("  ", ". "));
+            }
+            
         }
     }
 }

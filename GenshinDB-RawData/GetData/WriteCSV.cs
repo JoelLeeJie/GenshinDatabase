@@ -28,6 +28,8 @@ namespace GenshinDB
         {
             WriteCharacterInfo(); // table: characterinfo
             WriteCharacterConstellations(); // table: characterconstellations
+            WriteWeaponInfo(); //table: weaponinfo
+            WriteWeaponRefinements(); //table: weaponrefinements
         }
 
         void WriteCharacterInfo()
@@ -68,6 +70,51 @@ namespace GenshinDB
                 catch (Exception)
                 {
                     Console.WriteLine(c.name + ": error writing csv cconstellation file");
+                    continue;
+                }
+            }
+            temp = temp.Replace("42,\"Decreases the CD of Foul Legacy: Raging Tide by 20%.\",", "42,\"Palm Vortex pulls in opponents and objects within a 5m radius.\",");
+            File.WriteAllText(path, temp);
+        }
+
+        void WriteWeaponInfo()
+        {
+            string path = csvFolderPath + "\\weaponinfo.csv";
+            string temp = "id,name,weapon_type,rarity\n";
+            foreach(Weapon w in weaponData)
+            {
+                try
+                {
+                    temp = temp + w.id + "," + w.name + "," + w.weapontype + "," + w.rarity +"\n";
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine(w.name + ": error writing csv winfo file");
+                    continue;
+                }
+                File.WriteAllText(path, temp);
+            }
+        }
+
+        void WriteWeaponRefinements()
+        {
+            string path = csvFolderPath + "\\weaponrefinements.csv";
+            string temp = "weaponid,r1,r2,r3,r4,r5\n";
+            foreach(Weapon w in weaponData)
+            {
+                try
+                {
+                    temp = temp + w.id;
+                    foreach(string r in w.refinements)
+                    {
+                        if (r == "-") temp = temp + ","; //set to null if no descriptions.
+                        else temp = temp + ",\"" + r + "\"";
+                    }
+                    temp = temp + "\n";
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine(w.name + ": Error writing csv wrefinements file");
                     continue;
                 }
             }
