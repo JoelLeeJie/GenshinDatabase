@@ -28,6 +28,7 @@ namespace GenshinDB
         {
             WriteCharacterInfo(); // table: characterinfo
             WriteCharacterConstellations(); // table: characterconstellations
+            WriteWeaponInfo(); //table: weaponinfo
         }
 
         void WriteCharacterInfo()
@@ -71,7 +72,27 @@ namespace GenshinDB
                     continue;
                 }
             }
+            temp = temp.Replace("42,\"Decreases the CD of Foul Legacy: Raging Tide by 20%.\",", "42,\"Palm Vortex pulls in opponents and objects within a 5m radius.\",");
             File.WriteAllText(path, temp);
+        }
+
+        void WriteWeaponInfo()
+        {
+            string path = csvFolderPath + "\\weaponinfo.csv";
+            string temp = "id,name,weapon_type,rarity\n";
+            foreach(Weapon w in weaponData)
+            {
+                try
+                {
+                    temp = temp + w.id + "," + w.name + "," + w.weapontype + "," + w.rarity +"\n";
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine(w.name + ": error writing csv winfo file");
+                    continue;
+                }
+                File.WriteAllText(path, temp);
+            }
         }
     }
 }

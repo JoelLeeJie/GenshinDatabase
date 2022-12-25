@@ -17,7 +17,7 @@ namespace GenshinDB
         {
             Start start = new Start();
             
-            /*
+            
             GetData getData = new GetData();
             //Gets Data from url. Runs get data on all 3 dataTypes at the same time.
             Task.WaitAll(getData.GetDataForItemInList(getData.characterNames, dataType.characters).ToArray());
@@ -29,11 +29,12 @@ namespace GenshinDB
             //stores data from GetData into several raw data files.
             WriteRawData writeData = new WriteRawData(start.thisFilePath);
             Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.characterDict, dataType.characters).ToArray());
+            Thread.Sleep(100);
             Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.weaponDict, dataType.weapons).ToArray());
             Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.artifactDict, dataType.artifacts).ToArray());
             //Do one by one, since doing all 3 at once will mess up value of "filePath"
             Console.WriteLine("Finished loading data!");
-            */
+            
             
             //convert raw data to struct to csv.
             ConvertRawData convertRawData = new ConvertRawData(start.thisFilePath);
