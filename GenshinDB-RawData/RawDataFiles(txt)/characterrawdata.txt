@@ -1,8 +1,0 @@
-name of character
-element(vision)
-weapontype
-region(nation)
-rarity
-description
-description of normal attack, skill, burst
-description of constellation lvl 1 to 6

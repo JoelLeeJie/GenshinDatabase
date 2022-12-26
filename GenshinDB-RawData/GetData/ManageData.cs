@@ -199,4 +199,5 @@ namespace GenshinDB
         internal string refinementData;
         internal List<string> refinements;
     }
+
 }

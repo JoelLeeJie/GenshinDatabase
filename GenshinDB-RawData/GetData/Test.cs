@@ -12,39 +12,41 @@ namespace RawData
 {
     class Test
     {
-        Character tempc;
-        MatchCollection tempMatch;
-        List<Character> characterData;
-        string text;
         static void Main()
         {
-            Test test = new Test();
-            test.characterData = new List<Character>();
-            test.testing();
-        }
-        void testing()
-        {
-            tempc = new Character();
-            text = "Every 4s a character is on the field, their ATK increases by 4/5/6/7/8% and their CRIT DMG increases by 4/5/6/7/8%. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be cleared when the character takes DMG.";
-            tempMatch = Regex.Matches(text, @"[\d\%]*?/.+?/.+?/.+?/.*?[\s\.]");
-            int offset = 0;
-            foreach (Match m in tempMatch)
-            {
-                text = text.Remove(m.Index - offset, m.Length); //when replacing the first m, the string gets shorter, the second m index isn't accurate anymore.
-                offset += m.Length;
-            }
-            for(int i = 0; i<4; i++) //5 refinements.
-            {
-                string replacedtext = text;
-                offset = 0;
-                foreach (Match m in tempMatch)
-                {
-                    replacedtext = replacedtext.Insert(m.Index-offset, m.Value.Trim(' ', '.').Split('/')[i]+" ");
-                    offset += m.Length - (m.Value.Trim(' ', '.').Split('/')[i]+ " ").Length;
-                }
-                Console.WriteLine(replacedtext.Replace("  ", ". "));
-            }
             
+            
+
+            /*HttpClient client = new HttpClient();
+            FileStream filestream = File.OpenWrite("D:\\GenshinDB\\GenshinDB-RawData\\RawDataFiles(txt)\\wikimaterial.txt");
+            StreamWriter writer = new StreamWriter(filestream);
+            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Character_Ascension_Materials").Result + "\n");
+            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Character_EXP_Materials").Result + "\n");
+            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Common_Ascension_Materials").Result + "\n");
+            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Refinement_Materials").Result + "\n");
+            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Talent_Level-Up_Materials").Result + "\n");
+            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Weapon_Ascension_Materials").Result + "\n");
+
+            writer.Close();
+
+            string text = File.ReadAllText("D:\\GenshinDB\\GenshinDB-RawData\\RawDataFiles(txt)\\wikimaterial.txt");
+            MatchCollection tempMatchCollection = Regex.Matches(text, "<td><div class=\"card_with_caption hidden\".*?\n</td>");
+            List<string> names = new List<string>();
+            foreach (Match line in tempMatchCollection)
+            {
+                Match name = Regex.Match(line.Value, "title=\".*?\"");
+                while(true)
+                {
+                    name = name.NextMatch();
+                    if (name.Value == "") break;
+                    if (!names.Contains(name.Value)) names.Add(name.Value); 
+                }
+            }
+            foreach(string name in names)
+            {
+                Console.WriteLine(name);
+            }
+            */
         }
     }
 }
