@@ -1,0 +1,61 @@
+id,type,statname,statvalue,rarity
+1,flower,hp%,1893,3
+2,flower,hp%,3571,4
+3,flower,hp%,4780,5
+4,feather,atk,123,3
+5,feather,atk,232,4
+6,feather,atk,311,5
+7,timepiece,hp%,23.1,3
+8,timepiece,hp%,34.8,4
+9,timepiece,hp%,46.6,5
+10,timepiece,atk%,23.1,3
+11,timepiece,atk%,34.8,4
+12,timepiece,atk%,46.6,5
+13,timepiece,def%,28.8,3
+14,timepiece,def%,43.5,4
+15,timepiece,def%,58.3,5
+16,timepiece,em,92.3,3
+17,timepiece,em,139.3,4
+18,timepiece,em,186.5,5
+19,timepiece,er%,25.6,3
+20,timepiece,er%,38.7,4
+21,timepiece,er%,51.8,5
+22,goblet,hp%,23.1,3
+23,goblet,hp%,34.8,4
+24,goblet,hp%,46.6,5
+25,goblet,atk%,23.1,3
+26,goblet,atk%,34.8,4
+27,goblet,atk%,46.6,5
+28,goblet,em,92.3,3
+29,goblet,em,139.3,4
+30,goblet,em,186.5,5
+31,goblet,ele dmg%,23.1,3
+32,goblet,ele dmg%,34.8,4
+33,goblet,ele dmg%,46.6,5
+34,goblet,phy dmg%,28.8,3
+35,goblet,phy dmg%,43.5,4
+36,goblet,phy dmg%,58.3,5
+37,goblet,def%,28.8,3
+38,goblet,def%,43.5,4
+39,goblet,def%,58.3,5
+40,crown,hp%,23.1,3
+41,crown,hp%,34.8,4
+42,crown,hp%,46.6,5
+43,crown,atk%,23.1,3
+44,crown,atk%,34.8,4
+45,crown,atk%,46.6,5
+46,crown,def%,28.8,3
+47,crown,def%,43.5,4
+48,crown,def%,58.3,5
+49,crown,em,92.3,3
+50,crown,em,139.3,4
+51,crown,em,186.5,5
+52,crown,crit rate%,15.4,3
+53,crown,crit rate%,23.2,4
+54,crown,crit rate%,31.1,5
+55,crown,crit dmg%,30.8,3
+56,crown,crit dmg%,46.4,4
+57,crown,crit dmg%,62.2,5
+58,crown,healing bonus%,17.8,3
+59,crown,healing bonus%,26.8,4
+60,crown,healing bonus%,35.9,5
