@@ -71,7 +71,7 @@ namespace GenshinDB
                     }
                 }
                 catch(NullReferenceException) { Console.WriteLine(tempc.name + ": Null reference when converting to struct"); continue; }
-                catch(Exception) { Console.WriteLine(tempc.name + ": error convert to struct"); continue; }
+                catch(Exception) { Console.WriteLine(tempc.name + ": character error convert to struct"); continue; }
                 tempc.id = counter++;
                 characterData.Add(tempc); //since tempc is a struct, changing it won't affect previous copies of it in the list. This doesn't apply for reference variables in a struct.
             }
@@ -81,6 +81,31 @@ namespace GenshinDB
 
         internal void ArtifactRawData()
         {
+            int counter = 1;
+            List<string> fileNames = Directory.GetFiles(artifactRawDataPath, "*.txt").ToList<string>();
+            foreach(string path in fileNames)
+            {
+                tempa = new Artifact();
+                try
+                {
+                    string text = File.ReadAllText(path);
+                    text = text.Replace("\\\"", "'");
+                    tempa.name = Regex.Match(text, "name\":\".*?\",").Value.Split(':')[1].Trim('"', ' ', ',');
+                    if(Regex.Match(text, "1-piece_bonus\":\".*?\"")?.Value != "")
+                        tempa.onepiece = Regex.Match(text, "1-piece_bonus\":\".*?\"").Value.Split(':')[1].Trim('"', ' '); //need ? to check for null, to prevent accessing [1] for null(index out of range).
+                    if(Regex.Match(text, "2-piece_bonus\":\".*?\",")?.Value != "")
+                        tempa.twopiece = Regex.Match(text, "2-piece_bonus\":\".*?\",").Value.Split(':')[1].Trim('"', ' ', ',');
+                    if (Regex.Match(text, "4-piece_bonus\":\".*?\"")?.Value != "")
+                        tempa.fourpiece = Regex.Match(text, "4-piece_bonus\":\".*?\"").Value.Split(':')[1].Trim('"', ' ');
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine(tempa.name + ": artifact error convert to struct");
+                    continue;
+                }
+                tempa.id = counter++;
+                artifactData.Add(tempa);
+            }
 
         }
 
@@ -101,7 +126,7 @@ namespace GenshinDB
                     tempw.rarity = int.Parse(Regex.Match(text, "\"rarity\":.*?,").Value.Split(':')[1].Trim('"', ',', ' '));
                     tempw.refinementData = Regex.Match(Regex.Match(text, "\"passiveDesc\":.*?\",").Value, ":\".*?\"").Value.Trim('"', ',', ' ', ':');
                 }
-                catch(Exception) { Console.WriteLine(tempw.name + ": Error convert to struct"); continue; }
+                catch(Exception) { Console.WriteLine(tempw.name + ": weapon error convert to struct"); continue; }
                 tempw.id = counter++;
 
                 //turn refinementData into 5 separate statements to put into refinements.
@@ -156,6 +181,11 @@ namespace GenshinDB
 
     internal struct Artifact
     {
+        internal int id { get; set; }
+        internal string name { get; set; }
+        internal string onepiece { get; set; }
+        internal string twopiece { get; set; }
+        internal string fourpiece { get; set; }
 
     }
 

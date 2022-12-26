@@ -30,6 +30,7 @@ namespace GenshinDB
             WriteCharacterConstellations(); // table: characterconstellations
             WriteWeaponInfo(); //table: weaponinfo
             WriteWeaponRefinements(); //table: weaponrefinements
+            WriteArtifactSets(); //table: artifactsets
         }
 
         void WriteCharacterInfo()
@@ -117,6 +118,24 @@ namespace GenshinDB
                     Console.WriteLine(w.name + ": Error writing csv wrefinements file");
                     continue;
                 }
+            }
+            File.WriteAllText(path, temp);
+        }
+
+        void WriteArtifactSets()
+        {
+            string path = csvFolderPath + "\\artifactsets.csv";
+            string temp = "id,name,twopiece,fourpiece,onepiece\n";
+            foreach(Artifact a in artifactData)
+            {
+                temp = temp + a.id + "," + a.name + ",";
+                if (a.twopiece is not null) temp = temp + $"\"{a.twopiece}\"";
+                    temp = temp + ",";
+                if (a.fourpiece is not null) temp = temp + $"\"{a.fourpiece}\"";
+                    temp = temp + ",";
+                if (a.onepiece is not null) temp = temp + $"\"{a.onepiece}\"";
+                //check for null to prevent putting (,"", instead of ,,)
+                temp = temp + "\n";
             }
             File.WriteAllText(path, temp);
         }
