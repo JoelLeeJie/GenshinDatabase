@@ -33,6 +33,10 @@ namespace GenshinDB
             Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.weaponDict, dataType.weapons).ToArray());
             Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.artifactDict, dataType.artifacts).ToArray());
             //Do one by one, since doing all 3 at once will mess up value of "filePath"
+
+            WikiData wiki = new WikiData(start.thisFilePath);
+            wiki.GetCharacterData();
+            wiki.GetWeaponData();
             Console.WriteLine("Finished loading data!");
             
             
