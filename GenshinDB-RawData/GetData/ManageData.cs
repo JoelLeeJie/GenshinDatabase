@@ -165,7 +165,7 @@ namespace GenshinDB
             List<string> fileNamePaths = Directory.GetFiles(rawDataFilePath + "\\CharacterWiki").ToList<string>();
             string temp; Match tempMatch; MatchCollection tempMatchCollection;
             int counter = 1;
-            string[] level_levelarray = new string[] { "1/20", "20/20", "40/40", "50/50", "60/60", "70/70", "80/80", "90/90" };
+            string[] level_levelarray = new string[] { "1/20", "20/20", "20/40", "40/40", "40/50", "50/50", "50/60", "60/60", "60/70", "70/70", "70/80", "80/80", "80/90", "90/90" };
             foreach(string path in fileNamePaths)
             {
                 temp = File.ReadAllText(path);
@@ -174,38 +174,46 @@ namespace GenshinDB
                 {
                     for (int i = 0; i < level_levelarray.Length; i++)
                     {
-                        filterData(level_levelarray[i], int.Parse(level_levelarray[i].Split('/')[0]));
+                        filterData(level_levelarray[i], int.Parse(level_levelarray[i].Split('/')[0]), i);
+                        if (i != 0) i++; //1/20, then 20/20, then 40/40, 50/50...
                     }
                     //1/20. 20/20, 40/40 etc for stats(for every level, 
                     //20/40, 40/50 to find ascension stat(remember to link it to the right levelid)
                 }
-                catch(Exception)
+                catch (Exception e)
                 {
-                    Console.WriteLine(counter + ": error convert charstat to csv");
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine(counter + ": error convert charstat to csv. May wish to write it manually, like in the case for the Traveler.");
                     continue;
+                }
+                finally
+                {
+                    counter++; //increase charid for every character.
                 }
             }
 
-            void filterData(string level_level, int level)
+            void filterData(string level_level, int level, int current_iteration)
             {
+                int i = current_iteration;
                 tempcs = new CharacterStat();
-                tempcs.charid = counter++;
+                tempcs.charid = counter;
                 tempcs.levelid = level;
                 tempMatch = Regex.Match(temp, $"{level_level}</td><td>.*?</td><td>.*?</td><td>.*?</td>");
                 tempMatch = Regex.Match(tempMatch.Value, "<td>.*?</td>"); //find the values of hp,atk,def in sequence.
-                tempcs.hp = int.Parse(tempMatch.Value);
-                tempcs.atk = int.Parse(tempMatch.NextMatch().Value);
-                tempcs.def = int.Parse(tempMatch.NextMatch().Value);
+                tempcs.hp = int.Parse(tempMatch.Value.Replace("<td>", "").Replace("</td>", "").Replace(",", ""));
+                tempcs.atk = int.Parse(tempMatch.NextMatch().Value.Replace("<td>", "").Replace("</td>", "").Replace(",", ""));
+                tempcs.def = int.Parse(tempMatch.NextMatch().Value.Replace("<td>", "").Replace("</td>", "").Replace(",",""));
                 tempMatch = Regex.Match(temp, "Ascension.*?Phase.*?Level.*?Special Stat.*?title.*?\".*?\"");
                 tempMatch = Regex.Match(tempMatch.Value, "title.*?\".*?\"");
                 tempMatch = Regex.Match(tempMatch.Value, "\".*?\"");
                 tempcs.ascensionname = CheckStatName(tempMatch.Value.Trim('"'));
                 if (level_level != "1/20")
                 {
-                    tempMatch = Regex.Match(temp, $"td rowspan=\"2\".*?{level_level}"); //finds the ascension value for each ascension level
-                    tempMatch = Regex.Match(tempMatch.Value, ">.*?</td>");
-                    if (tempMatch.Value.Replace("</td>", "").Trim('<', ' ') == "&#8212") tempcs.ascensionvalue = 0;
-                    else tempcs.ascensionvalue = int.Parse(tempMatch.Value.Replace("</td>", "").Trim('<', ' '));
+                    tempMatch = Regex.Match(temp, $"{level_levelarray[i-1]}.*?td rowspan=\"2\".*?{level_level}"); //finds the ascension value for each ascension level. It'll be between the past level_level - value - current level_level
+                    tempMatch = Regex.Match(tempMatch.Value, "td rowspan=\"2\".*?</td>");
+                    string temp2 = tempMatch.Value.Replace("td rowspan=\"2\"", "").Replace("</td>", "").Trim('>', ' ');
+                    if (temp2 == "&#8212;") tempcs.ascensionvalue = 0; //check for this tring to show that it is empty.
+                    else tempcs.ascensionvalue = float.Parse(temp2.Trim('%'));//make sure it's float, not int.parse
                 }
                 else tempcs.ascensionvalue = 0;
                 characterStatData.Add(tempcs);
@@ -238,15 +246,6 @@ namespace GenshinDB
 
         internal void WeaponStatRawData()
         {
-            List<string> fileNamePaths = Directory.GetFiles(rawDataFilePath + "\\WeaponWiki").ToList<string>();
-            string temp;
-            int counter = 1;
-            foreach (string path in fileNamePaths)
-            {
-                temp = File.ReadAllText(path);
-                tempws = new WeaponStat();
-            }
-
         }
     }
 

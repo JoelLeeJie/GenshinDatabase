@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <title>Hamayumi | Genshin Impact Wiki | Fandom</title>
-<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"59be5baad82963bc","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Hamayumi","wgTitle":"Hamayumi","wgCurRevisionId":1011894,"wgRevisionId":1011894,"wgArticleId":64140,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using DynamicPageList parser function","Weapons by Type","Weapons by Rarity","Weapons by Rarity Ascending","Weapons by Type and Rarity","Item","Weapons by Release Date","Pages with Sourceless Descriptions","Ascends with Narukami's Wisdom","Ascends with Narukami's Joy","Ascends with Narukami's Affection",
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"1aec26880168322","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Hamayumi","wgTitle":"Hamayumi","wgCurRevisionId":1011894,"wgRevisionId":1011894,"wgArticleId":64140,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using DynamicPageList parser function","Weapons by Type","Weapons by Rarity","Weapons by Rarity Ascending","Weapons by Type and Rarity","Item","Weapons by Release Date","Pages with Sourceless Descriptions","Ascends with Narukami's Wisdom","Ascends with Narukami's Joy","Ascends with Narukami's Affection",
 "Ascends with Narukami's Valor","Ascends with Dismal Prism","Ascends with Crystal Prism","Ascends with Polarizing Prism","Ascends with Firm Arrowhead","Ascends with Sharp Arrowhead","Ascends with Weathered Arrowhead","Uses Northlander Bow Billet","Uses Amethyst Lump","Uses White Iron Chunk","Uses Mora","Version","Weapons","Bows","Amethyst Series","4-Star Weapons","Normal Attack DMG Bonus Passive Weapons","Charged Attack DMG Bonus Passive Weapons","Energy Passive Weapons","Forging Weapons","Weapons with Non-Wish Source","ATK Substat Weapons","Forging","Released in Version 2.0"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Hamayumi","wgRelevantArticleId":64140,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRestrictionComment":[],"wgNoExternals":!1,"wgArticleInterlangList":["es:Masacrademonios","fr:Arc d'exorcisme","ja:破魔の弓","pl:Hamayumi","ru:Хамаюми",
 "th:Hamayumi","vi:Cung Trừ Ma"],"wikiaPageType":"article","isDarkTheme":!0,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgIsTestModeEnabled":!1,"wgEnableLightboxExt":!0,"wgMFDisplayWikibaseDescriptions":{"search":!1,"nearby":!1,"watchlist":!1,"tagline":!1},"egMapsScriptPath":"/extensions-ucp/v2/Maps/","egMapsDebugJS":!1,"egMapsAvailableServices":["leaflet","googlemaps3"],"egMapsLeafletLayersApiKeys":{"MapBox":"","MapQuestOpen":"","Thunderforest":"","GeoportailFrance":""},"wgDisableCMSNotifications":!1,"wgEditSubmitButtonLabelPublish":!1,"egFacebookAppId":"112328095453510","comscoreKeyword":"wikiacsid_games","quantcastLabels":"Genre.donghua,Genre.anime,Genre.fantasy,Genre.rpg,Genre.openworld,Genre.storytelling,Genre.dungeon-crawler,Genre.action,Genre.adventure,Genre.gacha,Media.games,Theme.sword,Theme.gods,Theme.dragon,Theme.magic","wgCategorySelect":{"defaultNamespace":"Category","defaultNamespaces":
 "Category"},"wgEnableDiscussions":!0,"viewTrackURL":"https://beacon.wikia-services.com/__track/view?a=64140\u0026n=0\u0026env=prod\u0026c=2025468\u0026lc=en\u0026lid=75\u0026x=gensinimpact\u0026s=ucp_desktop\u0026mobile_theme=fandom-dark\u0026rollout_tracking=mw137","viewTrackUrlPrefix":"https://beacon.wikia-services.com/__track/view?a=64140\u0026n=0\u0026env=prod\u0026c=2025468\u0026lc=en\u0026lid=75\u0026x=gensinimpact\u0026s=ucp_desktop\u0026mobile_theme=fandom-dark\u0026rollout_tracking=mw137","wgEnableHydraFeatures":!1,"wgEnableWikiaBarExt":!0,"wgEnableWikiaBarAds":!0,"wgWikiaBarMainLanguages":["de","en","es","fr"],"wgDisableAnonymousEditing":!0,"articleCommentsThreadId":null,"articleCommentsReplyId":null,"articleHasCommentingEnabled":!0,"userCanComment":!1,"userCanDelete":!1,"userCanSuppress":!1,"enablePostHistory":!1,"personalizedRecommendationsMessage":"Recommended for you","wgPerformanceMonitoringSamplingFactor":10,"wgPerformanceMonitoringEndpointUrl":
@@ -13,29 +13,29 @@
 30},{"file":"https://cdn.jwplayer.com/videos/hT4EaVny-xhZUqUI6.mp4","type":"video/mp4","height":406,"width":720,"label":"406p","bitrate":711190,"filesize":17157477,"framerate":30},{"file":"https://cdn.jwplayer.com/videos/hT4EaVny-1lt3rSsE.mp4","type":"video/mp4","height":720,"width":1280,"label":"720p","bitrate":1462377,"filesize":35279854,"framerate":30},{"file":"https://cdn.jwplayer.com/videos/hT4EaVny-LiJWxqIn.m4a","type":"audio/mp4","label":"AAC Audio","bitrate":113593,"filesize":2740446},{"file":"https://cdn.jwplayer.com/videos/hT4EaVny-cSpmBcaY.mp4","type":"video/mp4","height":1080,"width":1920,"label":"1080p","bitrate":2887589,"filesize":69663095,"framerate":30}],"tracks":[{"file":"https://cdn.jwplayer.com/strips/hT4EaVny-120.vtt","kind":"thumbnails"}],"jwpseg":["80011026","80011035","80011079","80011080","80011081","80011082","CMTPI-0059DF08","CMTPI-02275FB5","CMTPI-02947E6F","CMTPI-03654CCA","CMTPI-0574EA52","CMTPI-0677E447","CMTPI-07D791BD","CMTPI-0A5722C5","CMTPI-0E4F9A22",
 "CMTPI-121F4D4C","CMTPI-12898117","CMTPI-143638D7","CMTPI-17D5FA85","CMTPI-17E1858C","CMTPI-1801D437","CMTPI-19B9020C","CMTPI-2035145F","CMTPI-2121C163","CMTPI-277930ED","CMTPI-27DD6955","CMTPI-287A15D0","CMTPI-2A009D2F","CMTPI-2CB853D8","CMTPI-2D2E0833","CMTPI-2F9DA9D9","CMTPI-30B0A3A2","CMTPI-31A32930","CMTPI-32EEF776","CMTPI-37CB3705","CMTPI-3A3C4C86","CMTPI-3AA9F784","CMTPI-3E34813A","CMTPI-3FE7BB03","CMTPI-42AA9AA7","CMTPI-434208A3","CMTPI-464887B5","CMTPI-465E3A86","CMTPI-49465CF3","CMTPI-4965185B","CMTPI-4A088C13","CMTPI-4A5AA9F3","CMTPI-4C16DA68","CMTPI-4C74FA64","CMTPI-4E07F8D4","CMTPI-4E9D34DD","CMTPI-51BE4BBA","CMTPI-51F7BF74","CMTPI-52854BF9","CMTPI-52D36748","CMTPI-52DD870E","CMTPI-54B3F68C","CMTPI-564BDB0E","CMTPI-5B9116B8","CMTPI-60A74EF4","CMTPI-63080FFB","CMTPI-637A67DB","CMTPI-647DDB55","CMTPI-690D3851","CMTPI-697B8462","CMTPI-6996BF57","CMTPI-6A871B96","CMTPI-7263294A","CMTPI-7346A449","CMTPI-7619973C","CMTPI-78A7884B","CMTPI-7A8DB4E0","CMTPI-7B943A6C",
 "CMTPI-7BD399CC","CMTPI-7C2801F8","CMTPI-7D1AB833","CMTPI-86D4E701","CMTPI-87B1ED28","CMTPI-8809A413","CMTPI-910F95AD","CMTPI-91B4B8A6","CMTPI-91CD9D6A","CMTPI-92F5826B","CMTPI-930B6491","CMTPI-97F654A1","CMTPI-9C644E02","CMTPI-9DAD9A2A","CMTPI-9F08F74F","CMTPI-A15DA6A5","CMTPI-A1E8BCE2","CMTPI-A8A9BA1B","CMTPI-AD2B955A","CMTPI-B155C9C3","CMTPI-B9A1EE8A","CMTPI-BB2D5B87","CMTPI-BE1FF0E5","CMTPI-BE2BD257","CMTPI-BFDC91CF","CMTPI-C4975131","CMTPI-C62EB36B","CMTPI-CA306142","CMTPI-CA499889","CMTPI-D129CC15","CMTPI-D2099D33","CMTPI-D5874895","CMTPI-D5DE7D9E","CMTPI-D9B15100","CMTPI-D9C7892E","CMTPI-E2876E9D","CMTPI-E62C5E5E","CMTPI-E884C5E3","CMTPI-E914FCF7","CMTPI-E9681D0C","CMTPI-EA2DD164","CMTPI-ECA53B42","CMTPI-EE289AD1","CMTPI-F0583F13","CMTPI-F3670C87","CMTPI-F6841FA0","CMTPI-F70EA166","CMTPI-F734BAED","CMTPI-F9D85EE2","CMTPI-FC807639","CMTPI-FE0D4B87"],"jwpseg_client_side":["CMTPI-03654CCA","CMTPI-0677E447","CMTPI-0A5722C5","CMTPI-0E4F9A22","CMTPI-121F4D4C","CMTPI-15B606E9",
-"CMTPI-193C6441","CMTPI-20C3B280","CMTPI-298C1144","CMTPI-2CB853D8","CMTPI-2D2E0833","CMTPI-2F9DA9D9","CMTPI-37CB3705","CMTPI-3A3C4C86","CMTPI-40FDC4C8","CMTPI-4965185B","CMTPI-4A5AA9F3","CMTPI-4C74FA64","CMTPI-4E07F8D4","CMTPI-5E865311","CMTPI-677D51D7","CMTPI-690D3851","CMTPI-78A7884B","CMTPI-7A8DB4E0","CMTPI-7BD399CC","CMTPI-7BFDFB83","CMTPI-8809A413","CMTPI-97F654A1","CMTPI-984BCCFF","CMTPI-9F08F74F","CMTPI-AD2B955A","CMTPI-B036B396","CMTPI-B9A1EE8A","CMTPI-BB2E4623","CMTPI-BE2BD257","CMTPI-C01F4CFD","CMTPI-CB9C09B9","CMTPI-D5DE7D9E","CMTPI-D9B15100","CMTPI-DEDBDE36","CMTPI-E8DF00E6","CMTPI-E914FCF7","CMTPI-E9681D0C","CMTPI-F6841FA0"],"variations":[],"Sponsored":"","Person":"","IP":"","Language":"EN","isSponsored":"","Vertical":"","Series":"","Format":""}],"feed_instance_id":"efbc3e15-43c6-4a8f-a498-c4f060f38dc4","jwpseg":{"request_id":"560f96db-eb06-4917-9d02-f7887c360e1c","target_profiles":{"CMTPI-AD2B955A":{"performance_targets":{"ad_iab_viewability":0.75,"ad_100pct_completion":
-0.75},"decision_thresholds":{"ad_iab_viewability":{"v4":0.41873977074708645940148699082783423364162445068359375,"v5-passthrough":0.64803504315925153367317079755594022572040557861328125},"ad_100pct_completion":{"v2-passthrough":0.5148959549836693572189005863037891685962677001953125}}},"CMTPI-3A3C4C86":{"performance_targets":{"ad_iab_viewability":0.75},"decision_thresholds":{"ad_iab_viewability":{"v4":0.5111948483528550024601599943707697093486785888671875,"v5-passthrough":0.79089578723019793304871427608304657042026519775390625}}},"CMTPI-03654CCA":{"performance_targets":{"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625,"ad_100pct_completion":0.34999999999999997779553950749686919152736663818359375},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0},"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-984BCCFF":{"performance_targets":{"ad_100pct_completion":0.8000000000000000444089209850062616169452667236328125},"decision_thresholds":{
-"ad_100pct_completion":{"v2-passthrough":0.681542360040195749348868048400618135929107666015625}}},"CMTPI-15B606E9":{"performance_targets":{"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625,"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0},"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-4965185B":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875,"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.2174534193131092418838079538545571267604827880859375,"v5-passthrough":0.423764358476395208707998563113505952060222625732421875},"ad_100pct_completion":{"v2-passthrough":0.3845453924078621188442639322602190077304840087890625}}},"CMTPI-D9B15100":{"performance_targets":{"ad_100pct_completion":
-0.6999999999999999555910790149937383830547332763671875,"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.2174533784587955320688479332602582871913909912109375,"v5-passthrough":0.423764309868768285216589219999150373041629791259765625},"ad_100pct_completion":{"v2-passthrough":0.384545361968983312461745072141638956964015960693359375}}},"CMTPI-DEDBDE36":{"performance_targets":{"ad_100pct_completion":0.8000000000000000444089209850062616169452667236328125},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.68159675385689066917649370225262828171253204345703125}}},"CMTPI-690D3851":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.114944205681371258709333460501511581242084503173828125,"v5-passthrough":0.2318497683060833092216768136495375074446201324462890625}}},"CMTPI-8809A413":{"performance_targets":{
-"ad_iab_viewability":0.75},"decision_thresholds":[]},"CMTPI-F6841FA0":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.158806726606333270535031942927162162959575653076171875}}},"CMTPI-4A5AA9F3":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.158806732701193220602675637564971111714839935302734375}}},"CMTPI-9F08F74F":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.158806730466473366991664306624443270266056060791015625}}},"CMTPI-2D2E0833":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875,"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},
-"decision_thresholds":{"ad_iab_viewability":{"v4":0.11494419942181503813127818602879415266215801239013671875,"v5-passthrough":0.2318498083781209972986658840454765595495700836181640625},"ad_100pct_completion":{"v2-passthrough":0.158806732187042387582920355271198786795139312744140625}}},"CMTPI-BE2BD257":{"performance_targets":{"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0}}},"CMTPI-121F4D4C":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875,"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.10334244770725718731707587494383915327489376068115234375,"v5-passthrough":0.1832704311157352383698793119037873111665248870849609375},"ad_100pct_completion":{"v2-passthrough":0.03535118616120429269056302246099221520125865936279296875}}},"CMTPI-2CB853D8":{
-"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875,"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.2283702382332495617323075975946267135441303253173828125,"v5-passthrough":0.4184087124821231906679486201028339564800262451171875},"ad_100pct_completion":{"v2-passthrough":0.22538262693585486839964460159535519778728485107421875}}},"CMTPI-7BD399CC":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875,"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.10333947358442570341185984261755947954952716827392578125,"v5-passthrough":0.1832704167990784061004205796052701771259307861328125},"ad_100pct_completion":{"v2-passthrough":0.035351188643669963218574281427208916284143924713134765625}}},"CMTPI-677D51D7":{"performance_targets":{
-"ad_100pct_completion":0.8000000000000000444089209850062616169452667236328125},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.65763235083585180884568899273290298879146575927734375}}},"CMTPI-40FDC4C8":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-193C6441":{"performance_targets":{"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625,"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0},"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-BB2E4623":{"performance_targets":{"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625,"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0},"ad_100pct_completion"
-:{"v2-passthrough":0}}},"CMTPI-2F9DA9D9":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.34363585755236147889490894158370792865753173828125}}},"CMTPI-C01F4CFD":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-97F654A1":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.5060276440653941332215026704943738877773284912109375}}},"CMTPI-E914FCF7":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.11494531724646474268869411616833531297743320465087890625,"v5-passthrough":0.2318527725723464605334100951949949376285076141357421875}}}
-,"CMTPI-37CB3705":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":[]},"CMTPI-D5DE7D9E":{"performance_targets":{"ad_iab_viewability":0.75,"ad_100pct_completion":0.75},"decision_thresholds":{"ad_iab_viewability":{"v4":0.418785959407751151584164972518919967114925384521484375,"v5-passthrough":0.64804024030187878935294065740890800952911376953125},"ad_100pct_completion":{"v2-passthrough":0.5149113179989408539682926857494749128818511962890625}}},"CMTPI-7A8DB4E0":{"performance_targets":{"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625,"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.002941699214756974233020425657514351769350469112396240234375,"v5-passthrough":0},"ad_100pct_completion":{"v2-passthrough":0.34364050512026278472177409639698453247547149658203125}}},"CMTPI-0A5722C5":{"performance_targets":{
-"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.382801698428513470506828753059380687773227691650390625}}},"CMTPI-298C1144":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-78A7884B":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.43222617544517893950484221932129003107547760009765625}}},"CMTPI-CB9C09B9":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-E9681D0C":{"performance_targets":{"ad_100pct_completion":0.5500000000000000444089209850062616169452667236328125},"decision_thresholds":{"ad_100pct_completion":{
-"v2-passthrough":0}}},"CMTPI-E8DF00E6":{"performance_targets":{"ad_100pct_completion":0.59999999999999997779553950749686919152736663818359375},"decision_thresholds":[]},"CMTPI-4C74FA64":{"performance_targets":{"ad_100pct_completion":0.59999999999999997779553950749686919152736663818359375},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-20C3B280":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-B036B396":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-4E07F8D4":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.20882584039428364608426136328489519655704498291015625,"v5-passthrough":
-0.307985212585449363853484783248859457671642303466796875}}},"CMTPI-0E4F9A22":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.20790016392434995662341634670156054198741912841796875,"v5-passthrough":0.307985207018609041806911363892140798270702362060546875}}},"CMTPI-7BFDFB83":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-B9A1EE8A":{"performance_targets":{"ad_100pct_completion":0.59999999999999997779553950749686919152736663818359375},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-0677E447":{"performance_targets":{"ad_iab_viewability":0.59999999999999997779553950749686919152736663818359375},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0}}},"CMTPI-5E865311":{"performance_targets":{"ad_100pct_completion":
-0.8000000000000000444089209850062616169452667236328125},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.72359957558515486386596649026614613831043243408203125}}}},"parameters":{"ad_iab_viewability":[{"model_id":"v5-passthrough","version":"3508e2fc","definition":"{\"features\": [{\"name\": \"74b09a7c\", \"transformation\": null}], \"model\": {\"type\": \"passthrough\", \"features\": [\"74b09a7c\"]}}"},{"model_id":"v4","version":"6a6ad9e7","definition":"{\"features\": [{\"name\": \"fcc4038c\", \"transformation\": null}, {\"name\": \"87030160\", \"transformation\": null}, {\"name\": \"019bd2f7\", \"transformation\": null}, {\"name\": \"is_player_viewable\", \"transformation\": null}], \"model\": {\"type\": \"logistic_regression\", \"features\": [\"fcc4038c\", \"87030160\", \"019bd2f7\", \"is_player_viewable\"], \"weights\": [0.10285673316863951, -2.6677654160719304, 4.635920673855511, 1.7722118867997165], \"bias\": -3.30975407677652}}"}],"ad_100pct_completion":[{
-"model_id":"v2-passthrough","version":"2f927e94","definition":"{\"features\": [{\"name\": \"e190d30e\", \"transformation\": null}], \"model\": {\"type\": \"passthrough\", \"features\": [\"e190d30e\"]}}"}]},"metrics":{"domain":[],"media":{"hT4EaVny":{"019bd2f7":0.751179392467704598601585530559532344341278076171875,"2a1d8232":0.72620472753595699533235574563150294125080108642578125,"2e70f54c":0.55290434536336119375476982895634137094020843505859375,"74b09a7c":0.75597771258975121622114556885208003222942352294921875,"e190d30e":0.57973987792947456743064549300470389425754547119140625}},"defaults":{"019bd2f7":0.79575169096052988937373129374464042484760284423828125,"09ac3ac2":0.725823694646134054409003510954789817333221435546875,"2a1d8232":0.75113666671831491594701901703956536948680877685546875,"2e70f54c":0.63962924101604279325528068511630408465862274169921875,"4e636587":0.0661476767807539223209545298232114873826503753662109375,"74b09a7c":0.78776779308049882377673611699719913303852081298828125,
-"86cd6f76":0.00875030229322752185761036258782041841186583042144775390625,"87030160":0,"a68ccb55":0.6086124345690586689983092583133839070796966552734375,"e190d30e":0.743192135397663378171273507177829742431640625,"fcc4038c":0.79084283651751052790501717026927508413791656494140625}}}},"wgJwPlayerUrl":null,"wgPageLanguageHasWordBreaks":!0,"wgRequestInWikiContext":!0,"wgIsFancentralWiki":!1,"isGamepedia":!1,"wgRailModuleList":["Fandom\\FandomDesktop\\Rail\\PopularPagesModuleService"],"wgRailModuleParams":[]};RLSTATE={"site.styles":"ready","noscript":"ready","user.styles":"ready","user.options":"loading","ext.fandom.photoGallery.gallery.css":"ready","ext.fandom.PortableInfoboxFandomDesktop.css":"ready","ext.fandomVideo.css":"ready","ext.cite.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.staffSig.css":"ready","vendor.bootstrap.popover.css":"ready","ext.fandom.bannerNotifications.desktop.css":"ready",
-"ext.fandom.quickBar.css":"ready","ext.fandom.CreatePage.css":"ready","skin.fandomdesktop.FanFeed.css":"ready","ext.fandom.FandomEmbedVideo.css":"ready","ext.fandom.ArticleInterlang.css":"ready","ext.fandom.ArticleVideo.desktopNew.css":"ready","ext.fandom.HighlightToAction.css":"ready","ext.fandom.UserPreferencesV2.css":"ready","ext.fandom.Thumbnails.css":"ready","skin.fandomdesktop.Math.css":"ready","skin.fandomdesktop.CargoTables-ext.css":"ready","skin.fandomdesktop.styles":"ready","ext.fandom.GlobalComponents.GlobalNavigationTheme.default.css":"ready","ext.fandom.GlobalComponents.GlobalComponentsTheme.dark.css":"ready","ext.fandom.GlobalComponents.GlobalNavigation.css":"ready","ext.fandom.GlobalComponents.GlobalFooter.css":"ready","ext.fandom.GlobalComponents.CommunityHeader.css":"ready","ext.fandom.GlobalComponents.StickyNavigation.css":"ready","ext.fandom.GlobalComponents.CommunityHeaderBackground.css":"ready","skin.fandomdesktop.rail.popularPages.css":"ready",
-"skin.fandomdesktop.rail.css":"ready"};RLPAGEMODULES=["ext.fandom.photoGallery.gallery.js","ext.fandom.photoGallery.messages","ext.portableInfoboxFandomDesktop.js","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","ext.fandom.mediaWikiMigrationHooks.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.fandom.FacebookTags.js","ext.fandom.AnalyticsEngine.comscore.js","ext.fandom.AnalyticsEngine.quantcast.js","ext.categorySelect.js","ext.categorySelectFandomDesktop.css","ext.fandom.bannerNotifications.js","ext.fandom.HeartbeatTracking.js","ext.fandom.Track.pageview.js","ext.fandom.wikiaBar.js","ext.fandom.ContentReview.legacyLoaders.js","ext.fandom.ContentReview.jsReload.js","ext.fandom.site","ext.fandom.ImportJs","ext.fandom.ContentReviewTestModeMessages","ext.fandom.UncrawlableUrl.anchors.js","ext.fandom.CreatePage.js","ext.fandom.TimeAgoMessaging.js","ext.fandom.VisitSource.js",
-"ext.fandom.ArticleComments.messages","ext.fandom.ArticleComments.desktop.js","skin.fandomdesktop.FanFeed.js","ext.fandom.FandomEmbedVideo.js","ext.fandom.performanceMonitoring.js","ext.fandom.ArticleVideo.desktopNew.js","ext.fandom.HighlightToAction.js","ext.fandom.ae.babTracking.js","ext.fandom.ae.consentQueue.js","ext.fandom.Thumbnails.js","skin.fandomdesktop.js","skin.fandomdesktop.messages","ext.fandom.GlobalComponents.GlobalNavigation.js","ext.fandom.GlobalComponents.Notifications.messages","ext.fandom.GlobalComponents.SearchModal.messages","ext.fandom.GlobalComponents.GlobalFooter.js","ext.fandom.GlobalComponents.CommunityHeader.js","ext.fandom.GlobalComponents.StickyNavigation.js","skin.fandomdesktop.rail.toggle.js","skin.fandomdesktop.rail.lazyRail.js","ext.fandom.nositenotice.js","ext.fandom.Lightbox.js"];</script>
+"CMTPI-193C6441","CMTPI-20C3B280","CMTPI-298C1144","CMTPI-2CB853D8","CMTPI-2D2E0833","CMTPI-2F9DA9D9","CMTPI-37CB3705","CMTPI-3A3C4C86","CMTPI-40FDC4C8","CMTPI-4965185B","CMTPI-4A5AA9F3","CMTPI-4C74FA64","CMTPI-4E07F8D4","CMTPI-5E865311","CMTPI-677D51D7","CMTPI-690D3851","CMTPI-78A7884B","CMTPI-7A8DB4E0","CMTPI-7BD399CC","CMTPI-7BFDFB83","CMTPI-8809A413","CMTPI-97F654A1","CMTPI-984BCCFF","CMTPI-9F08F74F","CMTPI-AD2B955A","CMTPI-B036B396","CMTPI-B9A1EE8A","CMTPI-BB2E4623","CMTPI-BE2BD257","CMTPI-C01F4CFD","CMTPI-CB9C09B9","CMTPI-D5DE7D9E","CMTPI-D9B15100","CMTPI-DEDBDE36","CMTPI-E8DF00E6","CMTPI-E914FCF7","CMTPI-E9681D0C","CMTPI-F6841FA0"],"variations":[],"Sponsored":"","Person":"","IP":"","Language":"EN","isSponsored":"","Vertical":"","Series":"","Format":""}],"feed_instance_id":"55fb841a-72ab-468c-be50-30375f239a27","jwpseg":{"request_id":"8d5cff56-4fe1-41b0-b879-a48576fa1846","target_profiles":{"CMTPI-AD2B955A":{"performance_targets":{"ad_100pct_completion":0.75,"ad_iab_viewability":
+0.75},"decision_thresholds":{"ad_iab_viewability":{"v4":0.408545918646621208925040491521940566599369049072265625,"v5-passthrough":0.63171973198498843071746478017303161323070526123046875},"ad_100pct_completion":{"v2-passthrough":0.5164236111766007386592036709771491587162017822265625}}},"CMTPI-3A3C4C86":{"performance_targets":{"ad_iab_viewability":0.75},"decision_thresholds":{"ad_iab_viewability":{"v4":0.52533587192222253037243717699311673641204833984375,"v5-passthrough":0.75565820361482760603166752844117581844329833984375}}},"CMTPI-03654CCA":{"performance_targets":{"ad_100pct_completion":0.34999999999999997779553950749686919152736663818359375,"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0},"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-984BCCFF":{"performance_targets":{"ad_100pct_completion":0.8000000000000000444089209850062616169452667236328125},"decision_thresholds":{
+"ad_100pct_completion":{"v2-passthrough":0.68179530727763448805234247629414312541484832763671875}}},"CMTPI-15B606E9":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625,"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0},"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-4965185B":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875,"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.2064535424428114718242710523554706014692783355712890625,"v5-passthrough":0.39394119862369436635418651349027641117572784423828125},"ad_100pct_completion":{"v2-passthrough":0.369285333563893924946341940085403621196746826171875}}},"CMTPI-D9B15100":{"performance_targets":{"ad_iab_viewability":
+0.6999999999999999555910790149937383830547332763671875,"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.206453501554346108282089744534459896385669708251953125,"v5-passthrough":0.39394114992645878903232414813828654587268829345703125},"ad_100pct_completion":{"v2-passthrough":0.369285303079244286994509138821740634739398956298828125}}},"CMTPI-DEDBDE36":{"performance_targets":{"ad_100pct_completion":0.8000000000000000444089209850062616169452667236328125},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.681847518455505063883492766763083636760711669921875}}},"CMTPI-690D3851":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.09588769528603136027555819964618422091007232666015625,"v5-passthrough":0.1992840156324791334174761914255213923752307891845703125}}},"CMTPI-8809A413":{"performance_targets":{
+"ad_iab_viewability":0.75},"decision_thresholds":[]},"CMTPI-F6841FA0":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.1345471260321720874397755096651962958276271820068359375}}},"CMTPI-4A5AA9F3":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.134547132258901969148467969716875813901424407958984375}}},"CMTPI-9F08F74F":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.13454713004789498054236673851846717298030853271484375}}},"CMTPI-2D2E0833":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875,"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},
+"decision_thresholds":{"ad_iab_viewability":{"v4":0.09588768805374259240892342859297059476375579833984375,"v5-passthrough":0.19928405404902738151662333621061407029628753662109375},"ad_100pct_completion":{"v2-passthrough":0.134547130611144039047388787366799078881740570068359375}}},"CMTPI-BE2BD257":{"performance_targets":{"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0}}},"CMTPI-121F4D4C":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875,"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.0821468368508557478246956407019752077758312225341796875,"v5-passthrough":0.1486932732335223550368397127385833300650119781494140625},"ad_100pct_completion":{"v2-passthrough":0.01539815380558300604574295533666372648440301418304443359375}}},"CMTPI-2CB853D8":{"performance_targets":
+{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875,"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.19957651250280450394569697891711257398128509521484375,"v5-passthrough":0.38315924712242621641422601896920241415500640869140625},"ad_100pct_completion":{"v2-passthrough":0.22492520553728656551584208500571548938751220703125}}},"CMTPI-7BD399CC":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875,"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.08214386373981273636868394305565743707120418548583984375,"v5-passthrough":0.1486932605331738044274203502936870791018009185791015625},"ad_100pct_completion":{"v2-passthrough":0.01539815721015388126635681231846319860778748989105224609375}}},"CMTPI-677D51D7":{"performance_targets":{"ad_100pct_completion":
+0.8000000000000000444089209850062616169452667236328125},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.64378573499861391216114725466468371450901031494140625}}},"CMTPI-40FDC4C8":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-193C6441":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625,"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0},"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-BB2E4623":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625,"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0},"ad_100pct_completion":{"v2-passthrough":0}}}
+,"CMTPI-2F9DA9D9":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.334384176786423015226290544887888245284557342529296875}}},"CMTPI-C01F4CFD":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-97F654A1":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.51970103577056703247905034004361368715763092041015625}}},"CMTPI-E914FCF7":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.09588880662051875447549065256680478341877460479736328125,"v5-passthrough":0.1992870195040157554888793356440146453678607940673828125}}},"CMTPI-37CB3705":
+{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":[]},"CMTPI-D5DE7D9E":{"performance_targets":{"ad_100pct_completion":0.75,"ad_iab_viewability":0.75},"decision_thresholds":{"ad_iab_viewability":{"v4":0.4085856093665121147040508731151930987834930419921875,"v5-passthrough":0.63172492905867472234859860691358335316181182861328125},"ad_100pct_completion":{"v2-passthrough":0.5164389741971333602776894622365944087505340576171875}}},"CMTPI-7A8DB4E0":{"performance_targets":{"ad_iab_viewability":0.65000000000000002220446049250313080847263336181640625,"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0},"ad_100pct_completion":{"v2-passthrough":0.334388824683736929355148959075449965894222259521484375}}},"CMTPI-0A5722C5":{"performance_targets":{"ad_100pct_completion":0.6999999999999999555910790149937383830547332763671875},
+"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.364132109484736066207233307068236172199249267578125}}},"CMTPI-298C1144":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-78A7884B":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0.386455523890834540257088747239322401583194732666015625}}},"CMTPI-CB9C09B9":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-E9681D0C":{"performance_targets":{"ad_100pct_completion":0.5500000000000000444089209850062616169452667236328125},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-E8DF00E6":{"performance_targets":{"ad_100pct_completion":
+0.59999999999999997779553950749686919152736663818359375},"decision_thresholds":[]},"CMTPI-4C74FA64":{"performance_targets":{"ad_100pct_completion":0.59999999999999997779553950749686919152736663818359375},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-20C3B280":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-B036B396":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-4E07F8D4":{"performance_targets":{"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.197864653930521494640260016240063123404979705810546875,"v5-passthrough":0.314176313505999171837856920319609344005584716796875}}},"CMTPI-0E4F9A22":{"performance_targets":{
+"ad_iab_viewability":0.6999999999999999555910790149937383830547332763671875},"decision_thresholds":{"ad_iab_viewability":{"v4":0.1970278476380522281186102873107302002608776092529296875,"v5-passthrough":0.3141763082951192220804159660474397242069244384765625}}},"CMTPI-7BFDFB83":{"performance_targets":{"ad_100pct_completion":0.65000000000000002220446049250313080847263336181640625},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-B9A1EE8A":{"performance_targets":{"ad_100pct_completion":0.59999999999999997779553950749686919152736663818359375},"decision_thresholds":{"ad_100pct_completion":{"v2-passthrough":0}}},"CMTPI-0677E447":{"performance_targets":{"ad_iab_viewability":0.59999999999999997779553950749686919152736663818359375},"decision_thresholds":{"ad_iab_viewability":{"v4":0,"v5-passthrough":0}}},"CMTPI-5E865311":{"performance_targets":{"ad_100pct_completion":0.8000000000000000444089209850062616169452667236328125},"decision_thresholds":{"ad_100pct_completion":{
+"v2-passthrough":0.74824947118430829018365102456300519406795501708984375}}}},"parameters":{"ad_iab_viewability":[{"model_id":"v5-passthrough","version":"3508e2fc","definition":"{\"features\": [{\"name\": \"74b09a7c\", \"transformation\": null}], \"model\": {\"type\": \"passthrough\", \"features\": [\"74b09a7c\"]}}"},{"model_id":"v4","version":"9b51a6dd","definition":"{\"features\": [{\"name\": \"fcc4038c\", \"transformation\": null}, {\"name\": \"87030160\", \"transformation\": null}, {\"name\": \"019bd2f7\", \"transformation\": null}, {\"name\": \"is_player_viewable\", \"transformation\": null}], \"model\": {\"type\": \"logistic_regression\", \"features\": [\"fcc4038c\", \"87030160\", \"019bd2f7\", \"is_player_viewable\"], \"weights\": [0.6438990389921903, -2.61174737979965, 3.9072985689104094, 1.2470398180675903], \"bias\": -2.9947087833030213}}"}],"ad_100pct_completion":[{"model_id":"v2-passthrough","version":"2f927e94","definition":
+"{\"features\": [{\"name\": \"e190d30e\", \"transformation\": null}], \"model\": {\"type\": \"passthrough\", \"features\": [\"e190d30e\"]}}"}]},"metrics":{"domain":[],"media":{"hT4EaVny":{"019bd2f7":0.7523443116007226816321917794994078576564788818359375,"2a1d8232":0.727418223004665964737114336458034813404083251953125,"2e70f54c":0.5558694776723636099546865807496942579746246337890625,"74b09a7c":0.7578017003609114343731789631419815123081207275390625,"e190d30e":0.58194334814714421266756971817812882363796234130859375}},"defaults":{"019bd2f7":0.8036484636690317540086425651679746806621551513671875,"09ac3ac2":0.73535806382431923022835462688817642629146575927734375,"2a1d8232":0.76089182415187839314540951818344183266162872314453125,"2e70f54c":0.65108645326535563579994914107373915612697601318359375,"4e636587":0.06593327237045772115653363698584144003689289093017578125,"74b09a7c":0.80235936418666742309113715236890129745006561279296875,"86cd6f76":
+0.0083178057176344181999905202928857761435210704803466796875,"87030160":0,"a68ccb55":0.6196570291221867865516514939372427761554718017578125,"e190d30e":0.7503716018595145698100168374367058277130126953125,"fcc4038c":0.79857142576459949623313150368630886077880859375}}}},"wgJwPlayerUrl":null,"wgPageLanguageHasWordBreaks":!0,"wgRequestInWikiContext":!0,"wgIsFancentralWiki":!1,"isGamepedia":!1,"wgRailModuleList":["Fandom\\FandomDesktop\\Rail\\PopularPagesModuleService"],"wgRailModuleParams":[]};RLSTATE={"site.styles":"ready","noscript":"ready","user.styles":"ready","user.options":"loading","ext.fandom.photoGallery.gallery.css":"ready","ext.fandom.PortableInfoboxFandomDesktop.css":"ready","ext.fandomVideo.css":"ready","ext.cite.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.staffSig.css":"ready","vendor.bootstrap.popover.css":"ready","ext.fandom.bannerNotifications.desktop.css":"ready","ext.fandom.quickBar.css":
+"ready","ext.fandom.CreatePage.css":"ready","skin.fandomdesktop.FanFeed.css":"ready","ext.fandom.FandomEmbedVideo.css":"ready","ext.fandom.ArticleInterlang.css":"ready","ext.fandom.ArticleVideo.desktopNew.css":"ready","ext.fandom.HighlightToAction.css":"ready","ext.fandom.UserPreferencesV2.css":"ready","ext.fandom.Thumbnails.css":"ready","skin.fandomdesktop.Math.css":"ready","skin.fandomdesktop.CargoTables-ext.css":"ready","skin.fandomdesktop.styles":"ready","ext.fandom.GlobalComponents.GlobalNavigationTheme.default.css":"ready","ext.fandom.GlobalComponents.GlobalComponentsTheme.dark.css":"ready","ext.fandom.GlobalComponents.GlobalNavigation.css":"ready","ext.fandom.GlobalComponents.GlobalFooter.css":"ready","ext.fandom.GlobalComponents.CommunityHeader.css":"ready","ext.fandom.GlobalComponents.StickyNavigation.css":"ready","ext.fandom.GlobalComponents.CommunityHeaderBackground.css":"ready","skin.fandomdesktop.rail.popularPages.css":"ready","skin.fandomdesktop.rail.css":"ready"};
+RLPAGEMODULES=["ext.fandom.photoGallery.gallery.js","ext.fandom.photoGallery.messages","ext.portableInfoboxFandomDesktop.js","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","ext.fandom.mediaWikiMigrationHooks.js","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.fandom.FacebookTags.js","ext.fandom.AnalyticsEngine.comscore.js","ext.fandom.AnalyticsEngine.quantcast.js","ext.categorySelect.js","ext.categorySelectFandomDesktop.css","ext.fandom.bannerNotifications.js","ext.fandom.HeartbeatTracking.js","ext.fandom.Track.pageview.js","ext.fandom.wikiaBar.js","ext.fandom.ContentReview.legacyLoaders.js","ext.fandom.ContentReview.jsReload.js","ext.fandom.site","ext.fandom.ImportJs","ext.fandom.ContentReviewTestModeMessages","ext.fandom.UncrawlableUrl.anchors.js","ext.fandom.CreatePage.js","ext.fandom.TimeAgoMessaging.js","ext.fandom.VisitSource.js","ext.fandom.ArticleComments.messages",
+"ext.fandom.ArticleComments.desktop.js","skin.fandomdesktop.FanFeed.js","ext.fandom.FandomEmbedVideo.js","ext.fandom.performanceMonitoring.js","ext.fandom.ArticleVideo.desktopNew.js","ext.fandom.HighlightToAction.js","ext.fandom.ae.babTracking.js","ext.fandom.ae.consentQueue.js","ext.fandom.Thumbnails.js","skin.fandomdesktop.js","skin.fandomdesktop.messages","ext.fandom.GlobalComponents.GlobalNavigation.js","ext.fandom.GlobalComponents.Notifications.messages","ext.fandom.GlobalComponents.SearchModal.messages","ext.fandom.GlobalComponents.GlobalFooter.js","ext.fandom.GlobalComponents.CommunityHeader.js","ext.fandom.GlobalComponents.StickyNavigation.js","skin.fandomdesktop.rail.toggle.js","skin.fandomdesktop.rail.lazyRail.js","ext.fandom.nositenotice.js","ext.fandom.Lightbox.js"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 });});</script>
 <link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.fandom.ArticleInterlang.css%7Cext.fandom.ArticleVideo.desktopNew.css%7Cext.fandom.CreatePage.css%7Cext.fandom.FandomEmbedVideo.css%7Cext.fandom.GlobalComponents.CommunityHeader.css%7Cext.fandom.GlobalComponents.CommunityHeaderBackground.css%7Cext.fandom.GlobalComponents.GlobalComponentsTheme.dark.css%7Cext.fandom.GlobalComponents.GlobalFooter.css%7Cext.fandom.GlobalComponents.GlobalNavigation.css%7Cext.fandom.GlobalComponents.GlobalNavigationTheme.default.css%7Cext.fandom.GlobalComponents.StickyNavigation.css%7Cext.fandom.HighlightToAction.css%7Cext.fandom.PortableInfoboxFandomDesktop.css%7Cext.fandom.Thumbnails.css%7Cext.fandom.UserPreferencesV2.css%7Cext.fandom.bannerNotifications.desktop.css%7Cext.fandom.photoGallery.gallery.css%7Cext.fandom.quickBar.css%7Cext.fandomVideo.css%7Cext.staffSig.css%7Cext.visualEditor.desktopArticleTarget.noscript%7Cjquery.makeCollapsible.styles%7Cskin.fandomdesktop.CargoTables-ext.css%7Cskin.fandomdesktop.FanFeed.css%7Cskin.fandomdesktop.Math.css%7Cskin.fandomdesktop.rail.css%7Cskin.fandomdesktop.rail.popularPages.css%7Cskin.fandomdesktop.styles%7Cvendor.bootstrap.popover.css&amp;only=styles&amp;skin=fandomdesktop"/>
-<script async="" src="/load.php?cb=20221225235615&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=fandomdesktop"></script>
+<script async="" src="/load.php?cb=20221227132325&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=fandomdesktop"></script>
 <meta name="ResourceLoaderDynamicStyles" content=""/>
 <link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=fandomdesktop"/>
 <meta name="generator" content="MediaWiki 1.37.6"/>
@@ -53,7 +53,7 @@
 <meta name="twitter:description" content="Hamayumi (Japanese: 破は魔まの 弓ゆみ Hama no Yumi) is an Inazuma bow. The diagram can be obtained as a reward for opening one of Takashi&#039;s chests after giving him three Mysterious Conches for seven days..."/>
 <meta name="description" content="Hamayumi (Japanese: 破は魔まの 弓ゆみ Hama no Yumi) is an Inazuma bow. The diagram can be obtained as a reward for opening one of Takashi&#039;s chests after giving him three Mysterious Conches for seven days. Obtaining this weapon&#039;s diagram awards the Wonders of the World achievement &quot;Thank You, Come..."/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0"/>
-<link href="/wikia.php?controller=ThemeApi&amp;method=themeVariables&amp;cityId=2025468&amp;version=1672062687" rel="stylesheet"/>
+<link href="/wikia.php?controller=ThemeApi&amp;method=themeVariables&amp;cityId=2025468&amp;version=1672218796" rel="stylesheet"/>
 <link rel="shortcut icon" href="https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Site-favicon.ico/revision/latest?cb=20211203165954"/>
 <link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Genshin Impact Wiki (en)"/>
 <link rel="EditURI" type="application/rsd+xml" href="https://genshin-impact.fandom.com/api.php?action=rsd"/>
@@ -202,7 +202,7 @@
 						
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
-				<a href="http://genshin-impact.fandom.com/wiki/Character"
+				<a href="https://genshin-impact.fandom.com/wiki/Character"
 				   data-tracking="custom-level-1"
 									>
 										<span>Characters</span>
@@ -212,7 +212,7 @@
 					<ul class="wds-list wds-is-linked">
 													
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Playable_Characters"
+			<a href="https://genshin-impact.fandom.com/wiki/Playable_Characters"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -222,7 +222,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Traveler"
+			<a href="https://genshin-impact.fandom.com/wiki/Traveler"
 			   data-tracking="custom-level-3"
 							>
 								<span>Traveler</span>
@@ -230,7 +230,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Amber"
+			<a href="https://genshin-impact.fandom.com/wiki/Amber"
 			   data-tracking="custom-level-3"
 							>
 								<span>Amber</span>
@@ -238,7 +238,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Lisa"
+			<a href="https://genshin-impact.fandom.com/wiki/Lisa"
 			   data-tracking="custom-level-3"
 							>
 								<span>Lisa</span>
@@ -246,7 +246,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Kaeya"
+			<a href="https://genshin-impact.fandom.com/wiki/Kaeya"
 			   data-tracking="custom-level-3"
 							>
 								<span>Kaeya</span>
@@ -254,7 +254,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character/List"
+			<a href="https://genshin-impact.fandom.com/wiki/Character/List"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character List</span>
@@ -265,7 +265,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Version_3.3"
+			<a href="https://genshin-impact.fandom.com/wiki/Version_3.3"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -275,7 +275,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Wanderer"
+			<a href="https://genshin-impact.fandom.com/wiki/Wanderer"
 			   data-tracking="custom-level-3"
 							>
 								<span>Wanderer</span>
@@ -283,7 +283,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Arataki_Itto"
+			<a href="https://genshin-impact.fandom.com/wiki/Arataki_Itto"
 			   data-tracking="custom-level-3"
 							>
 								<span>Arataki Itto</span>
@@ -291,7 +291,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Raiden_Shogun"
+			<a href="https://genshin-impact.fandom.com/wiki/Raiden_Shogun"
 			   data-tracking="custom-level-3"
 							>
 								<span>Raiden Shogun</span>
@@ -299,7 +299,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Kamisato_Ayato"
+			<a href="https://genshin-impact.fandom.com/wiki/Kamisato_Ayato"
 			   data-tracking="custom-level-3"
 							>
 								<span>Kamisato Ayato</span>
@@ -307,7 +307,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Faruzan"
+			<a href="https://genshin-impact.fandom.com/wiki/Faruzan"
 			   data-tracking="custom-level-3"
 							>
 								<span>Faruzan</span>
@@ -318,7 +318,7 @@
 		</li>
 														
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character/Comparison"
+			<a href="https://genshin-impact.fandom.com/wiki/Character/Comparison"
 			   data-tracking="custom-level-2"
 							>
 								<span>Character Comparison</span>
@@ -326,7 +326,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/NPC"
+			<a href="https://genshin-impact.fandom.com/wiki/NPC"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -336,7 +336,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Paimon"
+			<a href="https://genshin-impact.fandom.com/wiki/Paimon"
 			   data-tracking="custom-level-3"
 							>
 								<span>Paimon</span>
@@ -344,7 +344,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Katheryne"
+			<a href="https://genshin-impact.fandom.com/wiki/Katheryne"
 			   data-tracking="custom-level-3"
 							>
 								<span>Katheryne</span>
@@ -352,7 +352,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Unknown_God"
+			<a href="https://genshin-impact.fandom.com/wiki/Unknown_God"
 			   data-tracking="custom-level-3"
 							>
 								<span>Unknown God</span>
@@ -360,7 +360,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Notable_NPCs"
+			<a href="https://genshin-impact.fandom.com/wiki/Notable_NPCs"
 			   data-tracking="custom-level-3"
 							>
 								<span>Notable NPCs</span>
@@ -371,7 +371,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Factions"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Factions"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -381,7 +381,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/The_Seven"
+			<a href="https://genshin-impact.fandom.com/wiki/The_Seven"
 			   data-tracking="custom-level-3"
 							>
 								<span>The Seven</span>
@@ -389,7 +389,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Adventurers%27_Guild"
+			<a href="https://genshin-impact.fandom.com/wiki/Adventurers%27_Guild"
 			   data-tracking="custom-level-3"
 							>
 								<span>Adventurers' Guild</span>
@@ -397,7 +397,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Knights_of_Favonius"
+			<a href="https://genshin-impact.fandom.com/wiki/Knights_of_Favonius"
 			   data-tracking="custom-level-3"
 							>
 								<span>Knights of Favonius</span>
@@ -405,7 +405,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Liyue_Qixing"
+			<a href="https://genshin-impact.fandom.com/wiki/Liyue_Qixing"
 			   data-tracking="custom-level-3"
 							>
 								<span>Liyue Qixing</span>
@@ -413,7 +413,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Inazuma_Shogunate"
+			<a href="https://genshin-impact.fandom.com/wiki/Inazuma_Shogunate"
 			   data-tracking="custom-level-3"
 							>
 								<span>Inazuma Shogunate</span>
@@ -421,7 +421,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Sumeru_Akademiya"
+			<a href="https://genshin-impact.fandom.com/wiki/Sumeru_Akademiya"
 			   data-tracking="custom-level-3"
 							>
 								<span>Sumeru Akademiya</span>
@@ -429,7 +429,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Fatui"
+			<a href="https://genshin-impact.fandom.com/wiki/Fatui"
 			   data-tracking="custom-level-3"
 							>
 								<span>Fatui</span>
@@ -440,7 +440,7 @@
 		</li>
 														
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Voice_Actor"
+			<a href="https://genshin-impact.fandom.com/wiki/Voice_Actor"
 			   data-tracking="custom-level-2"
 							>
 								<span>Voice Actors</span>
@@ -448,7 +448,7 @@
 		</li>
 														
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Birthday"
+			<a href="https://genshin-impact.fandom.com/wiki/Birthday"
 			   data-tracking="custom-level-2"
 							>
 								<span>Birthdays</span>
@@ -470,7 +470,7 @@
 					<ul class="wds-list wds-is-linked">
 													
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Teyvat"
+			<a href="https://genshin-impact.fandom.com/wiki/Teyvat"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -480,7 +480,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Mondstadt"
+			<a href="https://genshin-impact.fandom.com/wiki/Mondstadt"
 			   data-tracking="custom-level-3"
 							>
 								<span>Mondstadt</span>
@@ -488,7 +488,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Liyue"
+			<a href="https://genshin-impact.fandom.com/wiki/Liyue"
 			   data-tracking="custom-level-3"
 							>
 								<span>Liyue</span>
@@ -496,7 +496,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Inazuma"
+			<a href="https://genshin-impact.fandom.com/wiki/Inazuma"
 			   data-tracking="custom-level-3"
 							>
 								<span>Inazuma</span>
@@ -504,7 +504,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Sumeru"
+			<a href="https://genshin-impact.fandom.com/wiki/Sumeru"
 			   data-tracking="custom-level-3"
 							>
 								<span>Sumeru</span>
@@ -512,7 +512,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Fontaine"
+			<a href="https://genshin-impact.fandom.com/wiki/Fontaine"
 			   data-tracking="custom-level-3"
 							>
 								<span>Fontaine</span>
@@ -520,7 +520,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Natlan"
+			<a href="https://genshin-impact.fandom.com/wiki/Natlan"
 			   data-tracking="custom-level-3"
 							>
 								<span>Natlan</span>
@@ -528,7 +528,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Snezhnaya"
+			<a href="https://genshin-impact.fandom.com/wiki/Snezhnaya"
 			   data-tracking="custom-level-3"
 							>
 								<span>Snezhnaya</span>
@@ -536,7 +536,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Khaenri%27ah"
+			<a href="https://genshin-impact.fandom.com/wiki/Khaenri%27ah"
 			   data-tracking="custom-level-3"
 							>
 								<span>Khaenri'ah</span>
@@ -547,7 +547,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Lore"
+			<a href="https://genshin-impact.fandom.com/wiki/Lore"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -557,7 +557,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Timeline"
+			<a href="https://genshin-impact.fandom.com/wiki/Timeline"
 			   data-tracking="custom-level-3"
 							>
 								<span>Timeline</span>
@@ -565,7 +565,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Manga"
+			<a href="https://genshin-impact.fandom.com/wiki/Manga"
 			   data-tracking="custom-level-3"
 							>
 								<span>Manga</span>
@@ -573,7 +573,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Language"
+			<a href="https://genshin-impact.fandom.com/wiki/Language"
 			   data-tracking="custom-level-3"
 							>
 								<span>Languages</span>
@@ -581,7 +581,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Book"
+			<a href="https://genshin-impact.fandom.com/wiki/Book"
 			   data-tracking="custom-level-3"
 							>
 								<span>Books</span>
@@ -589,7 +589,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Soundtrack"
+			<a href="https://genshin-impact.fandom.com/wiki/Soundtrack"
 			   data-tracking="custom-level-3"
 							>
 								<span>Soundtrack</span>
@@ -597,7 +597,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Comics"
+			<a href="https://genshin-impact.fandom.com/wiki/Comics"
 			   data-tracking="custom-level-3"
 							>
 								<span>Comics</span>
@@ -608,7 +608,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/Quest"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -618,7 +618,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Archon_Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/Archon_Quest"
 			   data-tracking="custom-level-3"
 							>
 								<span>Archon Quests</span>
@@ -626,7 +626,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Story_Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/Story_Quest"
 			   data-tracking="custom-level-3"
 							>
 								<span>Story Quests</span>
@@ -634,7 +634,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/World_Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/World_Quest"
 			   data-tracking="custom-level-3"
 							>
 								<span>World Quests</span>
@@ -642,7 +642,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Commission"
+			<a href="https://genshin-impact.fandom.com/wiki/Commission"
 			   data-tracking="custom-level-3"
 							>
 								<span>Commissions</span>
@@ -650,7 +650,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Hangout_Event"
+			<a href="https://genshin-impact.fandom.com/wiki/Hangout_Event"
 			   data-tracking="custom-level-3"
 							>
 								<span>Hangout Events</span>
@@ -658,7 +658,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Event_Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/Event_Quest"
 			   data-tracking="custom-level-3"
 							>
 								<span>Event Quests</span>
@@ -669,7 +669,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Event"
+			<a href="https://genshin-impact.fandom.com/wiki/Event"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -679,7 +679,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Version"
+			<a href="https://genshin-impact.fandom.com/wiki/Version"
 			   data-tracking="custom-level-3"
 							>
 								<span>Version</span>
@@ -687,7 +687,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:In-Game_Events"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:In-Game_Events"
 			   data-tracking="custom-level-3"
 							>
 								<span>In-Game Events</span>
@@ -695,7 +695,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Login_Events"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Login_Events"
 			   data-tracking="custom-level-3"
 							>
 								<span>Login Events</span>
@@ -703,7 +703,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Flagship_Event"
+			<a href="https://genshin-impact.fandom.com/wiki/Flagship_Event"
 			   data-tracking="custom-level-3"
 							>
 								<span>Flagship Events</span>
@@ -711,7 +711,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Web_Events"
+			<a href="https://genshin-impact.fandom.com/wiki/Web_Events"
 			   data-tracking="custom-level-3"
 							>
 								<span>Web Events</span>
@@ -719,7 +719,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Event_History"
+			<a href="https://genshin-impact.fandom.com/wiki/Event_History"
 			   data-tracking="custom-level-3"
 							>
 								<span>Event History</span>
@@ -740,7 +740,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Domain"
+			<a href="https://genshin-impact.fandom.com/wiki/Domain"
 			   data-tracking="custom-level-3"
 							>
 								<span>Domains</span>
@@ -748,7 +748,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Ley_Line_Outcrop"
+			<a href="https://genshin-impact.fandom.com/wiki/Ley_Line_Outcrop"
 			   data-tracking="custom-level-3"
 							>
 								<span>Ley Line Outcrops</span>
@@ -756,7 +756,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Expedition"
+			<a href="https://genshin-impact.fandom.com/wiki/Expedition"
 			   data-tracking="custom-level-3"
 							>
 								<span>Expeditions</span>
@@ -764,7 +764,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Spiral_Abyss"
+			<a href="https://genshin-impact.fandom.com/wiki/Spiral_Abyss"
 			   data-tracking="custom-level-3"
 							>
 								<span>Spiral Abyss</span>
@@ -775,7 +775,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Enemy"
+			<a href="https://genshin-impact.fandom.com/wiki/Enemy"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -785,7 +785,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Common_Enemy"
+			<a href="https://genshin-impact.fandom.com/wiki/Common_Enemy"
 			   data-tracking="custom-level-3"
 							>
 								<span>Common Enemies</span>
@@ -793,7 +793,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Elite_Enemy"
+			<a href="https://genshin-impact.fandom.com/wiki/Elite_Enemy"
 			   data-tracking="custom-level-3"
 							>
 								<span>Elite Enemies</span>
@@ -801,7 +801,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Normal_Boss"
+			<a href="https://genshin-impact.fandom.com/wiki/Normal_Boss"
 			   data-tracking="custom-level-3"
 							>
 								<span>Normal Bosses</span>
@@ -809,7 +809,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Weekly_Boss"
+			<a href="https://genshin-impact.fandom.com/wiki/Weekly_Boss"
 			   data-tracking="custom-level-3"
 							>
 								<span>Weekly Bosses</span>
@@ -817,7 +817,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Wildlife"
+			<a href="https://genshin-impact.fandom.com/wiki/Wildlife"
 			   data-tracking="custom-level-3"
 							>
 								<span>Wildlife</span>
@@ -828,7 +828,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Shop"
+			<a href="https://genshin-impact.fandom.com/wiki/Shop"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -838,7 +838,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Gift_Shop"
+			<a href="https://genshin-impact.fandom.com/wiki/Gift_Shop"
 			   data-tracking="custom-level-3"
 							>
 								<span>Gift Shop</span>
@@ -846,7 +846,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Paimon%27s_Bargains"
+			<a href="https://genshin-impact.fandom.com/wiki/Paimon%27s_Bargains"
 			   data-tracking="custom-level-3"
 							>
 								<span>Paimon's Bargains</span>
@@ -854,7 +854,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Souvenir_Shop"
+			<a href="https://genshin-impact.fandom.com/wiki/Souvenir_Shop"
 			   data-tracking="custom-level-3"
 							>
 								<span>Souvenir Shop</span>
@@ -869,7 +869,7 @@
 						
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
-				<a href="http://genshin-impact.fandom.com/wiki/Item"
+				<a href="https://genshin-impact.fandom.com/wiki/Item"
 				   data-tracking="custom-level-1"
 									>
 										<span>Items</span>
@@ -879,7 +879,7 @@
 					<ul class="wds-list wds-is-linked">
 													
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Weapon"
+			<a href="https://genshin-impact.fandom.com/wiki/Weapon"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -889,7 +889,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Bow"
+			<a href="https://genshin-impact.fandom.com/wiki/Bow"
 			   data-tracking="custom-level-3"
 							>
 								<span>Bows</span>
@@ -897,7 +897,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Catalyst"
+			<a href="https://genshin-impact.fandom.com/wiki/Catalyst"
 			   data-tracking="custom-level-3"
 							>
 								<span>Catalysts</span>
@@ -905,7 +905,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Claymore"
+			<a href="https://genshin-impact.fandom.com/wiki/Claymore"
 			   data-tracking="custom-level-3"
 							>
 								<span>Claymores</span>
@@ -913,7 +913,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Polearm"
+			<a href="https://genshin-impact.fandom.com/wiki/Polearm"
 			   data-tracking="custom-level-3"
 							>
 								<span>Polearms</span>
@@ -921,7 +921,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Sword"
+			<a href="https://genshin-impact.fandom.com/wiki/Sword"
 			   data-tracking="custom-level-3"
 							>
 								<span>Swords</span>
@@ -929,7 +929,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Weapon_Enhancement_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Weapon_Enhancement_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Weapon Enhancement Materials</span>
@@ -940,7 +940,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Artifact"
+			<a href="https://genshin-impact.fandom.com/wiki/Artifact"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -950,7 +950,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Artifact/Sets"
+			<a href="https://genshin-impact.fandom.com/wiki/Artifact/Sets"
 			   data-tracking="custom-level-3"
 							>
 								<span>Artifact Sets</span>
@@ -958,7 +958,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Artifact_EXP"
+			<a href="https://genshin-impact.fandom.com/wiki/Artifact_EXP"
 			   data-tracking="custom-level-3"
 							>
 								<span>Artifact EXP</span>
@@ -969,7 +969,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Character_Development_Item"
+			<a href="https://genshin-impact.fandom.com/wiki/Character_Development_Item"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -979,7 +979,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Character_EXP_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Character_EXP_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character EXP Materials</span>
@@ -987,7 +987,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character_Ascension_Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Character_Ascension_Material"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character Ascension Materials</span>
@@ -995,7 +995,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Common_Ascension_Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Common_Ascension_Material"
 			   data-tracking="custom-level-3"
 							>
 								<span>Common Ascension Materials</span>
@@ -1003,7 +1003,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Refinement_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Refinement_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Refinement Materials</span>
@@ -1011,7 +1011,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Talent_Level-Up_Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Talent_Level-Up_Material"
 			   data-tracking="custom-level-3"
 							>
 								<span>Talent Level-Up Materials</span>
@@ -1019,7 +1019,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Weapon_Ascension_Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Weapon_Ascension_Material"
 			   data-tracking="custom-level-3"
 							>
 								<span>Weapon Ascension Materials</span>
@@ -1030,7 +1030,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Material"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -1040,7 +1040,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Local_Specialty"
+			<a href="https://genshin-impact.fandom.com/wiki/Local_Specialty"
 			   data-tracking="custom-level-3"
 							>
 								<span>Local Specialties</span>
@@ -1048,7 +1048,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Cooking_Ingredients"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Cooking_Ingredients"
 			   data-tracking="custom-level-3"
 							>
 								<span>Cooking Ingredients</span>
@@ -1056,7 +1056,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Forging_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Forging_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Forging Materials</span>
@@ -1064,7 +1064,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Furnishing_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Furnishing_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Furnishing Materials</span>
@@ -1072,7 +1072,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Gardening_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Gardening_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Gardening Materials</span>
@@ -1083,7 +1083,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Consumables"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Consumables"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -1093,7 +1093,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Food"
+			<a href="https://genshin-impact.fandom.com/wiki/Food"
 			   data-tracking="custom-level-3"
 							>
 								<span>Food</span>
@@ -1101,7 +1101,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Potion"
+			<a href="https://genshin-impact.fandom.com/wiki/Potion"
 			   data-tracking="custom-level-3"
 							>
 								<span>Potions</span>
@@ -1112,7 +1112,7 @@
 		</li>
 														
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Gadget"
+			<a href="https://genshin-impact.fandom.com/wiki/Gadget"
 			   data-tracking="custom-level-2"
 							>
 								<span>Gadgets </span>
@@ -1130,7 +1130,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Original_Resin"
+			<a href="https://genshin-impact.fandom.com/wiki/Original_Resin"
 			   data-tracking="custom-level-3"
 							>
 								<span>Original Resin</span>
@@ -1138,7 +1138,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Namecard"
+			<a href="https://genshin-impact.fandom.com/wiki/Namecard"
 			   data-tracking="custom-level-3"
 							>
 								<span>Namecards</span>
@@ -1146,7 +1146,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Bundles"
+			<a href="https://genshin-impact.fandom.com/wiki/Bundles"
 			   data-tracking="custom-level-3"
 							>
 								<span>Bundles</span>
@@ -1154,7 +1154,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Currency"
+			<a href="https://genshin-impact.fandom.com/wiki/Currency"
 			   data-tracking="custom-level-3"
 							>
 								<span>Currencies</span>
@@ -1162,7 +1162,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Quest_Item"
+			<a href="https://genshin-impact.fandom.com/wiki/Quest_Item"
 			   data-tracking="custom-level-3"
 							>
 								<span>Quest Items</span>
@@ -1170,7 +1170,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Event_Item"
+			<a href="https://genshin-impact.fandom.com/wiki/Event_Item"
 			   data-tracking="custom-level-3"
 							>
 								<span>Event Items</span>
@@ -1178,7 +1178,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Precious_Item"
+			<a href="https://genshin-impact.fandom.com/wiki/Precious_Item"
 			   data-tracking="custom-level-3"
 							>
 								<span>Precious Items</span>
@@ -1186,7 +1186,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Furnishing"
+			<a href="https://genshin-impact.fandom.com/wiki/Furnishing"
 			   data-tracking="custom-level-3"
 							>
 								<span>Furnishings</span>
@@ -1211,7 +1211,7 @@
 					<ul class="wds-list wds-is-linked">
 													
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Combat"
+			<a href="https://genshin-impact.fandom.com/wiki/Combat"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -1221,7 +1221,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Attribute"
+			<a href="https://genshin-impact.fandom.com/wiki/Attribute"
 			   data-tracking="custom-level-3"
 							>
 								<span>Attributes</span>
@@ -1229,7 +1229,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Element"
+			<a href="https://genshin-impact.fandom.com/wiki/Element"
 			   data-tracking="custom-level-3"
 							>
 								<span>Elements</span>
@@ -1237,7 +1237,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Elemental_Reaction"
+			<a href="https://genshin-impact.fandom.com/wiki/Elemental_Reaction"
 			   data-tracking="custom-level-3"
 							>
 								<span>Elemental Reactions</span>
@@ -1245,7 +1245,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Talent"
+			<a href="https://genshin-impact.fandom.com/wiki/Talent"
 			   data-tracking="custom-level-3"
 							>
 								<span>Talents</span>
@@ -1253,7 +1253,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Constellation"
+			<a href="https://genshin-impact.fandom.com/wiki/Constellation"
 			   data-tracking="custom-level-3"
 							>
 								<span>Constellations</span>
@@ -1264,7 +1264,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Progression"
+			<a href="https://genshin-impact.fandom.com/wiki/Progression"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -1274,7 +1274,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Adventure_Rank"
+			<a href="https://genshin-impact.fandom.com/wiki/Adventure_Rank"
 			   data-tracking="custom-level-3"
 							>
 								<span>Adventure Rank</span>
@@ -1282,7 +1282,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character_Experience"
+			<a href="https://genshin-impact.fandom.com/wiki/Character_Experience"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character Experience</span>
@@ -1290,7 +1290,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Adventurer_Handbook"
+			<a href="https://genshin-impact.fandom.com/wiki/Adventurer_Handbook"
 			   data-tracking="custom-level-3"
 							>
 								<span>Adventurer Handbook</span>
@@ -1298,7 +1298,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Achievement"
+			<a href="https://genshin-impact.fandom.com/wiki/Achievement"
 			   data-tracking="custom-level-3"
 							>
 								<span>Achievements</span>
@@ -1306,7 +1306,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Reputation"
+			<a href="https://genshin-impact.fandom.com/wiki/Reputation"
 			   data-tracking="custom-level-3"
 							>
 								<span>Reputation</span>
@@ -1314,7 +1314,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Offering_System"
+			<a href="https://genshin-impact.fandom.com/wiki/Offering_System"
 			   data-tracking="custom-level-3"
 							>
 								<span>Offerings</span>
@@ -1322,7 +1322,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Serenitea_Pot"
+			<a href="https://genshin-impact.fandom.com/wiki/Serenitea_Pot"
 			   data-tracking="custom-level-3"
 							>
 								<span>Serenitea Pot</span>
@@ -1330,7 +1330,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG"
+			<a href="https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG"
 			   data-tracking="custom-level-3"
 							>
 								<span>Genius Invokation TCG</span>
@@ -1341,7 +1341,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Exploration"
+			<a href="https://genshin-impact.fandom.com/wiki/Exploration"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -1351,7 +1351,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Statue_of_The_Seven"
+			<a href="https://genshin-impact.fandom.com/wiki/Statue_of_The_Seven"
 			   data-tracking="custom-level-3"
 							>
 								<span>Statue of The Seven</span>
@@ -1359,7 +1359,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Oculi"
+			<a href="https://genshin-impact.fandom.com/wiki/Oculi"
 			   data-tracking="custom-level-3"
 							>
 								<span>Oculi</span>
@@ -1367,7 +1367,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Shrine_of_Depths"
+			<a href="https://genshin-impact.fandom.com/wiki/Shrine_of_Depths"
 			   data-tracking="custom-level-3"
 							>
 								<span>Shrines of Depths</span>
@@ -1375,7 +1375,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Teleport_Waypoint"
+			<a href="https://genshin-impact.fandom.com/wiki/Teleport_Waypoint"
 			   data-tracking="custom-level-3"
 							>
 								<span>Teleport Waypoints</span>
@@ -1383,7 +1383,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Map"
+			<a href="https://genshin-impact.fandom.com/wiki/Map"
 			   data-tracking="custom-level-3"
 							>
 								<span>Map</span>
@@ -1391,7 +1391,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Fishing"
+			<a href="https://genshin-impact.fandom.com/wiki/Fishing"
 			   data-tracking="custom-level-3"
 							>
 								<span>Fishing</span>
@@ -1402,7 +1402,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Monetization"
+			<a href="https://genshin-impact.fandom.com/wiki/Monetization"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -1412,7 +1412,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Wish"
+			<a href="https://genshin-impact.fandom.com/wiki/Wish"
 			   data-tracking="custom-level-3"
 							>
 								<span>Wishes</span>
@@ -1420,7 +1420,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Primogem"
+			<a href="https://genshin-impact.fandom.com/wiki/Primogem"
 			   data-tracking="custom-level-3"
 							>
 								<span>Primogems</span>
@@ -1428,7 +1428,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Genesis_Crystal"
+			<a href="https://genshin-impact.fandom.com/wiki/Genesis_Crystal"
 			   data-tracking="custom-level-3"
 							>
 								<span>Genesis Crystal</span>
@@ -1436,7 +1436,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Battle_Pass"
+			<a href="https://genshin-impact.fandom.com/wiki/Battle_Pass"
 			   data-tracking="custom-level-3"
 							>
 								<span>Battle Pass</span>
@@ -1444,7 +1444,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Blessing_of_the_Welkin_Moon"
+			<a href="https://genshin-impact.fandom.com/wiki/Blessing_of_the_Welkin_Moon"
 			   data-tracking="custom-level-3"
 							>
 								<span>Blessing of the Welkin Moon</span>
@@ -1452,7 +1452,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character_Outfit"
+			<a href="https://genshin-impact.fandom.com/wiki/Character_Outfit"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character Outfits</span>
@@ -1473,7 +1473,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Alchemy"
+			<a href="https://genshin-impact.fandom.com/wiki/Alchemy"
 			   data-tracking="custom-level-3"
 							>
 								<span>Alchemy</span>
@@ -1481,7 +1481,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Creation"
+			<a href="https://genshin-impact.fandom.com/wiki/Creation"
 			   data-tracking="custom-level-3"
 							>
 								<span>Creation</span>
@@ -1489,7 +1489,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Cooking"
+			<a href="https://genshin-impact.fandom.com/wiki/Cooking"
 			   data-tracking="custom-level-3"
 							>
 								<span>Cooking</span>
@@ -1497,7 +1497,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Forging"
+			<a href="https://genshin-impact.fandom.com/wiki/Forging"
 			   data-tracking="custom-level-3"
 							>
 								<span>Forging</span>
@@ -1505,7 +1505,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Processing"
+			<a href="https://genshin-impact.fandom.com/wiki/Processing"
 			   data-tracking="custom-level-3"
 							>
 								<span>Processing</span>
@@ -1516,7 +1516,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Game_System"
+			<a href="https://genshin-impact.fandom.com/wiki/Game_System"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -1526,7 +1526,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Account"
+			<a href="https://genshin-impact.fandom.com/wiki/Account"
 			   data-tracking="custom-level-3"
 							>
 								<span>Account</span>
@@ -1534,7 +1534,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Archive"
+			<a href="https://genshin-impact.fandom.com/wiki/Archive"
 			   data-tracking="custom-level-3"
 							>
 								<span>Archive</span>
@@ -1542,7 +1542,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Co-Op_Mode"
+			<a href="https://genshin-impact.fandom.com/wiki/Co-Op_Mode"
 			   data-tracking="custom-level-3"
 							>
 								<span>Co-Op Mode</span>
@@ -1550,7 +1550,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Controls"
+			<a href="https://genshin-impact.fandom.com/wiki/Controls"
 			   data-tracking="custom-level-3"
 							>
 								<span>Controls</span>
@@ -1558,7 +1558,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Friend"
+			<a href="https://genshin-impact.fandom.com/wiki/Friend"
 			   data-tracking="custom-level-3"
 							>
 								<span>Friends </span>
@@ -1566,7 +1566,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Inventory"
+			<a href="https://genshin-impact.fandom.com/wiki/Inventory"
 			   data-tracking="custom-level-3"
 							>
 								<span>Inventory</span>
@@ -1574,7 +1574,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Profile"
+			<a href="https://genshin-impact.fandom.com/wiki/Profile"
 			   data-tracking="custom-level-3"
 							>
 								<span>Profile</span>
@@ -1582,7 +1582,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Settings"
+			<a href="https://genshin-impact.fandom.com/wiki/Settings"
 			   data-tracking="custom-level-3"
 							>
 								<span>Settings</span>
@@ -1590,7 +1590,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Tutorial"
+			<a href="https://genshin-impact.fandom.com/wiki/Tutorial"
 			   data-tracking="custom-level-3"
 							>
 								<span>Tutorials</span>
@@ -1601,7 +1601,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Community"
+			<a href="https://genshin-impact.fandom.com/wiki/Community"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -1611,7 +1611,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Genshin_Impact"
+			<a href="https://genshin-impact.fandom.com/wiki/Genshin_Impact"
 			   data-tracking="custom-level-3"
 							>
 								<span>Genshin Impact</span>
@@ -1619,7 +1619,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/MiHoYo"
+			<a href="https://genshin-impact.fandom.com/wiki/MiHoYo"
 			   data-tracking="custom-level-3"
 							>
 								<span>miHoYo</span>
@@ -1627,7 +1627,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/HOYO-MiX"
+			<a href="https://genshin-impact.fandom.com/wiki/HOYO-MiX"
 			   data-tracking="custom-level-3"
 							>
 								<span>HOYO-MiX</span>
@@ -1635,7 +1635,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/HoYoLAB"
+			<a href="https://genshin-impact.fandom.com/wiki/HoYoLAB"
 			   data-tracking="custom-level-3"
 							>
 								<span>HoYoLAB</span>
@@ -1643,7 +1643,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Glossary"
+			<a href="https://genshin-impact.fandom.com/wiki/Glossary"
 			   data-tracking="custom-level-3"
 							>
 								<span>Glossary</span>
@@ -1897,7 +1897,7 @@
 					Genshin Impact Wiki				</a>
 											</div>
 			<div class="page-counter">
-				<div class="page-counter__value">15,622</div><div class="page-counter__label">pages</div>			</div>
+				<div class="page-counter__value">15,625</div><div class="page-counter__label">pages</div>			</div>
 			<div class="wiki-tools wds-button-group">
 			<a
 			href="/wiki/Special:Search"
@@ -1990,7 +1990,7 @@
 						
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
-				<a href="http://genshin-impact.fandom.com/wiki/Character"
+				<a href="https://genshin-impact.fandom.com/wiki/Character"
 				   data-tracking="custom-level-1"
 									>
 										<span>Characters</span>
@@ -2000,7 +2000,7 @@
 					<ul class="wds-list wds-is-linked">
 													
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Playable_Characters"
+			<a href="https://genshin-impact.fandom.com/wiki/Playable_Characters"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2010,7 +2010,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Traveler"
+			<a href="https://genshin-impact.fandom.com/wiki/Traveler"
 			   data-tracking="custom-level-3"
 							>
 								<span>Traveler</span>
@@ -2018,7 +2018,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Amber"
+			<a href="https://genshin-impact.fandom.com/wiki/Amber"
 			   data-tracking="custom-level-3"
 							>
 								<span>Amber</span>
@@ -2026,7 +2026,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Lisa"
+			<a href="https://genshin-impact.fandom.com/wiki/Lisa"
 			   data-tracking="custom-level-3"
 							>
 								<span>Lisa</span>
@@ -2034,7 +2034,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Kaeya"
+			<a href="https://genshin-impact.fandom.com/wiki/Kaeya"
 			   data-tracking="custom-level-3"
 							>
 								<span>Kaeya</span>
@@ -2042,7 +2042,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character/List"
+			<a href="https://genshin-impact.fandom.com/wiki/Character/List"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character List</span>
@@ -2053,7 +2053,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Version_3.3"
+			<a href="https://genshin-impact.fandom.com/wiki/Version_3.3"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2063,7 +2063,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Wanderer"
+			<a href="https://genshin-impact.fandom.com/wiki/Wanderer"
 			   data-tracking="custom-level-3"
 							>
 								<span>Wanderer</span>
@@ -2071,7 +2071,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Arataki_Itto"
+			<a href="https://genshin-impact.fandom.com/wiki/Arataki_Itto"
 			   data-tracking="custom-level-3"
 							>
 								<span>Arataki Itto</span>
@@ -2079,7 +2079,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Raiden_Shogun"
+			<a href="https://genshin-impact.fandom.com/wiki/Raiden_Shogun"
 			   data-tracking="custom-level-3"
 							>
 								<span>Raiden Shogun</span>
@@ -2087,7 +2087,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Kamisato_Ayato"
+			<a href="https://genshin-impact.fandom.com/wiki/Kamisato_Ayato"
 			   data-tracking="custom-level-3"
 							>
 								<span>Kamisato Ayato</span>
@@ -2095,7 +2095,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Faruzan"
+			<a href="https://genshin-impact.fandom.com/wiki/Faruzan"
 			   data-tracking="custom-level-3"
 							>
 								<span>Faruzan</span>
@@ -2106,7 +2106,7 @@
 		</li>
 														
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character/Comparison"
+			<a href="https://genshin-impact.fandom.com/wiki/Character/Comparison"
 			   data-tracking="custom-level-2"
 							>
 								<span>Character Comparison</span>
@@ -2114,7 +2114,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/NPC"
+			<a href="https://genshin-impact.fandom.com/wiki/NPC"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2124,7 +2124,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Paimon"
+			<a href="https://genshin-impact.fandom.com/wiki/Paimon"
 			   data-tracking="custom-level-3"
 							>
 								<span>Paimon</span>
@@ -2132,7 +2132,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Katheryne"
+			<a href="https://genshin-impact.fandom.com/wiki/Katheryne"
 			   data-tracking="custom-level-3"
 							>
 								<span>Katheryne</span>
@@ -2140,7 +2140,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Unknown_God"
+			<a href="https://genshin-impact.fandom.com/wiki/Unknown_God"
 			   data-tracking="custom-level-3"
 							>
 								<span>Unknown God</span>
@@ -2148,7 +2148,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Notable_NPCs"
+			<a href="https://genshin-impact.fandom.com/wiki/Notable_NPCs"
 			   data-tracking="custom-level-3"
 							>
 								<span>Notable NPCs</span>
@@ -2159,7 +2159,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Factions"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Factions"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2169,7 +2169,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/The_Seven"
+			<a href="https://genshin-impact.fandom.com/wiki/The_Seven"
 			   data-tracking="custom-level-3"
 							>
 								<span>The Seven</span>
@@ -2177,7 +2177,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Adventurers%27_Guild"
+			<a href="https://genshin-impact.fandom.com/wiki/Adventurers%27_Guild"
 			   data-tracking="custom-level-3"
 							>
 								<span>Adventurers' Guild</span>
@@ -2185,7 +2185,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Knights_of_Favonius"
+			<a href="https://genshin-impact.fandom.com/wiki/Knights_of_Favonius"
 			   data-tracking="custom-level-3"
 							>
 								<span>Knights of Favonius</span>
@@ -2193,7 +2193,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Liyue_Qixing"
+			<a href="https://genshin-impact.fandom.com/wiki/Liyue_Qixing"
 			   data-tracking="custom-level-3"
 							>
 								<span>Liyue Qixing</span>
@@ -2201,7 +2201,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Inazuma_Shogunate"
+			<a href="https://genshin-impact.fandom.com/wiki/Inazuma_Shogunate"
 			   data-tracking="custom-level-3"
 							>
 								<span>Inazuma Shogunate</span>
@@ -2209,7 +2209,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Sumeru_Akademiya"
+			<a href="https://genshin-impact.fandom.com/wiki/Sumeru_Akademiya"
 			   data-tracking="custom-level-3"
 							>
 								<span>Sumeru Akademiya</span>
@@ -2217,7 +2217,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Fatui"
+			<a href="https://genshin-impact.fandom.com/wiki/Fatui"
 			   data-tracking="custom-level-3"
 							>
 								<span>Fatui</span>
@@ -2228,7 +2228,7 @@
 		</li>
 														
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Voice_Actor"
+			<a href="https://genshin-impact.fandom.com/wiki/Voice_Actor"
 			   data-tracking="custom-level-2"
 							>
 								<span>Voice Actors</span>
@@ -2236,7 +2236,7 @@
 		</li>
 														
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Birthday"
+			<a href="https://genshin-impact.fandom.com/wiki/Birthday"
 			   data-tracking="custom-level-2"
 							>
 								<span>Birthdays</span>
@@ -2258,7 +2258,7 @@
 					<ul class="wds-list wds-is-linked">
 													
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Teyvat"
+			<a href="https://genshin-impact.fandom.com/wiki/Teyvat"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2268,7 +2268,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Mondstadt"
+			<a href="https://genshin-impact.fandom.com/wiki/Mondstadt"
 			   data-tracking="custom-level-3"
 							>
 								<span>Mondstadt</span>
@@ -2276,7 +2276,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Liyue"
+			<a href="https://genshin-impact.fandom.com/wiki/Liyue"
 			   data-tracking="custom-level-3"
 							>
 								<span>Liyue</span>
@@ -2284,7 +2284,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Inazuma"
+			<a href="https://genshin-impact.fandom.com/wiki/Inazuma"
 			   data-tracking="custom-level-3"
 							>
 								<span>Inazuma</span>
@@ -2292,7 +2292,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Sumeru"
+			<a href="https://genshin-impact.fandom.com/wiki/Sumeru"
 			   data-tracking="custom-level-3"
 							>
 								<span>Sumeru</span>
@@ -2300,7 +2300,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Fontaine"
+			<a href="https://genshin-impact.fandom.com/wiki/Fontaine"
 			   data-tracking="custom-level-3"
 							>
 								<span>Fontaine</span>
@@ -2308,7 +2308,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Natlan"
+			<a href="https://genshin-impact.fandom.com/wiki/Natlan"
 			   data-tracking="custom-level-3"
 							>
 								<span>Natlan</span>
@@ -2316,7 +2316,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Snezhnaya"
+			<a href="https://genshin-impact.fandom.com/wiki/Snezhnaya"
 			   data-tracking="custom-level-3"
 							>
 								<span>Snezhnaya</span>
@@ -2324,7 +2324,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Khaenri%27ah"
+			<a href="https://genshin-impact.fandom.com/wiki/Khaenri%27ah"
 			   data-tracking="custom-level-3"
 							>
 								<span>Khaenri'ah</span>
@@ -2335,7 +2335,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Lore"
+			<a href="https://genshin-impact.fandom.com/wiki/Lore"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2345,7 +2345,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Timeline"
+			<a href="https://genshin-impact.fandom.com/wiki/Timeline"
 			   data-tracking="custom-level-3"
 							>
 								<span>Timeline</span>
@@ -2353,7 +2353,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Manga"
+			<a href="https://genshin-impact.fandom.com/wiki/Manga"
 			   data-tracking="custom-level-3"
 							>
 								<span>Manga</span>
@@ -2361,7 +2361,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Language"
+			<a href="https://genshin-impact.fandom.com/wiki/Language"
 			   data-tracking="custom-level-3"
 							>
 								<span>Languages</span>
@@ -2369,7 +2369,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Book"
+			<a href="https://genshin-impact.fandom.com/wiki/Book"
 			   data-tracking="custom-level-3"
 							>
 								<span>Books</span>
@@ -2377,7 +2377,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Soundtrack"
+			<a href="https://genshin-impact.fandom.com/wiki/Soundtrack"
 			   data-tracking="custom-level-3"
 							>
 								<span>Soundtrack</span>
@@ -2385,7 +2385,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Comics"
+			<a href="https://genshin-impact.fandom.com/wiki/Comics"
 			   data-tracking="custom-level-3"
 							>
 								<span>Comics</span>
@@ -2396,7 +2396,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/Quest"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2406,7 +2406,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Archon_Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/Archon_Quest"
 			   data-tracking="custom-level-3"
 							>
 								<span>Archon Quests</span>
@@ -2414,7 +2414,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Story_Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/Story_Quest"
 			   data-tracking="custom-level-3"
 							>
 								<span>Story Quests</span>
@@ -2422,7 +2422,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/World_Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/World_Quest"
 			   data-tracking="custom-level-3"
 							>
 								<span>World Quests</span>
@@ -2430,7 +2430,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Commission"
+			<a href="https://genshin-impact.fandom.com/wiki/Commission"
 			   data-tracking="custom-level-3"
 							>
 								<span>Commissions</span>
@@ -2438,7 +2438,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Hangout_Event"
+			<a href="https://genshin-impact.fandom.com/wiki/Hangout_Event"
 			   data-tracking="custom-level-3"
 							>
 								<span>Hangout Events</span>
@@ -2446,7 +2446,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Event_Quest"
+			<a href="https://genshin-impact.fandom.com/wiki/Event_Quest"
 			   data-tracking="custom-level-3"
 							>
 								<span>Event Quests</span>
@@ -2457,7 +2457,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Event"
+			<a href="https://genshin-impact.fandom.com/wiki/Event"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2467,7 +2467,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Version"
+			<a href="https://genshin-impact.fandom.com/wiki/Version"
 			   data-tracking="custom-level-3"
 							>
 								<span>Version</span>
@@ -2475,7 +2475,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:In-Game_Events"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:In-Game_Events"
 			   data-tracking="custom-level-3"
 							>
 								<span>In-Game Events</span>
@@ -2483,7 +2483,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Login_Events"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Login_Events"
 			   data-tracking="custom-level-3"
 							>
 								<span>Login Events</span>
@@ -2491,7 +2491,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Flagship_Event"
+			<a href="https://genshin-impact.fandom.com/wiki/Flagship_Event"
 			   data-tracking="custom-level-3"
 							>
 								<span>Flagship Events</span>
@@ -2499,7 +2499,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Web_Events"
+			<a href="https://genshin-impact.fandom.com/wiki/Web_Events"
 			   data-tracking="custom-level-3"
 							>
 								<span>Web Events</span>
@@ -2507,7 +2507,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Event_History"
+			<a href="https://genshin-impact.fandom.com/wiki/Event_History"
 			   data-tracking="custom-level-3"
 							>
 								<span>Event History</span>
@@ -2528,7 +2528,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Domain"
+			<a href="https://genshin-impact.fandom.com/wiki/Domain"
 			   data-tracking="custom-level-3"
 							>
 								<span>Domains</span>
@@ -2536,7 +2536,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Ley_Line_Outcrop"
+			<a href="https://genshin-impact.fandom.com/wiki/Ley_Line_Outcrop"
 			   data-tracking="custom-level-3"
 							>
 								<span>Ley Line Outcrops</span>
@@ -2544,7 +2544,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Expedition"
+			<a href="https://genshin-impact.fandom.com/wiki/Expedition"
 			   data-tracking="custom-level-3"
 							>
 								<span>Expeditions</span>
@@ -2552,7 +2552,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Spiral_Abyss"
+			<a href="https://genshin-impact.fandom.com/wiki/Spiral_Abyss"
 			   data-tracking="custom-level-3"
 							>
 								<span>Spiral Abyss</span>
@@ -2563,7 +2563,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Enemy"
+			<a href="https://genshin-impact.fandom.com/wiki/Enemy"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2573,7 +2573,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Common_Enemy"
+			<a href="https://genshin-impact.fandom.com/wiki/Common_Enemy"
 			   data-tracking="custom-level-3"
 							>
 								<span>Common Enemies</span>
@@ -2581,7 +2581,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Elite_Enemy"
+			<a href="https://genshin-impact.fandom.com/wiki/Elite_Enemy"
 			   data-tracking="custom-level-3"
 							>
 								<span>Elite Enemies</span>
@@ -2589,7 +2589,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Normal_Boss"
+			<a href="https://genshin-impact.fandom.com/wiki/Normal_Boss"
 			   data-tracking="custom-level-3"
 							>
 								<span>Normal Bosses</span>
@@ -2597,7 +2597,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Weekly_Boss"
+			<a href="https://genshin-impact.fandom.com/wiki/Weekly_Boss"
 			   data-tracking="custom-level-3"
 							>
 								<span>Weekly Bosses</span>
@@ -2605,7 +2605,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Wildlife"
+			<a href="https://genshin-impact.fandom.com/wiki/Wildlife"
 			   data-tracking="custom-level-3"
 							>
 								<span>Wildlife</span>
@@ -2616,7 +2616,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Shop"
+			<a href="https://genshin-impact.fandom.com/wiki/Shop"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2626,7 +2626,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Gift_Shop"
+			<a href="https://genshin-impact.fandom.com/wiki/Gift_Shop"
 			   data-tracking="custom-level-3"
 							>
 								<span>Gift Shop</span>
@@ -2634,7 +2634,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Paimon%27s_Bargains"
+			<a href="https://genshin-impact.fandom.com/wiki/Paimon%27s_Bargains"
 			   data-tracking="custom-level-3"
 							>
 								<span>Paimon's Bargains</span>
@@ -2642,7 +2642,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Souvenir_Shop"
+			<a href="https://genshin-impact.fandom.com/wiki/Souvenir_Shop"
 			   data-tracking="custom-level-3"
 							>
 								<span>Souvenir Shop</span>
@@ -2657,7 +2657,7 @@
 						
 			<li class="wds-dropdown ">
 			<div class="wds-tabs__tab-label wds-dropdown__toggle first-level-item">
-				<a href="http://genshin-impact.fandom.com/wiki/Item"
+				<a href="https://genshin-impact.fandom.com/wiki/Item"
 				   data-tracking="custom-level-1"
 									>
 										<span>Items</span>
@@ -2667,7 +2667,7 @@
 					<ul class="wds-list wds-is-linked">
 													
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Weapon"
+			<a href="https://genshin-impact.fandom.com/wiki/Weapon"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2677,7 +2677,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Bow"
+			<a href="https://genshin-impact.fandom.com/wiki/Bow"
 			   data-tracking="custom-level-3"
 							>
 								<span>Bows</span>
@@ -2685,7 +2685,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Catalyst"
+			<a href="https://genshin-impact.fandom.com/wiki/Catalyst"
 			   data-tracking="custom-level-3"
 							>
 								<span>Catalysts</span>
@@ -2693,7 +2693,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Claymore"
+			<a href="https://genshin-impact.fandom.com/wiki/Claymore"
 			   data-tracking="custom-level-3"
 							>
 								<span>Claymores</span>
@@ -2701,7 +2701,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Polearm"
+			<a href="https://genshin-impact.fandom.com/wiki/Polearm"
 			   data-tracking="custom-level-3"
 							>
 								<span>Polearms</span>
@@ -2709,7 +2709,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Sword"
+			<a href="https://genshin-impact.fandom.com/wiki/Sword"
 			   data-tracking="custom-level-3"
 							>
 								<span>Swords</span>
@@ -2717,7 +2717,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Weapon_Enhancement_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Weapon_Enhancement_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Weapon Enhancement Materials</span>
@@ -2728,7 +2728,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Artifact"
+			<a href="https://genshin-impact.fandom.com/wiki/Artifact"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2738,7 +2738,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Artifact/Sets"
+			<a href="https://genshin-impact.fandom.com/wiki/Artifact/Sets"
 			   data-tracking="custom-level-3"
 							>
 								<span>Artifact Sets</span>
@@ -2746,7 +2746,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Artifact_EXP"
+			<a href="https://genshin-impact.fandom.com/wiki/Artifact_EXP"
 			   data-tracking="custom-level-3"
 							>
 								<span>Artifact EXP</span>
@@ -2757,7 +2757,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Character_Development_Item"
+			<a href="https://genshin-impact.fandom.com/wiki/Character_Development_Item"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2767,7 +2767,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Character_EXP_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Character_EXP_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character EXP Materials</span>
@@ -2775,7 +2775,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character_Ascension_Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Character_Ascension_Material"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character Ascension Materials</span>
@@ -2783,7 +2783,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Common_Ascension_Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Common_Ascension_Material"
 			   data-tracking="custom-level-3"
 							>
 								<span>Common Ascension Materials</span>
@@ -2791,7 +2791,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Refinement_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Refinement_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Refinement Materials</span>
@@ -2799,7 +2799,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Talent_Level-Up_Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Talent_Level-Up_Material"
 			   data-tracking="custom-level-3"
 							>
 								<span>Talent Level-Up Materials</span>
@@ -2807,7 +2807,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Weapon_Ascension_Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Weapon_Ascension_Material"
 			   data-tracking="custom-level-3"
 							>
 								<span>Weapon Ascension Materials</span>
@@ -2818,7 +2818,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Material"
+			<a href="https://genshin-impact.fandom.com/wiki/Material"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2828,7 +2828,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Local_Specialty"
+			<a href="https://genshin-impact.fandom.com/wiki/Local_Specialty"
 			   data-tracking="custom-level-3"
 							>
 								<span>Local Specialties</span>
@@ -2836,7 +2836,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Cooking_Ingredients"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Cooking_Ingredients"
 			   data-tracking="custom-level-3"
 							>
 								<span>Cooking Ingredients</span>
@@ -2844,7 +2844,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Forging_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Forging_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Forging Materials</span>
@@ -2852,7 +2852,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Furnishing_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Furnishing_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Furnishing Materials</span>
@@ -2860,7 +2860,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Gardening_Materials"
+			<a href="https://genshin-impact.fandom.com/wiki/Gardening_Materials"
 			   data-tracking="custom-level-3"
 							>
 								<span>Gardening Materials</span>
@@ -2871,7 +2871,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Category:Consumables"
+			<a href="https://genshin-impact.fandom.com/wiki/Category:Consumables"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -2881,7 +2881,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Food"
+			<a href="https://genshin-impact.fandom.com/wiki/Food"
 			   data-tracking="custom-level-3"
 							>
 								<span>Food</span>
@@ -2889,7 +2889,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Potion"
+			<a href="https://genshin-impact.fandom.com/wiki/Potion"
 			   data-tracking="custom-level-3"
 							>
 								<span>Potions</span>
@@ -2900,7 +2900,7 @@
 		</li>
 														
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Gadget"
+			<a href="https://genshin-impact.fandom.com/wiki/Gadget"
 			   data-tracking="custom-level-2"
 							>
 								<span>Gadgets </span>
@@ -2918,7 +2918,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Original_Resin"
+			<a href="https://genshin-impact.fandom.com/wiki/Original_Resin"
 			   data-tracking="custom-level-3"
 							>
 								<span>Original Resin</span>
@@ -2926,7 +2926,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Namecard"
+			<a href="https://genshin-impact.fandom.com/wiki/Namecard"
 			   data-tracking="custom-level-3"
 							>
 								<span>Namecards</span>
@@ -2934,7 +2934,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Bundles"
+			<a href="https://genshin-impact.fandom.com/wiki/Bundles"
 			   data-tracking="custom-level-3"
 							>
 								<span>Bundles</span>
@@ -2942,7 +2942,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Currency"
+			<a href="https://genshin-impact.fandom.com/wiki/Currency"
 			   data-tracking="custom-level-3"
 							>
 								<span>Currencies</span>
@@ -2950,7 +2950,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Quest_Item"
+			<a href="https://genshin-impact.fandom.com/wiki/Quest_Item"
 			   data-tracking="custom-level-3"
 							>
 								<span>Quest Items</span>
@@ -2958,7 +2958,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Event_Item"
+			<a href="https://genshin-impact.fandom.com/wiki/Event_Item"
 			   data-tracking="custom-level-3"
 							>
 								<span>Event Items</span>
@@ -2966,7 +2966,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Precious_Item"
+			<a href="https://genshin-impact.fandom.com/wiki/Precious_Item"
 			   data-tracking="custom-level-3"
 							>
 								<span>Precious Items</span>
@@ -2974,7 +2974,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Furnishing"
+			<a href="https://genshin-impact.fandom.com/wiki/Furnishing"
 			   data-tracking="custom-level-3"
 							>
 								<span>Furnishings</span>
@@ -2999,7 +2999,7 @@
 					<ul class="wds-list wds-is-linked">
 													
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Combat"
+			<a href="https://genshin-impact.fandom.com/wiki/Combat"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -3009,7 +3009,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Attribute"
+			<a href="https://genshin-impact.fandom.com/wiki/Attribute"
 			   data-tracking="custom-level-3"
 							>
 								<span>Attributes</span>
@@ -3017,7 +3017,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Element"
+			<a href="https://genshin-impact.fandom.com/wiki/Element"
 			   data-tracking="custom-level-3"
 							>
 								<span>Elements</span>
@@ -3025,7 +3025,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Elemental_Reaction"
+			<a href="https://genshin-impact.fandom.com/wiki/Elemental_Reaction"
 			   data-tracking="custom-level-3"
 							>
 								<span>Elemental Reactions</span>
@@ -3033,7 +3033,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Talent"
+			<a href="https://genshin-impact.fandom.com/wiki/Talent"
 			   data-tracking="custom-level-3"
 							>
 								<span>Talents</span>
@@ -3041,7 +3041,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Constellation"
+			<a href="https://genshin-impact.fandom.com/wiki/Constellation"
 			   data-tracking="custom-level-3"
 							>
 								<span>Constellations</span>
@@ -3052,7 +3052,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Progression"
+			<a href="https://genshin-impact.fandom.com/wiki/Progression"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -3062,7 +3062,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Adventure_Rank"
+			<a href="https://genshin-impact.fandom.com/wiki/Adventure_Rank"
 			   data-tracking="custom-level-3"
 							>
 								<span>Adventure Rank</span>
@@ -3070,7 +3070,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character_Experience"
+			<a href="https://genshin-impact.fandom.com/wiki/Character_Experience"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character Experience</span>
@@ -3078,7 +3078,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Adventurer_Handbook"
+			<a href="https://genshin-impact.fandom.com/wiki/Adventurer_Handbook"
 			   data-tracking="custom-level-3"
 							>
 								<span>Adventurer Handbook</span>
@@ -3086,7 +3086,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Achievement"
+			<a href="https://genshin-impact.fandom.com/wiki/Achievement"
 			   data-tracking="custom-level-3"
 							>
 								<span>Achievements</span>
@@ -3094,7 +3094,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Reputation"
+			<a href="https://genshin-impact.fandom.com/wiki/Reputation"
 			   data-tracking="custom-level-3"
 							>
 								<span>Reputation</span>
@@ -3102,7 +3102,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Offering_System"
+			<a href="https://genshin-impact.fandom.com/wiki/Offering_System"
 			   data-tracking="custom-level-3"
 							>
 								<span>Offerings</span>
@@ -3110,7 +3110,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Serenitea_Pot"
+			<a href="https://genshin-impact.fandom.com/wiki/Serenitea_Pot"
 			   data-tracking="custom-level-3"
 							>
 								<span>Serenitea Pot</span>
@@ -3118,7 +3118,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG"
+			<a href="https://genshin-impact.fandom.com/wiki/Genius_Invokation_TCG"
 			   data-tracking="custom-level-3"
 							>
 								<span>Genius Invokation TCG</span>
@@ -3129,7 +3129,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Exploration"
+			<a href="https://genshin-impact.fandom.com/wiki/Exploration"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -3139,7 +3139,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Statue_of_The_Seven"
+			<a href="https://genshin-impact.fandom.com/wiki/Statue_of_The_Seven"
 			   data-tracking="custom-level-3"
 							>
 								<span>Statue of The Seven</span>
@@ -3147,7 +3147,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Oculi"
+			<a href="https://genshin-impact.fandom.com/wiki/Oculi"
 			   data-tracking="custom-level-3"
 							>
 								<span>Oculi</span>
@@ -3155,7 +3155,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Shrine_of_Depths"
+			<a href="https://genshin-impact.fandom.com/wiki/Shrine_of_Depths"
 			   data-tracking="custom-level-3"
 							>
 								<span>Shrines of Depths</span>
@@ -3163,7 +3163,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Teleport_Waypoint"
+			<a href="https://genshin-impact.fandom.com/wiki/Teleport_Waypoint"
 			   data-tracking="custom-level-3"
 							>
 								<span>Teleport Waypoints</span>
@@ -3171,7 +3171,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Map"
+			<a href="https://genshin-impact.fandom.com/wiki/Map"
 			   data-tracking="custom-level-3"
 							>
 								<span>Map</span>
@@ -3179,7 +3179,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Fishing"
+			<a href="https://genshin-impact.fandom.com/wiki/Fishing"
 			   data-tracking="custom-level-3"
 							>
 								<span>Fishing</span>
@@ -3190,7 +3190,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Monetization"
+			<a href="https://genshin-impact.fandom.com/wiki/Monetization"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -3200,7 +3200,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Wish"
+			<a href="https://genshin-impact.fandom.com/wiki/Wish"
 			   data-tracking="custom-level-3"
 							>
 								<span>Wishes</span>
@@ -3208,7 +3208,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Primogem"
+			<a href="https://genshin-impact.fandom.com/wiki/Primogem"
 			   data-tracking="custom-level-3"
 							>
 								<span>Primogems</span>
@@ -3216,7 +3216,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Genesis_Crystal"
+			<a href="https://genshin-impact.fandom.com/wiki/Genesis_Crystal"
 			   data-tracking="custom-level-3"
 							>
 								<span>Genesis Crystal</span>
@@ -3224,7 +3224,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Battle_Pass"
+			<a href="https://genshin-impact.fandom.com/wiki/Battle_Pass"
 			   data-tracking="custom-level-3"
 							>
 								<span>Battle Pass</span>
@@ -3232,7 +3232,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Blessing_of_the_Welkin_Moon"
+			<a href="https://genshin-impact.fandom.com/wiki/Blessing_of_the_Welkin_Moon"
 			   data-tracking="custom-level-3"
 							>
 								<span>Blessing of the Welkin Moon</span>
@@ -3240,7 +3240,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Character_Outfit"
+			<a href="https://genshin-impact.fandom.com/wiki/Character_Outfit"
 			   data-tracking="custom-level-3"
 							>
 								<span>Character Outfits</span>
@@ -3261,7 +3261,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Alchemy"
+			<a href="https://genshin-impact.fandom.com/wiki/Alchemy"
 			   data-tracking="custom-level-3"
 							>
 								<span>Alchemy</span>
@@ -3269,7 +3269,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Creation"
+			<a href="https://genshin-impact.fandom.com/wiki/Creation"
 			   data-tracking="custom-level-3"
 							>
 								<span>Creation</span>
@@ -3277,7 +3277,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Cooking"
+			<a href="https://genshin-impact.fandom.com/wiki/Cooking"
 			   data-tracking="custom-level-3"
 							>
 								<span>Cooking</span>
@@ -3285,7 +3285,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Forging"
+			<a href="https://genshin-impact.fandom.com/wiki/Forging"
 			   data-tracking="custom-level-3"
 							>
 								<span>Forging</span>
@@ -3293,7 +3293,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Processing"
+			<a href="https://genshin-impact.fandom.com/wiki/Processing"
 			   data-tracking="custom-level-3"
 							>
 								<span>Processing</span>
@@ -3304,7 +3304,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Game_System"
+			<a href="https://genshin-impact.fandom.com/wiki/Game_System"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -3314,7 +3314,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Account"
+			<a href="https://genshin-impact.fandom.com/wiki/Account"
 			   data-tracking="custom-level-3"
 							>
 								<span>Account</span>
@@ -3322,7 +3322,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Archive"
+			<a href="https://genshin-impact.fandom.com/wiki/Archive"
 			   data-tracking="custom-level-3"
 							>
 								<span>Archive</span>
@@ -3330,7 +3330,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Co-Op_Mode"
+			<a href="https://genshin-impact.fandom.com/wiki/Co-Op_Mode"
 			   data-tracking="custom-level-3"
 							>
 								<span>Co-Op Mode</span>
@@ -3338,7 +3338,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Controls"
+			<a href="https://genshin-impact.fandom.com/wiki/Controls"
 			   data-tracking="custom-level-3"
 							>
 								<span>Controls</span>
@@ -3346,7 +3346,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Friend"
+			<a href="https://genshin-impact.fandom.com/wiki/Friend"
 			   data-tracking="custom-level-3"
 							>
 								<span>Friends </span>
@@ -3354,7 +3354,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Inventory"
+			<a href="https://genshin-impact.fandom.com/wiki/Inventory"
 			   data-tracking="custom-level-3"
 							>
 								<span>Inventory</span>
@@ -3362,7 +3362,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Profile"
+			<a href="https://genshin-impact.fandom.com/wiki/Profile"
 			   data-tracking="custom-level-3"
 							>
 								<span>Profile</span>
@@ -3370,7 +3370,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Settings"
+			<a href="https://genshin-impact.fandom.com/wiki/Settings"
 			   data-tracking="custom-level-3"
 							>
 								<span>Settings</span>
@@ -3378,7 +3378,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Tutorial"
+			<a href="https://genshin-impact.fandom.com/wiki/Tutorial"
 			   data-tracking="custom-level-3"
 							>
 								<span>Tutorials</span>
@@ -3389,7 +3389,7 @@
 		</li>
 														
 			<li class="wds-dropdown-level-nested">
-			<a href="http://genshin-impact.fandom.com/wiki/Community"
+			<a href="https://genshin-impact.fandom.com/wiki/Community"
 			   class="wds-dropdown-level-nested__toggle"
 			   data-tracking="custom-level-2"
 							>
@@ -3399,7 +3399,7 @@
 				<ul class="wds-list wds-is-linked">
 											
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Genshin_Impact"
+			<a href="https://genshin-impact.fandom.com/wiki/Genshin_Impact"
 			   data-tracking="custom-level-3"
 							>
 								<span>Genshin Impact</span>
@@ -3407,7 +3407,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/MiHoYo"
+			<a href="https://genshin-impact.fandom.com/wiki/MiHoYo"
 			   data-tracking="custom-level-3"
 							>
 								<span>miHoYo</span>
@@ -3415,7 +3415,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/HOYO-MiX"
+			<a href="https://genshin-impact.fandom.com/wiki/HOYO-MiX"
 			   data-tracking="custom-level-3"
 							>
 								<span>HOYO-MiX</span>
@@ -3423,7 +3423,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/HoYoLAB"
+			<a href="https://genshin-impact.fandom.com/wiki/HoYoLAB"
 			   data-tracking="custom-level-3"
 							>
 								<span>HoYoLAB</span>
@@ -3431,7 +3431,7 @@
 		</li>
 												
 			<li>
-			<a href="http://genshin-impact.fandom.com/wiki/Glossary"
+			<a href="https://genshin-impact.fandom.com/wiki/Glossary"
 			   data-tracking="custom-level-3"
 							>
 								<span>Glossary</span>
@@ -4239,7 +4239,7 @@ She could only hope that that <a href="/wiki/Neko" title="Neko">old cat</a> woul
 </li>
 </ol></div></div>
 <h2><span class="mw-headline" id="Change_History">Change History</span></h2>
-<div style="float:left; font-size:88%;">Released in <b><a href="/wiki/Version/2.0" title="Version/2.0">Version 2.0</a></b></div><div class="plainlinks" style="text-align:right; float:right; font-size:88%;">[<a target="_blank" rel="noreferrer noopener" class="text" href="https://genshin-impact.fandom.com/wiki/Hamayumi/Change_History?action=edit&amp;preload=Template:Change_History/Preload&amp;preloadparams%5b%5d=2.0&amp;preloadparams%5b%5d=Hamayumi">Create New History</a>]</div><div style="clear:both; margin:0; padding:0;"></div>
+<div style="float:left; font-size:88%; line-height:1rem;">Released in <b><a href="/wiki/Version/2.0" title="Version/2.0">Version 2.0</a></b></div><div class="plainlinks" style="text-align:right; float:right; font-size:88%; line-height:1rem;">[<a target="_blank" rel="noreferrer noopener" class="text" href="https://genshin-impact.fandom.com/wiki/Hamayumi/Change_History?action=edit&amp;preload=Template:Change_History/Preload&amp;preloadparams%5b%5d=2.0&amp;preloadparams%5b%5d=Hamayumi">Create New History</a>]</div><div style="clear:both; margin:0; padding:0;"></div>
 <h2><span class="mw-headline" id="Navigation">Navigation</span></h2>
 <table cellspacing="0" class="navbox-border navbox" style="border-spacing:0;;"><tbody><tr><td style="padding:2px;"><table cellspacing="0" class="nowraplinks mw-collapsible navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;"><tbody><tr><th style=";" colspan="2" class="navbox-title"><div style="float:left;width:6em;text-align:left">&#160;</div><span class="" style="font-size:110%;"><a href="/wiki/Weapons" class="mw-redirect" title="Weapons">Weapons</a> of the <a href="/wiki/Amethyst_Series" title="Amethyst Series">Amethyst Series</a></span></th></tr><tr style="height:2px;"><td></td></tr><tr><td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd"><div style="padding:0em 0.25em">
 <table width="100%" style="cellpadding:5; table-layout: fixed; vertical-align: top;">
@@ -4309,37 +4309,37 @@ She could only hope that that <a href="/wiki/Neko" title="Neko">old cat</a> woul
 </div></td></tr></tbody></table></td></tr></tbody></table>
 <!-- 
 NewPP limit report
-Cached time: 20221226131145
+Cached time: 20221228083700
 Cache expiry: 3600
 Reduced expiry: true
 Complications: [vary‐revision‐sha1]
-CPU time usage: 2.918 seconds
-Real time usage: 3.395 seconds
+CPU time usage: 2.511 seconds
+Real time usage: 3.008 seconds
 Preprocessor visited node count: 9043/1000000
-Post‐expand include size: 586607/2097152 bytes
+Post‐expand include size: 586643/2097152 bytes
 Template argument size: 302643/2097152 bytes
 Highest expansion depth: 13/40
 Expensive parser function count: 2/100
 Unstrip recursion depth: 0/20
 Unstrip post‐expand size: 8256/5000000 bytes
-Lua time usage: 0.399/7.000 seconds
+Lua time usage: 0.351/7.000 seconds
 Lua memory usage: 9316165/52428800 bytes
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-167.76% 4951.116      7 Template:Navbox
-100.00% 2951.310      1 -total
- 82.55% 2436.184      1 Template:Weapon_Navbox
- 81.24% 2397.719     25 Template:Navbox_DPL
- 12.87%  379.827    195 Template:Card
-  6.05%  178.552      1 Template:Weapon_Ascensions_and_Stats
-  5.69%  167.782      1 Template:Weapon_Infobox
-  3.30%   97.531      1 Template:Weapons_by_Series_Navbox
-  1.58%   46.766      1 Template:Time_ago
-  0.78%   22.975      4 Template:Namespace
+171.74% 4579.414      7 Template:Navbox
+100.00% 2666.424      1 -total
+ 84.53% 2253.984      1 Template:Weapon_Navbox
+ 83.14% 2216.998     25 Template:Navbox_DPL
+ 12.69%  338.241    195 Template:Card
+  5.19%  138.265      1 Template:Weapon_Ascensions_and_Stats
+  4.69%  124.951      1 Template:Weapon_Infobox
+  3.39%   90.269      1 Template:Weapons_by_Series_Navbox
+  1.40%   37.406      1 Template:Time_ago
+  0.71%   19.036      4 Template:Namespace
 -->
 
-<!-- Saved in parser cache with key prod_gensinimpact:pcache:idhash:64140-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20221226131141 and revision id 1011894. Serialized with JSON.
+<!-- Saved in parser cache with key prod_gensinimpact:pcache:idhash:64140-0!canonical!FandomDesktop!LegacyGalleries and timestamp 20221228083657 and revision id 1011894. Serialized with JSON.
  -->
 </div></div>					</div>
 					<div class="page-footer">
@@ -4862,9 +4862,9 @@ Transclusion expansion time report (%,ms,calls,template)
 window.fandomContext = {"site":{"categories":["gaming"],"directedAtChildren":false,"esrbRating":"teen","mpaRating":"","siteName":"gensinimpact","top1000":false,"tags":{"esrb":["teen"],"bundles":["apple_sea_bundle","25_bundle","low_maturity_bundle","obi_wan_kenobi_bundle","video_tier_1_and_2_bundle","21_bundle"],"sex":["f","m"],"theme":["sword","gods","dragon","magic"],"gnre":["donghua","anime","fantasy","rpg","openworld","storytelling","dungeon-crawler","action","adventure","gacha"],"media":["games"],"age":["yadult","25-34","18-34","18-24"],"pform":["pc","mobile","ps4"]},"taxonomy":["gaming","games"]},"page":{"articleId":64140,"lang":"en","pageId":64140,"pageName":"Hamayumi","pageType":"article","tags":{"gnre":["anime","gacha","jrpg","free2play","rpg"],"theme":["heroes","sword","japan","magic","dragon","monster"],"pform":["mobile","switch"]},"wordCount":1225}}
 </script>
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"2.918","walltime":"3.395","ppvisitednodes":{"value":9043,"limit":1000000},"postexpandincludesize":{"value":586607,"limit":2097152},"templateargumentsize":{"value":302643,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":2,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":8256,"limit":5000000},"timingprofile":["167.76% 4951.116      7 Template:Navbox","100.00% 2951.310      1 -total"," 82.55% 2436.184      1 Template:Weapon_Navbox"," 81.24% 2397.719     25 Template:Navbox_DPL"," 12.87%  379.827    195 Template:Card","  6.05%  178.552      1 Template:Weapon_Ascensions_and_Stats","  5.69%  167.782      1 Template:Weapon_Infobox","  3.30%   97.531      1 Template:Weapons_by_Series_Navbox","  1.58%   46.766      1 Template:Time_ago","  0.78%   22.975      4 Template:Namespace"]},"scribunto":{"limitreport-timeusage":{"value":"0.399","limit":"7.000"},"limitreport-memusage":{"value":9316165,"limit":52428800}},"cachereport":{"timestamp":"20221226131145","ttl":3600,"transientcontent":true}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"2.511","walltime":"3.008","ppvisitednodes":{"value":9043,"limit":1000000},"postexpandincludesize":{"value":586643,"limit":2097152},"templateargumentsize":{"value":302643,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":2,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":8256,"limit":5000000},"timingprofile":["171.74% 4579.414      7 Template:Navbox","100.00% 2666.424      1 -total"," 84.53% 2253.984      1 Template:Weapon_Navbox"," 83.14% 2216.998     25 Template:Navbox_DPL"," 12.69%  338.241    195 Template:Card","  5.19%  138.265      1 Template:Weapon_Ascensions_and_Stats","  4.69%  124.951      1 Template:Weapon_Infobox","  3.39%   90.269      1 Template:Weapons_by_Series_Navbox","  1.40%   37.406      1 Template:Time_ago","  0.71%   19.036      4 Template:Namespace"]},"scribunto":{"limitreport-timeusage":{"value":"0.351","limit":"7.000"},"limitreport-memusage":{"value":9316165,"limit":52428800}},"cachereport":{"timestamp":"20221228083700","ttl":3600,"transientcontent":true}}});});</script>
 <script defer="" src="https://www.fastly-insights.com/static/scout.js?k=17272cd8-82ee-4eb5-b5a3-b3cd5403f7c5"></script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":115});});</script><div id="WikiaBar">
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":93});});</script><div id="WikiaBar">
 	<div id="WikiaBarWrapper" class="WikiaBarWrapper hidden">
 		<div class="wikia-bar wikia-bar-anon">
 				<a class="wikiabar-button" href="https://bit.ly/FandomIG" data-index="0">
