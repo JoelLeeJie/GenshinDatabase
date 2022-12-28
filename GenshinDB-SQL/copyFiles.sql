@@ -4,3 +4,4 @@ copy weaponinfo from 'D:/GenshinDB/GenshinDB-RawData/CsvFIles(CSV)/weaponinfo.cs
 copy weaponrefinements from 'D:/GenshinDB/GenshinDB-RawData/CsvFIles(CSV)/weaponrefinements.csv' csv header quote '"';
 copy artifactsets from 'D:/GenshinDB/GenshinDB-RawData/CsvFIles(CSV)/artifactsets.csv' csv header quote '"';
 copy artifactstats from 'D:/GenshinDB/GenshinDB-RawData/CsvFIles(CSV)/artifactstats.csv' csv header quote '"';
+copy characterstats from 'D:/GenshinDB/GenshinDB-RawData/CsvFIles(CSV)/characterstats.csv' csv header quote '"';

@@ -14,39 +14,22 @@ namespace RawData
     {
         static void Main()
         {
-            
-            
-
-            /*HttpClient client = new HttpClient();
-            FileStream filestream = File.OpenWrite("D:\\GenshinDB\\GenshinDB-RawData\\RawDataFiles(txt)\\wikimaterial.txt");
-            StreamWriter writer = new StreamWriter(filestream);
-            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Character_Ascension_Materials").Result + "\n");
-            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Character_EXP_Materials").Result + "\n");
-            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Common_Ascension_Materials").Result + "\n");
-            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Refinement_Materials").Result + "\n");
-            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Talent_Level-Up_Materials").Result + "\n");
-            writer.Write(client.GetStringAsync("https://genshin-impact.fandom.com/wiki/Weapon_Ascension_Materials").Result + "\n");
-
-            writer.Close();
-
-            string text = File.ReadAllText("D:\\GenshinDB\\GenshinDB-RawData\\RawDataFiles(txt)\\wikimaterial.txt");
-            MatchCollection tempMatchCollection = Regex.Matches(text, "<td><div class=\"card_with_caption hidden\".*?\n</td>");
-            List<string> names = new List<string>();
-            foreach (Match line in tempMatchCollection)
+            string temp = ""; string input; string[] arrays = new string[8];
+            for(int i = 0; i < arrays.Length; i++)
             {
-                Match name = Regex.Match(line.Value, "title=\".*?\"");
-                while(true)
+                arrays[i] = Console.ReadLine();
+            }
+            for(int id = 42; id<46; id++)
+            {
+                foreach(string s in arrays)
                 {
-                    name = name.NextMatch();
-                    if (name.Value == "") break;
-                    if (!names.Contains(name.Value)) names.Add(name.Value); 
+                    temp = temp + id + "," + s + "\n";
                 }
             }
-            foreach(string name in names)
-            {
-                Console.WriteLine(name);
-            }
-            */
+            File.WriteAllText("D:\\GenshinDB\\GenshinDB-RawData\\CsvFIles(CSV)\\traveler.txt", temp);
+
         }
     }
 }
+
+

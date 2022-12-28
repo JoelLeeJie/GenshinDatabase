@@ -33,6 +33,10 @@ namespace GenshinDB
             Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.weaponDict, dataType.weapons).ToArray());
             Task.WaitAll(writeData.WriteRawDataFromDictionary(getData.artifactDict, dataType.artifacts).ToArray());
             //Do one by one, since doing all 3 at once will mess up value of "filePath"
+
+            WikiData wiki = new WikiData(start.thisFilePath);
+            wiki.GetCharacterData();
+            wiki.GetWeaponData();
             Console.WriteLine("Finished loading data!");
             
             
@@ -42,8 +46,10 @@ namespace GenshinDB
             convertRawData.CharacterRawData();
             convertRawData.ArtifactRawData();
             convertRawData.WeaponRawData();
+            convertRawData.CharacterStatRawData();
+            convertRawData.WeaponStatRawData();
             
-            WriteCSV writeCSV = new WriteCSV(convertRawData.characterData, convertRawData.artifactData, convertRawData.weaponData, start.thisFilePath);
+            WriteCSV writeCSV = new WriteCSV(convertRawData.characterData, convertRawData.artifactData, convertRawData.weaponData, convertRawData.characterStatData, convertRawData.weaponStatData,  start.thisFilePath);
             //writes csv files for all tables.
             writeCSV.WriteAllCSVFiles();
             Console.WriteLine("Finished writing csv files!");

@@ -20,6 +20,9 @@ namespace GenshinDB
         internal List<Artifact> artifactData;
         internal List<Weapon> weaponData;
 
+        internal List<CharacterStat> characterStatData;
+        internal List<WeaponStat> weaponStatData;
+
         Character tempc;
         Artifact tempa;
         Weapon tempw;
@@ -43,6 +46,9 @@ namespace GenshinDB
             characterData = new List<Character>();
             artifactData = new List<Artifact>();
             weaponData = new List<Weapon>();
+
+            characterStatData = new List<CharacterStat>();
+            weaponStatData = new List<WeaponStat>();
         }
         internal void CharacterRawData() //writes raw data to struct form
         {
@@ -148,10 +154,98 @@ namespace GenshinDB
                     }
                     tempw.refinements.Add(replacedtext.Replace("  ", ". ")); //replace any lost '.'
                 }
-
                 weaponData.Add(tempw);
             }
+        }
 
+        CharacterStat tempcs;
+        WeaponStat tempws;
+        internal void CharacterStatRawData()
+        {
+            List<string> fileNamePaths = Directory.GetFiles(rawDataFilePath + "\\CharacterWiki").ToList<string>();
+            string temp; Match tempMatch; MatchCollection tempMatchCollection;
+            int counter = 1;
+            string[] level_levelarray = new string[] { "1/20", "20/20", "20/40", "40/40", "40/50", "50/50", "50/60", "60/60", "60/70", "70/70", "70/80", "80/80", "80/90", "90/90" };
+            foreach(string path in fileNamePaths)
+            {
+                temp = File.ReadAllText(path);
+
+                try
+                {
+                    for (int i = 0; i < level_levelarray.Length; i++)
+                    {
+                        filterData(level_levelarray[i], int.Parse(level_levelarray[i].Split('/')[0]), i);
+                        if (i != 0) i++; //1/20, then 20/20, then 40/40, 50/50...
+                    }
+                    //1/20. 20/20, 40/40 etc for stats(for every level, 
+                    //20/40, 40/50 to find ascension stat(remember to link it to the right levelid)
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine(counter + ": error convert charstat to csv. May wish to write it manually, like in the case for the Traveler.");
+                    continue;
+                }
+                finally
+                {
+                    counter++; //increase charid for every character.
+                }
+            }
+
+            void filterData(string level_level, int level, int current_iteration)
+            {
+                int i = current_iteration;
+                tempcs = new CharacterStat();
+                tempcs.charid = counter;
+                tempcs.levelid = level;
+                tempMatch = Regex.Match(temp, $"{level_level}</td><td>.*?</td><td>.*?</td><td>.*?</td>");
+                tempMatch = Regex.Match(tempMatch.Value, "<td>.*?</td>"); //find the values of hp,atk,def in sequence.
+                tempcs.hp = int.Parse(tempMatch.Value.Replace("<td>", "").Replace("</td>", "").Replace(",", ""));
+                tempcs.atk = int.Parse(tempMatch.NextMatch().Value.Replace("<td>", "").Replace("</td>", "").Replace(",", ""));
+                tempcs.def = int.Parse(tempMatch.NextMatch().Value.Replace("<td>", "").Replace("</td>", "").Replace(",",""));
+                tempMatch = Regex.Match(temp, "Ascension.*?Phase.*?Level.*?Special Stat.*?title.*?\".*?\"");
+                tempMatch = Regex.Match(tempMatch.Value, "title.*?\".*?\"");
+                tempMatch = Regex.Match(tempMatch.Value, "\".*?\"");
+                tempcs.ascensionname = CheckStatName(tempMatch.Value.Trim('"'));
+                if (level_level != "1/20")
+                {
+                    tempMatch = Regex.Match(temp, $"{level_levelarray[i-1]}.*?td rowspan=\"2\".*?{level_level}"); //finds the ascension value for each ascension level. It'll be between the past level_level - value - current level_level
+                    tempMatch = Regex.Match(tempMatch.Value, "td rowspan=\"2\".*?</td>");
+                    string temp2 = tempMatch.Value.Replace("td rowspan=\"2\"", "").Replace("</td>", "").Trim('>', ' ');
+                    if (temp2 == "&#8212;") tempcs.ascensionvalue = 0; //check for this tring to show that it is empty.
+                    else tempcs.ascensionvalue = float.Parse(temp2.Trim('%'));//make sure it's float, not int.parse
+                }
+                else tempcs.ascensionvalue = 0;
+                characterStatData.Add(tempcs);
+            }
+
+            string CheckStatName(string input)
+            {
+                switch(input.ToLower())
+                {
+                    case "geo dmg bonus": return "geo dmg%";
+                    case "anemo dmg bonus": return "anemo dmg%";
+                    case "hydro dmg bonus": return "hydro dmg%";
+                    case "pyro dmg bonus": return "pyro dmg%";
+                    case "dendro dmg bonus": return "dendro dmg%";
+                    case "cryo dmg bonus": return "cryo dmg%";
+                    case "electro dmg bonus": return "electro dmg%";
+                    case "physical dmg bonus": return "phy dmg%";
+                    case "atk": return "atk%";
+                    case "hp": return "hp%";
+                    case "def": return "def%";
+                    case "energy recharge": return "er%";
+                    case "elemental mastery": return "em";
+                    case "healing bonus": return "healing bonus%";
+                    case "crit dmg": return "crit dmg%";
+                    case "crit rate": return "crit rate%";
+                    default: throw new Exception("no ascension stat name match");
+                }
+            }
+        }
+
+        internal void WeaponStatRawData()
+        {
         }
     }
 
@@ -167,16 +261,6 @@ namespace GenshinDB
         internal List<string> talents;
 
         internal List<string> constellation; //don't use a reference variable in a struct!
-
-        internal int hp { get; set; }
-        internal int atk { get; set; }
-        internal int def { get; set; }
-        internal int em { get; set; }
-        internal int cd { get; set; }
-        internal int cr { get; set; }
-        internal int er { get; set; }
-        internal int dmg_bonus { get; set; }
-        internal int levelid { get; set; }
     }
 
     internal struct Artifact
@@ -198,6 +282,26 @@ namespace GenshinDB
         internal int rarity { get; set; }
         internal string refinementData;
         internal List<string> refinements;
+    }
+
+    internal struct WeaponStat
+    {
+        internal int weaponid { get; set; }
+        internal int levelid { get; set; }
+        internal int atk { get; set; }
+        internal string statname { get; set; }
+        internal float statvalue { get; set; }
+    }
+
+    internal struct CharacterStat
+    {
+        internal int charid { get; set; }
+        internal int levelid { get; set; }
+        internal int hp { get; set; }
+        internal int atk { get; set; }
+        internal int def { get; set; }
+        internal string ascensionname { get; set; }
+        internal float ascensionvalue { get; set; }
     }
 
 }
