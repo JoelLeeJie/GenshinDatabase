@@ -15,12 +15,19 @@ namespace GenshinDB
         internal List<Artifact> artifactData;
         internal List<Weapon> weaponData;
 
+        internal List<CharacterStat> characterStatData;
+        internal List<WeaponStat> weaponStatData;
 
-        internal WriteCSV(List<Character> cData, List<Artifact> aData, List<Weapon> wData, string filePath)
+
+        internal WriteCSV(List<Character> cData, List<Artifact> aData, List<Weapon> wData, List<CharacterStat> csData, List<WeaponStat> wsData, string filePath)
         {
             characterData = cData;
             artifactData = aData;
             weaponData = wData;
+
+            characterStatData = csData;
+            weaponStatData = wsData;
+
             csvFolderPath = Directory.GetParent(filePath).FullName + "\\CsvFIles(CSV)";
         }
 
@@ -31,6 +38,7 @@ namespace GenshinDB
             WriteWeaponInfo(); //table: weaponinfo
             WriteWeaponRefinements(); //table: weaponrefinements
             WriteArtifactSets(); //table: artifactsets
+            WriteCharacterStats(); //table: characterstats
         }
 
         void WriteCharacterInfo()
@@ -136,6 +144,17 @@ namespace GenshinDB
                 if (a.onepiece is not null) temp = temp + $"\"{a.onepiece}\"";
                 //check for null to prevent putting (,"", instead of ,,)
                 temp = temp + "\n";
+            }
+            File.WriteAllText(path, temp);
+        }
+
+        void WriteCharacterStats()
+        {
+            string path = csvFolderPath + "\\characterstats.csv";
+            string temp = "charid,levelid,hp,atk,def,ascensionstatname,ascensionstatvalue\n";
+            foreach(CharacterStat cs in characterStatData)
+            {
+                temp = temp + cs.charid + "," + cs.levelid + "," + cs.hp + "," + cs.atk + "," + cs.def + "," + cs.ascensionname + "," + cs.ascensionvalue + "\n";
             }
             File.WriteAllText(path, temp);
         }

@@ -17,7 +17,7 @@ namespace GenshinDB
         {
             Start start = new Start();
             
-            
+            /*
             GetData getData = new GetData();
             //Gets Data from url. Runs get data on all 3 dataTypes at the same time.
             Task.WaitAll(getData.GetDataForItemInList(getData.characterNames, dataType.characters).ToArray());
@@ -38,7 +38,7 @@ namespace GenshinDB
             wiki.GetCharacterData();
             wiki.GetWeaponData();
             Console.WriteLine("Finished loading data!");
-            
+            */
             
             //convert raw data to struct to csv.
             ConvertRawData convertRawData = new ConvertRawData(start.thisFilePath);
@@ -46,8 +46,10 @@ namespace GenshinDB
             convertRawData.CharacterRawData();
             convertRawData.ArtifactRawData();
             convertRawData.WeaponRawData();
+            convertRawData.CharacterStatRawData();
+            convertRawData.WeaponStatRawData();
             
-            WriteCSV writeCSV = new WriteCSV(convertRawData.characterData, convertRawData.artifactData, convertRawData.weaponData, start.thisFilePath);
+            WriteCSV writeCSV = new WriteCSV(convertRawData.characterData, convertRawData.artifactData, convertRawData.weaponData, convertRawData.characterStatData, convertRawData.weaponStatData,  start.thisFilePath);
             //writes csv files for all tables.
             writeCSV.WriteAllCSVFiles();
             Console.WriteLine("Finished writing csv files!");
