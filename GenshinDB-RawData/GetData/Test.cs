@@ -14,20 +14,15 @@ namespace RawData
     {
         static void Main()
         {
-            string temp = ""; string input; string[] arrays = new string[8];
-            for(int i = 0; i < arrays.Length; i++)
-            {
-                arrays[i] = Console.ReadLine();
-            }
-            for(int id = 42; id<46; id++)
-            {
-                foreach(string s in arrays)
-                {
-                    temp = temp + id + "," + s + "\n";
-                }
-            }
-            File.WriteAllText("D:\\GenshinDB\\GenshinDB-RawData\\CsvFIles(CSV)\\traveler.txt", temp);
-
+            Test test = new Test();
+            test.Testing();
+        }
+        void Testing()
+        {
+            string temp = "hi\rbye\rtry";
+            Match tempMatch = Regex.Match(temp, "hi[a-zA-Z/\r/]*?try");
+            Console.WriteLine($@"{tempMatch.Value.Replace("\r", "")}");
+            Console.WriteLine(temp);
         }
     }
 }

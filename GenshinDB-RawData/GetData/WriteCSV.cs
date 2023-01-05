@@ -39,6 +39,7 @@ namespace GenshinDB
             WriteWeaponRefinements(); //table: weaponrefinements
             WriteArtifactSets(); //table: artifactsets
             WriteCharacterStats(); //table: characterstats
+            WriteWeaponStats(); //table: weaponstats
         }
 
         void WriteCharacterInfo()
@@ -155,6 +156,20 @@ namespace GenshinDB
             foreach(CharacterStat cs in characterStatData)
             {
                 temp = temp + cs.charid + "," + cs.levelid + "," + cs.hp + "," + cs.atk + "," + cs.def + "," + cs.ascensionname + "," + cs.ascensionvalue + "\n";
+            }
+            File.WriteAllText(path, temp);
+        }
+
+        void WriteWeaponStats()
+        {
+            string path = csvFolderPath + "\\weaponstats.csv";
+            string temp = "weaponid,levelid,atk,statname,statvalue\n";
+            foreach(WeaponStat ws in weaponStatData)
+            {
+                temp = temp + ws.weaponid + "," + ws.levelid + "," + ws.atk;
+                if (ws.statname is not null)
+                    temp = temp + "," + ws.statname + "," + ws.statvalue + "\n";
+                else temp = temp + ",,\n";
             }
             File.WriteAllText(path, temp);
         }

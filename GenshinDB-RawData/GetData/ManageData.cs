@@ -54,7 +54,7 @@ namespace GenshinDB
         {
             int counter = 1;
             List<string> fileNames = Directory.GetFiles(characterRawDataPath, "*.txt").ToList<string>();
-            foreach(string path in fileNames)
+            foreach (string path in fileNames)
             {
                 tempc.talents = new List<string>() { };
                 tempc.constellation = new List<string>() { }; //need to make the list empty again for the next character. Also dereferences it from the existing tempc.talent/constellation to prevent overwriting.
@@ -71,13 +71,13 @@ namespace GenshinDB
 
                     tempMatch = Regex.Matches(text, "unlock\":.*?\"description\":\".*?\"");
                     for (int i = 0; i < tempMatch.Count(); i++)
-                    { 
+                    {
                         if (i < 3) tempc.talents.Add(Regex.Matches(tempMatch[i].Value, ":\".*?\"")[1].Value.Trim(':', '\"').Replace("\\n", " ")); //since description of constellation may include ":" which shouldnt be split.
-                        if (i > tempMatch.Count()-7) tempc.constellation.Add(Regex.Matches(tempMatch[i].Value, ":\".*?\"")[1].Value.Trim(':', '\"').Replace("\\n", " "));
+                        if (i > tempMatch.Count() - 7) tempc.constellation.Add(Regex.Matches(tempMatch[i].Value, ":\".*?\"")[1].Value.Trim(':', '\"').Replace("\\n", " "));
                     }
                 }
-                catch(NullReferenceException) { Console.WriteLine(tempc.name + ": Null reference when converting to struct"); continue; }
-                catch(Exception) { Console.WriteLine(tempc.name + ": character error convert to struct"); continue; }
+                catch (NullReferenceException) { Console.WriteLine(tempc.name + ": Null reference when converting to struct"); continue; }
+                catch (Exception) { Console.WriteLine(tempc.name + ": character error convert to struct"); continue; }
                 tempc.id = counter++;
                 characterData.Add(tempc); //since tempc is a struct, changing it won't affect previous copies of it in the list. This doesn't apply for reference variables in a struct.
             }
@@ -89,7 +89,7 @@ namespace GenshinDB
         {
             int counter = 1;
             List<string> fileNames = Directory.GetFiles(artifactRawDataPath, "*.txt").ToList<string>();
-            foreach(string path in fileNames)
+            foreach (string path in fileNames)
             {
                 tempa = new Artifact();
                 try
@@ -97,14 +97,14 @@ namespace GenshinDB
                     string text = File.ReadAllText(path);
                     text = text.Replace("\\\"", "'");
                     tempa.name = Regex.Match(text, "name\":\".*?\",").Value.Split(':')[1].Trim('"', ' ', ',');
-                    if(Regex.Match(text, "1-piece_bonus\":\".*?\"")?.Value != "")
+                    if (Regex.Match(text, "1-piece_bonus\":\".*?\"")?.Value != "")
                         tempa.onepiece = Regex.Match(text, "1-piece_bonus\":\".*?\"").Value.Split(':')[1].Trim('"', ' '); //need ? to check for null, to prevent accessing [1] for null(index out of range).
-                    if(Regex.Match(text, "2-piece_bonus\":\".*?\",")?.Value != "")
+                    if (Regex.Match(text, "2-piece_bonus\":\".*?\",")?.Value != "")
                         tempa.twopiece = Regex.Match(text, "2-piece_bonus\":\".*?\",").Value.Split(':')[1].Trim('"', ' ', ',');
                     if (Regex.Match(text, "4-piece_bonus\":\".*?\"")?.Value != "")
                         tempa.fourpiece = Regex.Match(text, "4-piece_bonus\":\".*?\"").Value.Split(':')[1].Trim('"', ' ');
                 }
-                catch(Exception)
+                catch (Exception)
                 {
                     Console.WriteLine(tempa.name + ": artifact error convert to struct");
                     continue;
@@ -132,7 +132,7 @@ namespace GenshinDB
                     tempw.rarity = int.Parse(Regex.Match(text, "\"rarity\":.*?,").Value.Split(':')[1].Trim('"', ',', ' '));
                     tempw.refinementData = Regex.Match(Regex.Match(text, "\"passiveDesc\":.*?\",").Value, ":\".*?\"").Value.Trim('"', ',', ' ', ':');
                 }
-                catch(Exception) { Console.WriteLine(tempw.name + ": weapon error convert to struct"); continue; }
+                catch (Exception) { Console.WriteLine(tempw.name + ": weapon error convert to struct"); continue; }
                 tempw.id = counter++;
 
                 //turn refinementData into 5 separate statements to put into refinements.
@@ -166,7 +166,7 @@ namespace GenshinDB
             string temp; Match tempMatch; MatchCollection tempMatchCollection;
             int counter = 1;
             string[] level_levelarray = new string[] { "1/20", "20/20", "20/40", "40/40", "40/50", "50/50", "50/60", "60/60", "60/70", "70/70", "70/80", "80/80", "80/90", "90/90" };
-            foreach(string path in fileNamePaths)
+            foreach (string path in fileNamePaths)
             {
                 temp = File.ReadAllText(path);
 
@@ -202,14 +202,14 @@ namespace GenshinDB
                 tempMatch = Regex.Match(tempMatch.Value, "<td>.*?</td>"); //find the values of hp,atk,def in sequence.
                 tempcs.hp = int.Parse(tempMatch.Value.Replace("<td>", "").Replace("</td>", "").Replace(",", ""));
                 tempcs.atk = int.Parse(tempMatch.NextMatch().Value.Replace("<td>", "").Replace("</td>", "").Replace(",", ""));
-                tempcs.def = int.Parse(tempMatch.NextMatch().Value.Replace("<td>", "").Replace("</td>", "").Replace(",",""));
+                tempcs.def = int.Parse(tempMatch.NextMatch().Value.Replace("<td>", "").Replace("</td>", "").Replace(",", ""));
                 tempMatch = Regex.Match(temp, "Ascension.*?Phase.*?Level.*?Special Stat.*?title.*?\".*?\"");
                 tempMatch = Regex.Match(tempMatch.Value, "title.*?\".*?\"");
                 tempMatch = Regex.Match(tempMatch.Value, "\".*?\"");
                 tempcs.ascensionname = CheckStatName(tempMatch.Value.Trim('"'));
                 if (level_level != "1/20")
                 {
-                    tempMatch = Regex.Match(temp, $"{level_levelarray[i-1]}.*?td rowspan=\"2\".*?{level_level}"); //finds the ascension value for each ascension level. It'll be between the past level_level - value - current level_level
+                    tempMatch = Regex.Match(temp, $"{level_levelarray[i - 1]}.*?td rowspan=\"2\".*?{level_level}"); //finds the ascension value for each ascension level. It'll be between the past level_level - value - current level_level
                     tempMatch = Regex.Match(tempMatch.Value, "td rowspan=\"2\".*?</td>");
                     string temp2 = tempMatch.Value.Replace("td rowspan=\"2\"", "").Replace("</td>", "").Trim('>', ' ');
                     if (temp2 == "&#8212;") tempcs.ascensionvalue = 0; //check for this tring to show that it is empty.
@@ -218,36 +218,88 @@ namespace GenshinDB
                 else tempcs.ascensionvalue = 0;
                 characterStatData.Add(tempcs);
             }
-
-            string CheckStatName(string input)
-            {
-                switch(input.ToLower())
-                {
-                    case "geo dmg bonus": return "geo dmg%";
-                    case "anemo dmg bonus": return "anemo dmg%";
-                    case "hydro dmg bonus": return "hydro dmg%";
-                    case "pyro dmg bonus": return "pyro dmg%";
-                    case "dendro dmg bonus": return "dendro dmg%";
-                    case "cryo dmg bonus": return "cryo dmg%";
-                    case "electro dmg bonus": return "electro dmg%";
-                    case "physical dmg bonus": return "phy dmg%";
-                    case "atk": return "atk%";
-                    case "hp": return "hp%";
-                    case "def": return "def%";
-                    case "energy recharge": return "er%";
-                    case "elemental mastery": return "em";
-                    case "healing bonus": return "healing bonus%";
-                    case "crit dmg": return "crit dmg%";
-                    case "crit rate": return "crit rate%";
-                    default: throw new Exception("no ascension stat name match");
-                }
-            }
         }
 
         internal void WeaponStatRawData()
         {
+            List<string> fileNamePaths = Directory.GetFiles(rawDataFilePath + "\\WeaponWiki").ToList<String>();
+            string temp; string temp2; Match tempMatch; MatchCollection tempMatchCollection;
+            int counter = 1;
+            string[] level_levelarray = new string[] { "1/20", "20/20", "20/40", "40/40", "40/50", "50/50", "50/60", "60/60", "60/70", "70/70", "70/80", "80/80", "80/90", "90/90" };
+            foreach (string path in fileNamePaths)
+            {
+                temp = File.ReadAllText(path);
+
+                try
+                {
+                    for (int i = 0; i < level_levelarray.Length; i++)
+                    {
+                        filterData(level_levelarray[i], int.Parse(level_levelarray[i].Split('/')[0]), i);
+                        if (i != 0) i++; //1/20, then 20/20, then 40/40, 50/50...
+                    }
+                    //1/20. 20/20, 40/40 etc for stats(for every level, 
+                    //20/40, 40/50 to find ascension stat(remember to link it to the right levelid)
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine(counter + ": error convert weaponstat to csv.");
+                    continue;
+                }
+                finally
+                {
+                    counter++; //increase charid for every character.
+                }
+            }
+            void filterData(string level_level, int level, int current_iteration) //get weaponid,levelid,base atk, statname and statvalue
+            {
+                int i = current_iteration;
+                tempws = new WeaponStat();
+                tempws.weaponid = counter;
+                tempws.levelid = level;
+                tempMatch = Regex.Match(temp, "<td rowspan=\"2\">.*?</tbody>", RegexOptions.Singleline); //include \n and \r, as dot character does not.
+                tempMatch = Regex.Match(tempMatch.Value, $"<td>{level_level}.*?</tr>", RegexOptions.Singleline);
+                if (!tempMatch.Success) return; //because some weapons don't go as far in levels as others, they don't have matches for other levels.
+                temp2 = Regex.Replace(tempMatch.Value, "\r", "");
+                temp2 = Regex.Replace(temp2, "\n", "");
+                tempMatchCollection = Regex.Matches(temp2, "<td>.*?</td>"); //finds all numbers
+                tempws.atk = int.Parse(tempMatchCollection[1].Value.Replace("<td>", "").Replace("</td>", ""));
+                if (tempMatchCollection.Count > 2) //checks if substat exists
+                {
+                    tempws.statvalue = float.Parse(tempMatchCollection[2].Value.Replace("<td>", "").Replace("</td>", "").Trim('%'));
+                    tempMatch = Regex.Match(temp, "\\(<span class.*?</b></span>");
+                    temp2 = Regex.Match(tempMatch.Value, "<b>.*?</b>").Value.Replace("<b>", "").Replace("</b>", "");
+                    tempws.statname = CheckStatName(temp2);
+                }
+                weaponStatData.Add(tempws);
+            }
+        }
+        string CheckStatName(string input)
+        {
+            switch (input.ToLower())
+            {
+                case "geo dmg bonus": return "geo dmg%";
+                case "anemo dmg bonus": return "anemo dmg%";
+                case "hydro dmg bonus": return "hydro dmg%";
+                case "pyro dmg bonus": return "pyro dmg%";
+                case "dendro dmg bonus": return "dendro dmg%";
+                case "cryo dmg bonus": return "cryo dmg%";
+                case "electro dmg bonus": return "electro dmg%";
+                case "physical dmg bonus": return "phy dmg%";
+                case "atk": return "atk%";
+                case "hp": return "hp%";
+                case "def": return "def%";
+                case "energy recharge": return "er%";
+                case "elemental mastery": return "em";
+                case "healing bonus": return "healing bonus%";
+                case "crit dmg": return "crit dmg%";
+                case "crit rate": return "crit rate%";
+                default: throw new Exception("no ascension stat name match");
+            }
         }
     }
+
+
 
     internal struct Character
     {
