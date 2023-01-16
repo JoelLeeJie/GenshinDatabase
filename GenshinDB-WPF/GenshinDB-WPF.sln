@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenshinDB-WPF", "GenshinDB-WPF.csproj", "{30FBCB65-6CAD-4E33-8B1B-B6132025A03E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenshinDB-WPF", "GenshinDB-WPF.csproj", "{30FBCB65-6CAD-4E33-8B1B-B6132025A03E}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GenshinDB", "..\GenshinDB\GenshinDB.sqlproj", "{6F001AB8-BEE3-4443-80DB-8A03B9DB19E4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C64DE3EB-1385-412D-A458-ACEDA84B3D4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +17,6 @@ Global
 		{30FBCB65-6CAD-4E33-8B1B-B6132025A03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30FBCB65-6CAD-4E33-8B1B-B6132025A03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30FBCB65-6CAD-4E33-8B1B-B6132025A03E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F001AB8-BEE3-4443-80DB-8A03B9DB19E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F001AB8-BEE3-4443-80DB-8A03B9DB19E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F001AB8-BEE3-4443-80DB-8A03B9DB19E4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{6F001AB8-BEE3-4443-80DB-8A03B9DB19E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F001AB8-BEE3-4443-80DB-8A03B9DB19E4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F001AB8-BEE3-4443-80DB-8A03B9DB19E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
