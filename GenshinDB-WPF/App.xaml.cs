@@ -13,5 +13,10 @@ namespace GenshinDB_WPF
     /// </summary>
     public partial class App : Application
     {
+        void App_Exit(object sender, ExitEventArgs e) //called when application terminates.
+        {
+            Database.connection.Dispose(); //terminates connection entirely, not just close.
+        }
+
     }
 }
