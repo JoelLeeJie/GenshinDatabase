@@ -18,23 +18,47 @@ namespace GenshinDB_WPF
 			isThereConnection = true;
 		}
 
-		internal static string Query(string sqlcommand, int column)
+		internal static NpgsqlDataReader Query(string sqlcommand)
 		{
-			string result = "";
+			
 			try
 			{
 				using (NpgsqlCommand command = new NpgsqlCommand(sqlcommand, connection))
-				{
-					result = command.ExecuteReader()[column].ToString();
+				{ //instead of doing "using" reader = command.ExecuteReader(), let it be so that the reader can be returned. But remember to close it afterwards. 
+					NpgsqlDataReader reader = command.ExecuteReader();
+					reader.Read(); //VERY IMPORTANT! Needed to go to the first row.
+					return reader; //Note: Close the reader when done.
 				}
 			}
 			catch(Exception e)
 			{
 				MessageBox.Show(e.Message);
 			}
+			return null;
 			
-			return result;
 		}
+
+        internal static string Query(string sqlcommand, int column)
+        {
+			string temp = "";
+            try
+            {
+                using (NpgsqlCommand command = new NpgsqlCommand(sqlcommand, connection))
+                {
+                    using(NpgsqlDataReader reader = command.ExecuteReader())
+					{
+						reader.Read();
+						return reader[column].ToString();
+					}
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            return null;
+
+        }
 
         internal static List<string> ListQuery(string sqlcommand, int column)
         {

@@ -20,9 +20,17 @@ namespace GenshinDB_WPF
     /// </summary>
     public partial class ArtifactInfoPage : Page
     {
+        public List<string> artifactNamesList;
         public ArtifactInfoPage()
         {
             InitializeComponent();
+            artifactNamesList = Database.ListQuery("Select name from artifactsets;", 0);
+            ArtifactDropdown.ItemsSource = artifactNamesList;
+        }
+
+        private void ArtifactDropdown_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            MessageBox.Show(ArtifactDropdown.SelectedItem.ToString());
         }
 
     }

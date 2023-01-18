@@ -5,12 +5,44 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:GenshinDB_WPF"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="682" d:DesignWidth="1190"
       Title="CharacterInfoPage">
-    
-    <Grid>
-        <Rectangle Stroke="Black" Fill="White"/>
-        <ComboBox Margin="10,0,626,412" SelectionChanged="ComboBox_SelectionChanged"/>
 
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="185*"/>
+            <ColumnDefinition Width="469*"/>
+            <ColumnDefinition Width="536*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Stroke="White" Fill="White" RenderTransformOrigin="0.5,0.5" Margin="-1,0,-1,-9" Grid.ColumnSpan="3">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <ComboBox x:Name="CharacterDropdown" Margin="41,36,432,572" Text="Characters" SelectionChanged="CharacterDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" Grid.ColumnSpan="2" IsEditable="True" IsReadOnly="True">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF1B50D2" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="CharacterLevelDropdown" Margin="41,141,432,467" Text="Level" SelectionChanged="CharacterLevelDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" Grid.ColumnSpan="2" IsEditable="True" IsReadOnly="True">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF1B50D2" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <TextBlock x:Name="CharacterText" HorizontalAlignment="Left" Margin="87,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="612" Width="869" Grid.Column="1" FontSize="22"/>
+        <Button x:Name="CharacterConstellationButton" Content="Constellations" HorizontalAlignment="Left" Margin="41,255,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="CharacterConstellationButton_Click"/>
+        <Button x:Name="CharacterInfoButton" Content="Info" HorizontalAlignment="Left" Margin="41,312,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117"/>
+        <Button x:Name="CharacterStatsButton" Content="Stats" HorizontalAlignment="Left" Margin="41,373,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117"/>
     </Grid>
 </Page>

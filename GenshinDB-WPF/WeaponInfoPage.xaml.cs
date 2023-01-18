@@ -20,9 +20,25 @@ namespace GenshinDB_WPF
     /// </summary>
     public partial class WeaponInfoPage : Page
     {
+        List<string> weaponNamesList;
+        List<int> levelList = new List<int>() { 1, 20, 40, 50, 60, 70, 80, 90 };
         public WeaponInfoPage()
         {
+            
             InitializeComponent();
+            weaponNamesList = Database.ListQuery("Select name from weaponinfo", 0);
+            WeaponLevelDropdown.ItemsSource = levelList;
+            WeaponDropdown.ItemsSource = weaponNamesList;
+        }
+
+        private void WeaponDropdown_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            MessageBox.Show(WeaponDropdown.SelectedItem.ToString());
+        }
+
+        private void WeaponLevelDropdown_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

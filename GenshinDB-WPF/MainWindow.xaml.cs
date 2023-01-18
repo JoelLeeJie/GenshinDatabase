@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,15 +20,9 @@ namespace GenshinDB_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<string> characterNamesList;
-        public List<string> artifactNamesList;
-        public List<string> weaponNamesList;
         public MainWindow()
         {
             InitializeComponent();
-            characterNamesList = Database.ListQuery("Select name from characterinfo;", 0);
-            artifactNamesList = Database.ListQuery("Select name from artifactsets;", 0);
-            weaponNamesList = Database.ListQuery("Select name from weaponinfo;", 0);
         }
 
         private void Character_Click(object sender, RoutedEventArgs e)

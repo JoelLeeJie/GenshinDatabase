@@ -5,7 +5,38 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:GenshinDB_WPF"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="WeaponInfoPage" Height="450" Width="800">
-    <Rectangle Stroke="Black" Fill="White"/>
+      d:DesignHeight="682" d:DesignWidth="1190"
+      Title="WeaponInfoPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Stroke="White" Fill="White" RenderTransformOrigin="0.5,0.5" Margin="-1,0,-1,-9" Grid.ColumnSpan="2">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <ComboBox x:Name="WeaponDropdown" Margin="41,36,432,572" Text="Weapons" SelectionChanged="WeaponDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF1B50D2" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="WeaponLevelDropdown" Margin="41,141,432,467" Text="Level" SelectionChanged="WeaponLevelDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF1B50D2" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+    </Grid>
 </Page>
