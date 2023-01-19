@@ -21,10 +21,12 @@ namespace GenshinDB_WPF
     /// </summary>
     public partial class CharacterInfoPage : Page
     {
+        NpgsqlDataReader reader;
         List<string> characterNamesList;
         List<int> levelList = new List<int>() { 1, 20, 40, 50, 60, 70, 80, 90 };
         int levelid = 0;
         string characterName = "";
+        int charid = 0;
         public CharacterInfoPage()
         {
             InitializeComponent();
@@ -36,6 +38,8 @@ namespace GenshinDB_WPF
         private void CharacterDropdown_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             characterName = CharacterDropdown.SelectedItem.ToString();
+            string command = "Select id from characterinfo where name = '" + characterName + "';";
+            charid = int.Parse(Database.Query(command, 0));
         }
 
 
@@ -46,8 +50,6 @@ namespace GenshinDB_WPF
 
         private void CharacterConstellationButton_Click(object sender, RoutedEventArgs e)
         {
-            NpgsqlDataReader idReader;
-            NpgsqlDataReader constellationReader;
             if (characterName == "")
             {
                 CharacterText.Text = "Select a Character";
@@ -55,10 +57,8 @@ namespace GenshinDB_WPF
             }
             try
             {
-                string command = "Select id from characterinfo where name = '" + characterName + "';";
-                int id = int.Parse(Database.Query(command, 0));
-                command = "Select c1,c2,c3,c4,c5,c6 from characterconstellations where charid = " + id + ";";
-                constellationReader = Database.Query(command);
+                string command = "Select c1,c2,c3,c4,c5,c6 from characterconstellations where charid = " + charid + ";";
+                reader = Database.Query(command);
             }
             catch (Exception error1)
             {
@@ -68,9 +68,9 @@ namespace GenshinDB_WPF
             string temp = $"Name: {characterName}\n\n";
             for (int constellation = 1; constellation < 7; constellation++)
             {
-                temp += $"Constellation {constellation}: {constellationReader[constellation - 1].ToString()}\n\n";
+                temp += $"Constellation {constellation}: {reader[constellation - 1].ToString()}\n\n";
             }
-            constellationReader.Close();
+            reader.Close();
 
             CharacterText.Text = temp;
             CharacterText.FontSize = 15;
@@ -79,7 +79,6 @@ namespace GenshinDB_WPF
         private void CharacterInfoButton_Click(object sender, RoutedEventArgs e)
         {
             CharacterText.FontSize = 13;
-            NpgsqlDataReader reader;
             if (characterName == "")
             {
                 CharacterText.Text = "Select a Character";
@@ -125,23 +124,16 @@ namespace GenshinDB_WPF
 
         private void CharacterStatsButton_Click(object sender, RoutedEventArgs e)
         {
-            NpgsqlDataReader reader;
             CharacterText.FontSize = 18;
             CharacterText.Text = "";
-            if (characterName == "") CharacterText.Text += "Select a Character";
+            if (characterName == "") CharacterText.Text += "Select a Character\n";
             if (levelid == 0) CharacterText.Text += "Select a Level";
             if (CharacterText.Text != "") return; //Check if both character and level is entered.
 
-            string command = $"Select id from characterinfo where name = '{characterName}';";
-            int charid;
-            if (!int.TryParse(Database.Query(command, 0), out charid)) //get charid, to use with levelid to get row.
-            {
-                return;
-            }
             string temp = "";
             try
             {
-                command = $"SELECT * FROM characterstats WHERE charid = {charid} AND levelid = {levelid};";
+                string command = $"SELECT * FROM characterstats WHERE charid = {charid} AND levelid = {levelid};";
                 reader = Database.Query(command);
 
                 temp += $"Name: {characterName}\n";
@@ -152,15 +144,14 @@ namespace GenshinDB_WPF
                 temp += $"ATK| {reader[3].ToString()}\n";
                 temp += $"DEF| {reader[4].ToString()}\n";
                 temp += reader[5].ToString().ToUpper() + "| " + reader[6].ToString(); //acensionstatname| ascensionstatvalue.
-                reader.Close();
             }
 
             catch (Exception error1)
             {
                 MessageBox.Show(error1.Message);
             }
-
             CharacterText.Text = temp;
+            reader.Close();
         }
 
     }
