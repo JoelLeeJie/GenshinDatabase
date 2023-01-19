@@ -40,9 +40,9 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <TextBlock x:Name="CharacterText" HorizontalAlignment="Left" Margin="87,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="612" Width="869" Grid.Column="1" FontSize="22"/>
+        <TextBlock x:Name="CharacterText" HorizontalAlignment="Left" Margin="87,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="612" Width="869" Grid.Column="1" FontSize="15"/>
         <Button x:Name="CharacterConstellationButton" Content="Constellations" HorizontalAlignment="Left" Margin="41,255,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="CharacterConstellationButton_Click"/>
-        <Button x:Name="CharacterInfoButton" Content="Info" HorizontalAlignment="Left" Margin="41,312,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117"/>
-        <Button x:Name="CharacterStatsButton" Content="Stats" HorizontalAlignment="Left" Margin="41,373,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117"/>
+        <Button x:Name="CharacterInfoButton" Content="Info" HorizontalAlignment="Left" Margin="41,312,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="CharacterInfoButton_Click"/>
+        <Button x:Name="CharacterStatsButton" Content="Stats" HorizontalAlignment="Left" Margin="41,373,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="CharacterStatsButton_Click"/>
     </Grid>
 </Page>
