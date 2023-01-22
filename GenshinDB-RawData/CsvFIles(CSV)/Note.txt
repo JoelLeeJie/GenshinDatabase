@@ -1,2 +1,0 @@
-charid 39(childe) and 42(traveler anemo) have the same constellation 1, which is an error in api.genshin.dev
-use Palm Vortex pulls in opponents and objects within a 5m radius
