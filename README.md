@@ -3,6 +3,7 @@ A database meant to store and display character, weapon, artifact and material i
 
 Download GenshinDB as a Zip   
 https://downgit.github.io/#/home?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/GenshinDB_Download  
+or https://download-directory.github.io/?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/GenshinDB_Download
 Extract, and run GenshinDB-WPF.exe or setup.exe.
 
 Alternatively, go to https://github.com/JoelLeeJie/GenshinDatabase/tree/download and download the zip file there.
