@@ -39,10 +39,5 @@ namespace GenshinDB_WPF
         {
             PageFrame.Content = new WeaponInfoPage();
         }
-
-        private void Config_Click(object sender, RoutedEventArgs e)
-        {
-            PageFrame.Content = new ConfigPage();
-        }
     }
 }

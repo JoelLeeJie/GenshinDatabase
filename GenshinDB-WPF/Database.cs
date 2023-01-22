@@ -12,7 +12,7 @@ namespace GenshinDB_WPF
 		internal static void Connect()
 		{
 			if (isThereConnection) connection.Dispose();
-			string connectionstring = @"Server=containers-us-west-53.railway.app;Port=7418;Database=railway;User Id=dbuser;Password=genshin123;";
+			string connectionstring = @"Server=containers-us-west-55.railway.app;Port=5644;Database=railway;User Id=dbuser;Password=genshin123;";
 			connection = new NpgsqlConnection(connectionstring);
 			connection.Open();
 			isThereConnection = true;

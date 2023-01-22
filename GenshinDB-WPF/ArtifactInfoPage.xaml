@@ -31,6 +31,25 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
+        <TextBlock x:Name="ArtifactText" HorizontalAlignment="Left" Margin="272,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="612" Width="869" FontSize="15"/>
+        <ComboBox x:Name="ArtifactStatsDropdown" Margin="41,129,508,485" Text="Type" SelectionChanged="ArtifactStatsDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF1B50D2" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="ArtifactRarityDropdown" Margin="152,129,432,485" Text="Rarity" SelectionChanged="ArtifactRarityDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF1B50D2" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Button x:Name="ArtifactInfoButton" Content="Info" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="ArtifactInfoButton_Click" Margin="41,237,0,0"/>
+        <Button x:Name="ArtifactStatsButton" Content="Stats" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="ArtifactStatsButton_Click" Margin="42,307,0,0"/>
 
     </Grid>
 </Page>

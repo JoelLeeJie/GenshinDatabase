@@ -10,8 +10,7 @@
         <TextBox HorizontalAlignment="Right" Height="33" Margin="0,17,1056,0" TextWrapping="Wrap" Text="GenshinDB" VerticalAlignment="Top" Width="125" FontSize="20" TextAlignment="Center"/>
         <Frame x:Name="PageFrame" Margin="0,55,10,10" NavigationUIVisibility="Hidden"/>
         <Button x:Name="Character" Content="Character" Margin="176,10,819,664" Background="#FFD6E8FF" RenderTransformOrigin="0.5,0.5" Click="Character_Click"/>
-        <Button x:Name="Weapon" Content="Weapon" Margin="444,8,554,664" Background="#FFD6E8FF" Click="Weapon_Click"/>
-        <Button x:Name="Artifact" Content="Artifact" Margin="706,8,290,664" Background="#FFD6E8FF" Click="Artifact_Click"/>
-        <Button x:Name="Config" Content="Config" Margin="962,10,36,664" Background="#FFD6E8FF" Click="Config_Click"/>
+        <Button x:Name="Weapon" Content="Weapon" Margin="536,8,462,664" Background="#FFD6E8FF" Click="Weapon_Click"/>
+        <Button x:Name="Artifact" Content="Artifact" Margin="913,8,83,664" Background="#FFD6E8FF" Click="Artifact_Click"/>
     </Grid>
 </Window>
