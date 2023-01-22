@@ -1,4 +1,4 @@
-Download DownloadFile as a zip.  
+Download GenshinDB_Download as a zip.  
 https://downgit.github.io/#/home?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/GenshinDB_Download  
 or [Code][Download Zip]
 
