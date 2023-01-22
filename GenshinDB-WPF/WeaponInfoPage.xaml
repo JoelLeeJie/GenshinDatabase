@@ -1,0 +1,46 @@
+﻿<Page x:Class="GenshinDB_WPF.WeaponInfoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GenshinDB_WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="682" d:DesignWidth="1190"
+      Title="WeaponInfoPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Stroke="White" Fill="White" RenderTransformOrigin="0.5,0.5" Margin="-1,0,-1,-9" Grid.ColumnSpan="2">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <ComboBox x:Name="WeaponDropdown" Margin="41,36,432,572" Text="Weapons" SelectionChanged="WeaponDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF1B50D2" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="WeaponLevelDropdown" Margin="41,141,432,467" Text="Level" SelectionChanged="WeaponLevelDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF1B50D2" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Button x:Name="WeaponRefinementButton" Content="Refinements" HorizontalAlignment="Left" Margin="41,255,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="WeaponRefinementButton_Click"/>
+        <Button x:Name="WeaponInfoButton" Content="Info" HorizontalAlignment="Left" Margin="41,312,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="WeaponInfoButton_Click"/>
+        <Button x:Name="WeaponStatsButton" Content="Stats" HorizontalAlignment="Left" Margin="41,373,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="WeaponStatsButton_Click"/>
+        <TextBlock x:Name="WeaponText" HorizontalAlignment="Left" Margin="272,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="612" Width="869" FontSize="15"/>
+    </Grid>
+</Page>
