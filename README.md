@@ -1,5 +1,5 @@
 # GenshinDB
-A database meant to store and display character, weapon, artifact and material info from Genshin Impact in a compact format.
+A database meant to store and display character, weapon, artifact info from Genshin Impact in a compact format.
 
 Download GenshinDB as a Zip   
 https://downgit.github.io/#/home?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/GenshinDB_Download  
