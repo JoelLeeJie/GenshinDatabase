@@ -1,4 +1,6 @@
 # GenshinDB
+EDIT: Database is no longer being hosted. Created in 2022 as part of my learning process.
+
 A database meant to store and display character, weapon, artifact info from Genshin Impact in a compact format.
 
 Download GenshinDB as a Zip   
