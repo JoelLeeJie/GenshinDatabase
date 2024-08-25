@@ -1,0 +1,74 @@
+CREATE TABLE characterinfo(
+id serial primary key,
+name VARCHAR(255),
+description TEXT,
+element VARCHAR(255),
+weapon_type VARCHAR(255),
+region VARCHAR(255),
+rarity int,
+normalattack TEXT,
+elementalskill TEXT,
+elementalburst TEXT
+);
+
+CREATE TABLE characterconstellations(
+charid serial primary key,
+c1 TEXT,
+c2 TEXT,
+c3 TEXT,
+c4 TEXT,
+c5 TEXT,
+c6 TEXT
+);
+
+
+CREATE TABLE weaponinfo(
+id serial primary key,
+name VARCHAR(255),
+weapon_type VARCHAR(255),
+rarity int
+);
+
+CREATE TABLE weaponrefinements(
+weaponid serial primary key,
+r1 TEXT,
+r2 TEXT,
+r3 TEXT,
+r4 TEXT,
+r5 TEXT
+);
+
+CREATE TABLE artifactsets(
+id serial primary key,
+name VARCHAR(255),
+twopiece TEXT,
+fourpiece TEXT,
+onepiece TEXT
+);
+
+CREATE TABLE artifactstats(
+id serial primary key,
+type VARCHAR(255),
+statname VARCHAR(255),
+statvalue double precision,
+rarity int
+);
+
+CREATE TABLE characterstats(
+charid int,
+levelid int,
+hp int,
+atk int,
+def int,
+ascensionstatname VARCHAR(255),
+ascensionstatvalue double precision
+);
+
+CREATE TABLE weaponstats(
+weaponid int,
+levelid int,
+atk int,
+statname VARCHAR(255),
+statvalue double precision
+);
+

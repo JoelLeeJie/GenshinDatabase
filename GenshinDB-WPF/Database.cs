@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Npgsql;
 using System.Windows;
+using System.IO;
 
 namespace GenshinDB_WPF
 {
@@ -12,8 +13,8 @@ namespace GenshinDB_WPF
 		internal static void Connect()
 		{
 			if (isThereConnection) connection.Dispose();
-			string connectionstring = @"Server=containers-us-west-55.railway.app;Port=5644;Database=railway;User Id=dbuser;Password=genshin123;";
-			connection = new NpgsqlConnection(connectionstring);
+            string connectionstring = File.ReadAllText("../../../../APIREADKEY.txt");
+            connection = new NpgsqlConnection(connectionstring);
 			connection.Open();
 			isThereConnection = true;
 		}
