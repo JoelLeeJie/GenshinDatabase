@@ -14,7 +14,8 @@ Alternatively, go to https://github.com/JoelLeeJie/GenshinDatabase/tree/download
 
 Info from api.genshin.dev, genshin wiki. Hosted on railway.
 
-GenshinDB-RawData: Gather raw data from websites and convert into csv files, to copy to the genshindb database.  
+GenshinDB-RawData: Gather raw data from websites and convert into csv files, to copy to the genshindb database.  \
+CSV files written to system by RawData program are then transferred to database via terminal commands, using GenshinDB-SQL folder as reference.
 GenshinDB-WPF: A UI for accessing the database.
 
 
