@@ -51,6 +51,8 @@
         <Button x:Name="WeaponRefinementButton" Content="Refinements" Margin="5" Grid.Row="3" Grid.Column="0" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Click="WeaponRefinementButton_Click"/>
         <Button x:Name="WeaponInfoButton" Content="Info" Margin="5" Grid.Row="4" Grid.Column="0" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Click="WeaponInfoButton_Click"/>
         <Button x:Name="WeaponStatsButton" Content="Stats" Margin="5" Grid.Row="5" Grid.Column="0" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Click="WeaponStatsButton_Click"/>
-        <TextBlock x:Name="WeaponText" TextWrapping="Wrap" Grid.Column="2" Grid.RowSpan="7" FontSize="20"/>
+        <Viewbox StretchDirection="DownOnly" Grid.ColumnSpan="1" Grid.Row="0" Grid.RowSpan="7" Grid.Column="2">
+            <TextBlock Width="850" x:Name="WeaponText" VerticalAlignment="Top" HorizontalAlignment="Left" TextWrapping="Wrap" />
+        </Viewbox>
     </Grid>
 </Page>

@@ -49,7 +49,9 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <TextBlock x:Name="CharacterText" TextWrapping="Wrap" Margin="15,15,15,15" Grid.ColumnSpan="1" Grid.Row="0" Grid.RowSpan="7" Grid.Column="2" FontSize="20"/>
+        <Viewbox StretchDirection="DownOnly" Grid.ColumnSpan="1" Grid.Row="0" Grid.RowSpan="7" Grid.Column="2">
+            <TextBlock Width="850" x:Name="CharacterText" VerticalAlignment="Top" HorizontalAlignment="Center" TextWrapping="Wrap" />
+        </Viewbox>
         <Button x:Name="CharacterConstellationButton" Content="Constellations" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Grid.Row="3" Margin ="5,5,5,5" Grid.Column="0" Click="CharacterConstellationButton_Click"/>
         <Button x:Name="CharacterInfoButton" Content="Info"  BorderBrush="#FFBB1515" Background="#FFC5FFC6" Grid.Row="4" Grid.Column="0" Margin ="5,5,5,5" Click="CharacterInfoButton_Click"/>
         <Button x:Name="CharacterStatsButton" Content="Stats" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Grid.Row="5" Grid.Column="0" Margin ="5,5,5,5" Click="CharacterStatsButton_Click"/>

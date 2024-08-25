@@ -55,6 +55,7 @@ namespace GenshinDB_WPF
 
         private void ArtifactInfoButton_Click(object sender, RoutedEventArgs e)
         {
+            ArtifactText.FontSize = 30;
             if (name == "")
             {
                 ArtifactText.Text = "Select an Artifact Set";
@@ -82,11 +83,13 @@ namespace GenshinDB_WPF
                 MessageBox.Show("Unable to get data");
             }
             ArtifactText.Text = temp;
+            ArtifactText.FontSize = 30;
             reader.Close();
         }
 
         private void ArtifactStatsButton_Click(object sender, RoutedEventArgs e)
         {
+            ArtifactText.FontSize = 30;
             string temp = "";
             if (type == "") temp = "Select an Artifact Type\n";
             if (rarity == 0) temp += "Select rarity";

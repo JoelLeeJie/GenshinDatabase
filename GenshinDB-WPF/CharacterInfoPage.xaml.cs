@@ -50,6 +50,7 @@ namespace GenshinDB_WPF
 
         private void CharacterConstellationButton_Click(object sender, RoutedEventArgs e)
         {
+            CharacterText.FontSize = 30;
             if (characterName == "")
             {
                 CharacterText.Text = "Select a Character";
@@ -73,12 +74,12 @@ namespace GenshinDB_WPF
             reader.Close();
 
             CharacterText.Text = temp;
-            CharacterText.FontSize = 15;
+            CharacterText.FontSize = 16;
         }
 
         private void CharacterInfoButton_Click(object sender, RoutedEventArgs e)
         {
-            CharacterText.FontSize = 13;
+            CharacterText.FontSize = 30;
             if (characterName == "")
             {
                 CharacterText.Text = "Select a Character";
@@ -120,11 +121,12 @@ namespace GenshinDB_WPF
             }
 
             CharacterText.Text = temp;
+            CharacterText.FontSize = 16;
         }
 
         private void CharacterStatsButton_Click(object sender, RoutedEventArgs e)
         {
-            CharacterText.FontSize = 18;
+            CharacterText.FontSize = 30;
             CharacterText.Text = "";
             if (characterName == "") CharacterText.Text += "Select a Character\n";
             if (levelid == 0) CharacterText.Text += "Select a Level";
@@ -151,6 +153,7 @@ namespace GenshinDB_WPF
                 MessageBox.Show(error1.Message);
             }
             CharacterText.Text = temp;
+            CharacterText.FontSize = 30;
             reader.Close();
         }
 

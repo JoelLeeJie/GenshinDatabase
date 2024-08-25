@@ -50,7 +50,7 @@ namespace GenshinDB_WPF
 
         private void WeaponRefinementButton_Click(object sender, RoutedEventArgs e)
         {
-            WeaponText.FontSize = 13;
+            WeaponText.FontSize = 30;
             if (weaponName == "")
             {
                 WeaponText.Text = "Select a Weapon";
@@ -73,13 +73,14 @@ namespace GenshinDB_WPF
                 MessageBox.Show(error.Message);
             }
             WeaponText.Text=temp;
+            WeaponText.FontSize = 16;
             reader.Close();
         }
 
         private void WeaponInfoButton_Click(object sender, RoutedEventArgs e)
         {
-            WeaponText.FontSize = 18;
-            if(weaponName == "")
+            WeaponText.FontSize = 30;
+            if (weaponName == "")
             {
                 WeaponText.Text = "Select a Weapon";
                 return;
@@ -100,11 +101,12 @@ namespace GenshinDB_WPF
 
             reader.Close();
             WeaponText.Text = temp;
+            WeaponText.FontSize = 30;
         }
 
         private void WeaponStatsButton_Click(object sender, RoutedEventArgs e)
         {
-            WeaponText.FontSize = 20;
+            WeaponText.FontSize = 30;
             WeaponText.Text = "";
             if (weaponName == "") WeaponText.Text += "Select a Weapon\n";
             if (levelid == 0) WeaponText.Text += "Select a Level";
@@ -126,6 +128,7 @@ namespace GenshinDB_WPF
             }
             reader.Close();
             WeaponText.Text = temp;
+            WeaponText.FontSize = 30;
         }
     }
 }

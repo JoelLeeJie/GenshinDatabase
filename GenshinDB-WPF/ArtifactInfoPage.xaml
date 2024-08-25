@@ -41,7 +41,9 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <TextBlock x:Name="ArtifactText" Margin="30,30,30,30" TextWrapping="Wrap" Grid.Row="0" FontSize="20" Grid.Column="2" Grid.RowSpan="7"/>
+        <Viewbox StretchDirection="DownOnly" Grid.ColumnSpan="1" Grid.Row="0" Grid.RowSpan="7" Grid.Column="2">
+            <TextBlock Width="850" x:Name="ArtifactText" VerticalAlignment="Top" HorizontalAlignment="Left" TextWrapping="Wrap" />
+        </Viewbox>
         <ComboBox x:Name="ArtifactStatsDropdown" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="5,5,5,5" Text="Type" SelectionChanged="ArtifactStatsDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
