@@ -10,11 +10,20 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="185*"/>
-            <ColumnDefinition Width="469*"/>
-            <ColumnDefinition Width="536*"/>
+            <ColumnDefinition Width="212*"/>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="895*"/>
         </Grid.ColumnDefinitions>
-        <Rectangle Stroke="White" Fill="White" RenderTransformOrigin="0.5,0.5" Margin="-1,0,-1,-9" Grid.ColumnSpan="3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="109*"/>
+            <RowDefinition Height="118*"/>
+            <RowDefinition Height="117*"/>
+            <RowDefinition Height="93*"/>
+            <RowDefinition Height="78*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="84*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Stroke="White" Fill="White" RenderTransformOrigin="0.5,0.5" Margin="-1,0,-1,-8" Grid.ColumnSpan="3" Grid.RowSpan="7">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -24,7 +33,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <ComboBox x:Name="CharacterDropdown" Margin="41,36,432,572" Text="Characters" SelectionChanged="CharacterDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" Grid.ColumnSpan="2" IsEditable="True" IsReadOnly="True">
+        <ComboBox x:Name="CharacterDropdown" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="5,5,5,5" Text="Characters" SelectionChanged="CharacterDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -32,7 +41,7 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <ComboBox x:Name="CharacterLevelDropdown" Margin="41,141,432,467" Text="Level" SelectionChanged="CharacterLevelDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" Grid.ColumnSpan="2" IsEditable="True" IsReadOnly="True">
+        <ComboBox x:Name="CharacterLevelDropdown" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="5,5,5,5" Text="Level" SelectionChanged="CharacterLevelDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -40,9 +49,9 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <TextBlock x:Name="CharacterText" HorizontalAlignment="Left" Margin="87,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="612" Width="869" Grid.Column="1" FontSize="15"/>
-        <Button x:Name="CharacterConstellationButton" Content="Constellations" HorizontalAlignment="Left" Margin="41,255,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="CharacterConstellationButton_Click"/>
-        <Button x:Name="CharacterInfoButton" Content="Info" HorizontalAlignment="Left" Margin="41,312,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="CharacterInfoButton_Click"/>
-        <Button x:Name="CharacterStatsButton" Content="Stats" HorizontalAlignment="Left" Margin="41,373,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="CharacterStatsButton_Click"/>
+        <TextBlock x:Name="CharacterText" TextWrapping="Wrap" Margin="15,15,15,15" Grid.ColumnSpan="1" Grid.Row="0" Grid.RowSpan="7" Grid.Column="2" FontSize="20"/>
+        <Button x:Name="CharacterConstellationButton" Content="Constellations" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Grid.Row="3" Margin ="5,5,5,5" Grid.Column="0" Click="CharacterConstellationButton_Click"/>
+        <Button x:Name="CharacterInfoButton" Content="Info"  BorderBrush="#FFBB1515" Background="#FFC5FFC6" Grid.Row="4" Grid.Column="0" Margin ="5,5,5,5" Click="CharacterInfoButton_Click"/>
+        <Button x:Name="CharacterStatsButton" Content="Stats" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Grid.Row="5" Grid.Column="0" Margin ="5,5,5,5" Click="CharacterStatsButton_Click"/>
     </Grid>
 </Page>

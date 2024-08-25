@@ -10,10 +10,20 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="11*"/>
-            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="212*"/>
+            <ColumnDefinition Width="82*"/>
+            <ColumnDefinition Width="895*"/>
         </Grid.ColumnDefinitions>
-        <Rectangle Stroke="White" Fill="White" RenderTransformOrigin="0.5,0.5" Margin="-1,0,-1,-9" Grid.ColumnSpan="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="97*"/>
+            <RowDefinition Height="105*"/>
+            <RowDefinition Height="104*"/>
+            <RowDefinition Height="128*"/>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="82*"/>
+            <RowDefinition Height="83*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Stroke="White" Fill="White" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3" Grid.RowSpan="7">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -23,7 +33,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <ComboBox x:Name="ArtifactDropdown" Margin="41,36,432,572" Text="Artifact Sets" SelectionChanged="ArtifactDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+        <ComboBox x:Name="ArtifactDropdown" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Artifact Sets" SelectionChanged="ArtifactDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True" Margin="5,5,5,5">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -31,8 +41,8 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <TextBlock x:Name="ArtifactText" HorizontalAlignment="Left" Margin="272,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="612" Width="869" FontSize="15"/>
-        <ComboBox x:Name="ArtifactStatsDropdown" Margin="41,129,508,485" Text="Type" SelectionChanged="ArtifactStatsDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+        <TextBlock x:Name="ArtifactText" Margin="30,30,30,30" TextWrapping="Wrap" Grid.Row="0" FontSize="20" Grid.Column="2" Grid.RowSpan="7"/>
+        <ComboBox x:Name="ArtifactStatsDropdown" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="5,5,5,5" Text="Type" SelectionChanged="ArtifactStatsDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -40,7 +50,7 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <ComboBox x:Name="ArtifactRarityDropdown" Margin="152,129,432,485" Text="Rarity" SelectionChanged="ArtifactRarityDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+        <ComboBox x:Name="ArtifactRarityDropdown" Grid.Row="2" Grid.Column="0" Margin="5,5,5,5" Grid.ColumnSpan="2" Text="Rarity" SelectionChanged="ArtifactRarityDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -48,8 +58,8 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <Button x:Name="ArtifactInfoButton" Content="Info" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="ArtifactInfoButton_Click" Margin="41,237,0,0"/>
-        <Button x:Name="ArtifactStatsButton" Content="Stats" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="ArtifactStatsButton_Click" Margin="42,307,0,0"/>
+        <Button x:Name="ArtifactInfoButton" Content="Info" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Click="ArtifactInfoButton_Click" Margin="5,5,5,5" Grid.Row="4"/>
+        <Button x:Name="ArtifactStatsButton" Content="Stats" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Click="ArtifactStatsButton_Click" Margin="5,5,5,5" Grid.Row="5"/>
 
     </Grid>
 </Page>

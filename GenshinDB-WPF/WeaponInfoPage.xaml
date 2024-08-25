@@ -9,10 +9,20 @@
       Title="WeaponInfoPage">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="11*"/>
-            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="212*"/>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="895*"/>
         </Grid.ColumnDefinitions>
-        <Rectangle Stroke="White" Fill="White" RenderTransformOrigin="0.5,0.5" Margin="-1,0,-1,-9" Grid.ColumnSpan="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="109*"/>
+            <RowDefinition Height="118*"/>
+            <RowDefinition Height="117*"/>
+            <RowDefinition Height="93*"/>
+            <RowDefinition Height="78*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="84*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Stroke="White" Fill="White" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3" Grid.RowSpan="7">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -22,7 +32,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <ComboBox x:Name="WeaponDropdown" Margin="41,36,432,572" Text="Weapons" SelectionChanged="WeaponDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+        <ComboBox x:Name="WeaponDropdown" Margin="5" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Weapons" SelectionChanged="WeaponDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -30,7 +40,7 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <ComboBox x:Name="WeaponLevelDropdown" Margin="41,141,432,467" Text="Level" SelectionChanged="WeaponLevelDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
+        <ComboBox x:Name="WeaponLevelDropdown" Margin="5" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Level" SelectionChanged="WeaponLevelDropdown_SelectionChanged" BorderBrush="#FF0563CA" Foreground="#FF2666EF" IsEditable="True" IsReadOnly="True">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -38,9 +48,9 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <Button x:Name="WeaponRefinementButton" Content="Refinements" HorizontalAlignment="Left" Margin="41,255,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="WeaponRefinementButton_Click"/>
-        <Button x:Name="WeaponInfoButton" Content="Info" HorizontalAlignment="Left" Margin="41,312,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="WeaponInfoButton_Click"/>
-        <Button x:Name="WeaponStatsButton" Content="Stats" HorizontalAlignment="Left" Margin="41,373,0,0" VerticalAlignment="Top" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Height="34" Width="117" Click="WeaponStatsButton_Click"/>
-        <TextBlock x:Name="WeaponText" HorizontalAlignment="Left" Margin="272,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="612" Width="869" FontSize="15"/>
+        <Button x:Name="WeaponRefinementButton" Content="Refinements" Margin="5" Grid.Row="3" Grid.Column="0" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Click="WeaponRefinementButton_Click"/>
+        <Button x:Name="WeaponInfoButton" Content="Info" Margin="5" Grid.Row="4" Grid.Column="0" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Click="WeaponInfoButton_Click"/>
+        <Button x:Name="WeaponStatsButton" Content="Stats" Margin="5" Grid.Row="5" Grid.Column="0" BorderBrush="#FFBB1515" Background="#FFC5FFC6" Click="WeaponStatsButton_Click"/>
+        <TextBlock x:Name="WeaponText" TextWrapping="Wrap" Grid.Column="2" Grid.RowSpan="7" FontSize="20"/>
     </Grid>
 </Page>
