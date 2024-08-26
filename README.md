@@ -16,7 +16,6 @@ More Projects at
 =======  
 Download GenshinDB as a Zip     
 https://downgit.github.io/#/home?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/Release.zip    
-or https://download-directory.github.io/?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/Release.zip      
 Extract, and run GenshinDB-WPF.exe.
 Alternatively, go to https://github.com/JoelLeeJie/GenshinDatabase/tree/download and download the zip file there.  
 
