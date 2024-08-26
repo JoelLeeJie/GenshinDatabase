@@ -13,7 +13,7 @@ More Projects at
 - https://www.youtube.com/playlist?list=PL3v4AEQxsf2Oesvkm0B3S9gZYKGmHnUMD  
   
 
-  
+>>>>>
 Download GenshinDB as a Zip     
 https://downgit.github.io/#/home?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/GenshinDB_Download    
 or https://download-directory.github.io/?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/GenshinDB_Download  
