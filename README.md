@@ -1,7 +1,7 @@
 # GenshinDB
 Showcase: https://youtu.be/OqJ2aEUyNsA
 
-A database WPF app meant to store and display character, weapon, artifact info from Genshin Impact in a compact format.
+A database WPF app that stores and displays character, weapon, artifact info from Genshin Impact in a compact format.
 
 Created using PostgreSQL and .Net WPF in C#.
 
