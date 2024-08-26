@@ -1,6 +1,7 @@
 Download GenshinDB_Download as a zip.  
-https://downgit.github.io/#/home?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/Release
-or https://download-directory.github.io/?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/Release
-or [<>Code][Download Zip]
+https://downgit.github.io/#/home?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/Release.zip  
+or https://download-directory.github.io/?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/Release.zip  
+
+Alternatively, click on <Code><Download ZIP>
 
 Extract, and open either setup.exe or GenshinDB-WPF.exe
