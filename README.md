@@ -9,8 +9,9 @@ Data sourced from: https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki
 Database hosted on Neon.Tech
 
 More Projects at  
-- https://github.com/JoelLeeJie/Personal-Showcase
-- https://www.youtube.com/playlist?list=PL3v4AEQxsf2Oesvkm0B3S9gZYKGmHnUMD
+- https://github.com/JoelLeeJie/Personal-Showcase  
+- https://www.youtube.com/playlist?list=PL3v4AEQxsf2Oesvkm0B3S9gZYKGmHnUMD  
+
 
 Download GenshinDB as a Zip     
 https://downgit.github.io/#/home?url=https://github.com/JoelLeeJie/GenshinDatabase/tree/download/GenshinDB_Download    
